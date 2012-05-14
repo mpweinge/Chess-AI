@@ -9,3 +9,5 @@ A minimax tree with a fixed ply of 4 is used (although this will in the future b
 Tree searching and generation is performed by multiple threads. Alpha beta pruning is used to improve the searching down the tree. 
 
 The front end uses simplified ray tracing to intersect user mouse presses with the chess board (to determine what square the user clicked on). The 3D interface was created with OpenGL. 
+
+This engine was used to generate a 'smarter' AI by playing itself ~4500 times, and adapting via genetic algorithms. There is, however, still much more learning needed to be able to challenge experienced players. 
