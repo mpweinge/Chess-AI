@@ -146,7 +146,7 @@ void BlackPlayer::RemovePiece(ChessPiece* piece)
 	}
 }
 
-Move WhitePlayer::GetKingLocation()
+ChessSquare WhitePlayer::GetKingLocation()
 {
 	char text;
 	int i;
@@ -161,7 +161,7 @@ Move WhitePlayer::GetKingLocation()
 	return remainingPieces[i]->GetLocation();
 }
 
-Move BlackPlayer::GetKingLocation()
+ChessSquare BlackPlayer::GetKingLocation()
 {
 	char text;
 	int i;
@@ -228,7 +228,7 @@ void BlackPlayer::PawnPromotion( ChessPiece* pawn,  ChessPiece* newPiece)
 	ChessBoardInstance->AddPiece(newPiece);
 }
 
-void WhitePlayer::UndoPawnPromotion(int row, Move promotionSquare, ChessPiece* PromotionPiece)
+void WhitePlayer::UndoPawnPromotion(int row, ChessSquare promotionSquare, ChessPiece* PromotionPiece)
 {
 	for (int i = 0; i < remainingPieces.size(); i++)
 	{
@@ -261,7 +261,7 @@ void WhitePlayer::UndoPawnPromotion(int row, Move promotionSquare, ChessPiece* P
 	promotedPiece.pop_back();
 }
 
-void BlackPlayer::UndoPawnPromotion(int row, Move promotionSquare, ChessPiece* PromotionPiece)
+void BlackPlayer::UndoPawnPromotion(int row, ChessSquare promotionSquare, ChessPiece* PromotionPiece)
 {
 	for (int i = 0; i < remainingPieces.size(); i++)
 	{
@@ -421,7 +421,7 @@ const bool Player::CanCastle(const bool bIsWhite, const bool bKingSide, ChessBoa
 			if ( !bKingSide )
 			{
 				//If the second rook has moved
-				Move currLoc = currPlayer->GetPiece(i)->GetLocation();
+				ChessSquare currLoc = currPlayer->GetPiece(i)->GetLocation();
 				if (currLoc.row == 0 && currLoc.col == col)
 				{
 					if( (dynamic_cast<Rook*>(currPlayer->GetPiece(i)))->bHasMoved() )
@@ -441,7 +441,7 @@ const bool Player::CanCastle(const bool bIsWhite, const bool bKingSide, ChessBoa
 			}
 			else 
 			{
-				Move currLoc = currPlayer->GetPiece(i)->GetLocation();
+				ChessSquare currLoc = currPlayer->GetPiece(i)->GetLocation();
 				if (currLoc.row == 7 && currLoc.col == col)
 				{
 					if( (dynamic_cast<Rook*>(currPlayer->GetPiece(i)))->bHasMoved() )
@@ -472,7 +472,7 @@ const bool Player::CanCastle(const bool bIsWhite, const bool bKingSide, ChessBoa
 		opponent = ChessBoardInstance->GetWhitePlayer();
 	}
 
-	Move test(1,col);
+	ChessSquare test(1,col);
 
 	for (int i = 0; i < opponent->GetNumPiecesLeft(); i++)
 	{

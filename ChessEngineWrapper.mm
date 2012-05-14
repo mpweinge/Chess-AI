@@ -10,6 +10,8 @@
 #include "./ChessEngine/ChessBoard.h"
 #include "./ChessEngine/MoveTree.h"
 #include "MyOpenGLView.h"
+#include "Constants.h"
+class ChessSquare;
 
 /*class Square
 {
@@ -153,7 +155,7 @@ public:
 		bool bBreakingOut = false;
 		//if (HoldingPiece)
 		{
-			Move move2 = Move(row,col);
+			ChessSquare move2 = ChessSquare(row,col);
 
 			if (pieceToText(HoldingPiece) == 'K')
 			{

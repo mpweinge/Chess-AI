@@ -210,10 +210,10 @@ int ChessBoard::Castle(ChessPiece* _King, ChessPiece* _Rook, bool bKingSide, int
 	fflush(stdout);
 #endif
 	
-	Move kingLoc;
+	ChessSquare kingLoc;
 	_King->GetLocation(kingLoc);
 	
-	Move rookLoc;
+	ChessSquare rookLoc;
 	_Rook->GetLocation(rookLoc);
 	
 	if (bKingSide)
@@ -279,7 +279,7 @@ int ChessBoard::MovePiece(ChessPiece* piece, int row, int col)
 	else if (pieceToText(piece) == 'R')
 		(dynamic_cast<Rook*>(piece))->SetHasMoved(true);
 	assert(piece->GetBoardPointer() == this);
-	Move pieceLoc;
+	ChessSquare pieceLoc;
 	piece->GetLocation(pieceLoc);
 	if (pieceLoc.row == row)
 	{
@@ -457,7 +457,7 @@ void ChessBoard::UndoMove()
 	else if ( moveToUndo->isPromotion() )
 	{
 		ChessPiece* newPromoPiece = GetPiece(moveToUndo->getRow(), moveToUndo->getCol());
-		Move PromotionSquare = Move(moveToUndo->getRow(), moveToUndo->getCol());
+		ChessSquare PromotionSquare = ChessSquare(moveToUndo->getRow(), moveToUndo->getCol());
 		currPlayer->UndoPawnPromotion(moveToUndo->getStartingRow(), PromotionSquare, newPromoPiece);
 		Board[moveToUndo->getRow()][moveToUndo->getCol()] = NULL;
 		if (PromotionSquare.row != moveToUndo->getStartingRow())
@@ -465,7 +465,7 @@ void ChessBoard::UndoMove()
 			ChessPiece* capturedPiece = opponentPlayer->FindCapturedPiece(moveToUndo->getRow(), moveToUndo->getCol(), moveToUndo->getCapturedPiece());
 			if(!capturedPiece)
 				ChessAssert();
-			Move capturedPieceLoc = capturedPiece->GetLocation();
+			ChessSquare capturedPieceLoc = capturedPiece->GetLocation();
 			if (Board[capturedPieceLoc.row][capturedPieceLoc.col] != NULL )
 				ChessAssert();
 			opponentPlayer->RebirthCapturedPiece(capturedPiece);
@@ -541,7 +541,7 @@ void ChessBoard::UndoMove()
 		currPlayer->ClearCheckState();
 		opponentPlayer->ClearAttackingKingPieces();
 		
-		Move kingLoc = currPlayer->GetKingLocation();
+		ChessSquare kingLoc = currPlayer->GetKingLocation();
 		for (int i = 0; i < opponentPlayer->GetNumPiecesLeft(); i++)
 		{
 			if (CheckForCheck(opponentPlayer->GetPiece(i)) )
@@ -590,7 +590,7 @@ void ChessBoard::UndoMove()
 	bWhiteMove = !bWhiteMove;
 	bBlackMove = !bBlackMove;
 	//REMOVE BELOW WHEN WORKING
-	Move currPlayerKing = currPlayer->GetKingLocation();
+	ChessSquare currPlayerKing = currPlayer->GetKingLocation();
 	/*for (int i = 0; i < opponentPlayer->GetNumPiecesLeft(); i++)
 	{
 		if (opponentPlayer->GetPiece(i)->HasLineToKing(currPlayerKing) )
@@ -608,7 +608,7 @@ void ChessBoard::UndoMove()
 		}
 
 	}
-	Move opponentPlayerKing = opponentPlayer->GetKingLocation();
+	ChessSquare opponentPlayerKing = opponentPlayer->GetKingLocation();
 	for (int i = 0; i < currPlayer->GetNumPiecesLeft(); i++)
 	{
 		if (currPlayer->GetPiece(i)->HasLineToKing(opponentPlayerKing) )
@@ -645,7 +645,7 @@ bool ChessBoard::bHasPiece(int row, int col)
 	}
 }
 
-void ChessBoard::MakeCapture(ChessPiece* piece, const Move& MoveTo)
+void ChessBoard::MakeCapture(ChessPiece* piece, const ChessSquare& MoveTo)
 {
 	ChessPiece* captPiece = GetPiece(MoveTo.row, MoveTo.col);
 	if (!captPiece)
@@ -656,7 +656,7 @@ void ChessBoard::MakeCapture(ChessPiece* piece, const Move& MoveTo)
 	else if (pieceToText(piece) == 'R')
 		(dynamic_cast<Rook*>(piece))->SetHasMoved(true);
 	
-	Move pieceLoc;
+	ChessSquare pieceLoc;
 	piece->GetLocation(pieceLoc);
 	
 	ChessMove* newMove = new ChessMove(piece, pieceLoc.row, pieceLoc.col, MoveTo.row, MoveTo.col, true, this);
@@ -707,13 +707,13 @@ void ChessBoard::MakeCapture(ChessPiece* piece, const Move& MoveTo)
 	bBlackMove = !bBlackMove;
 }
 
-void ChessBoard::EnPassantCapture(ChessPiece* piece, const Move& MoveTo, const Move& CaptPieceLoc)
+void ChessBoard::EnPassantCapture(ChessPiece* piece, const ChessSquare& MoveTo, const ChessSquare& CaptPieceLoc)
 {
 	ChessPiece* captPiece = GetPiece(CaptPieceLoc.row, CaptPieceLoc.col);
 	if(!captPiece)
 		ChessAssert();
 	
-	Move pieceLoc;
+	ChessSquare pieceLoc;
 	piece->GetLocation(pieceLoc);
 	
 	bool bOpponentInCheck = false;
@@ -782,7 +782,7 @@ bool ChessBoard::CheckForCheck(const ChessPiece* piece)
 	return piece->LookForCheck(true);
 }
 
-Move ChessBoard::GetKingLocation(bool isWhite)
+ChessSquare ChessBoard::GetKingLocation(bool isWhite)
 {
 	if (!(isWhite))
 	{
@@ -796,7 +796,7 @@ Move ChessBoard::GetKingLocation(bool isWhite)
 
 int ChessBoard::AddPieceNoLineOfSight(ChessPiece* piece)
 {
-	Move currSquare;
+	ChessSquare currSquare;
 	
 	piece->GetLocation(currSquare);
 	
@@ -813,7 +813,7 @@ int ChessBoard::AddPieceNoLineOfSight(ChessPiece* piece)
 
 int ChessBoard::AddPiece(ChessPiece* piece)
 {
-	Move currSquare;
+	ChessSquare currSquare;
 	
 	piece->GetLocation(currSquare);
 	
@@ -830,9 +830,9 @@ int ChessBoard::AddPiece(ChessPiece* piece)
 	}
 }
 
-void ChessBoard::PromotePawn(Pawn* pawn, const Move* MoveTo, char PromotionPiece)
+void ChessBoard::PromotePawn(Pawn* pawn, const ChessSquare* MoveTo, char PromotionPiece)
 {
-	Move pieceLoc;
+	ChessSquare pieceLoc;
 	pawn->GetLocation(pieceLoc);
 	
 	ChessMove* newMove = NULL;
@@ -875,7 +875,7 @@ void ChessBoard::PromotePawn(Pawn* pawn, const Move* MoveTo, char PromotionPiece
 	ChessPiece* newPiece;
 	Player* currPlayer;
 	
-	Move currLoc = pawn->GetLocation();
+	ChessSquare currLoc = pawn->GetLocation();
 	
 	if ( pawn->isWhite() )
 	{
@@ -1021,8 +1021,8 @@ int ChessBoard::CalculateScore(const Chromosome* calcChromo)
 	ChessPiece* WhiteKing;
 	ChessPiece* BlackKing;
 	
-	Move WhiteKingLoc = GetKingLocation(false);
-	Move BlackKingLoc = GetKingLocation(true);
+	ChessSquare WhiteKingLoc = GetKingLocation(false);
+	ChessSquare BlackKingLoc = GetKingLocation(true);
 	
 	for (int i = 0; i < whitePlayer->GetNumPiecesLeft(); i++)
 	{
@@ -1224,7 +1224,7 @@ int ChessBoard::RookBattery(const std::vector<const ChessPiece*>& _Rooks)
 	//for (int i = 0; i < _Rooks.size(); i++)
 	{
 		
-		Move CurrLoc = _Rooks[0]->GetLocation();
+		ChessSquare CurrLoc = _Rooks[0]->GetLocation();
 		for (int i = 1; i < _Rooks.size(); i++)
 		{
 			if (_Rooks[i]->IsAttackingSquare(CurrLoc) )
@@ -1525,7 +1525,7 @@ int ChessBoard::CastleScore()
 
 int ChessBoard::OpponentSquareScore()
 {
-	std::vector<Move*>PotMoves;
+	std::vector<ChessSquare*>PotMoves;
 	
 	BlackPlayer* blackPlayer = _BlackPlayer;
 	WhitePlayer* whitePlayer = _WhitePlayer;
@@ -1621,7 +1621,7 @@ int ChessBoard::MakeMove(const ChessMove& move)
 	else if (move.isPromotion() )
 	{
 		ChessPiece* _pawn = GetPiece(move.getStartingRow(), move.getStartingCol());
-		Move* newMove = new Move(move.getRow(), move.getCol() );
+		ChessSquare* newMove = new ChessSquare(move.getRow(), move.getCol() );
 		PromotePawn(dynamic_cast<Pawn*>(_pawn),
 					newMove ,
 					move.GetPromotionChar()
@@ -1632,11 +1632,11 @@ int ChessBoard::MakeMove(const ChessMove& move)
 	}
 	else if (move.IsEnPassant())
 	{
-		EnPassantCapture(move.getPiece(), Move(move.getRow(), move.getCol()), move.getCapturedPiece()->GetLocation()); // to code this later
+		EnPassantCapture(move.getPiece(), ChessSquare(move.getRow(), move.getCol()), move.getCapturedPiece()->GetLocation()); // to code this later
 	}
 	else if (move.isCapture())
 	{
-		MakeCapture(move.getPiece(), Move(move.getRow(), move.getCol()));
+		MakeCapture(move.getPiece(), ChessSquare(move.getRow(), move.getCol()));
 	}
 	else
 		MovePiece(move.getPiece(), move.getRow(), move.getCol());
@@ -1674,7 +1674,7 @@ void ChessBoard::ResolveCastleLineOfSight(bool bIsWhite)
 		currPlayer = _BlackPlayer;
 	}
 	
-	Move OpponentKingLoc = opponentPlayer->GetKingLocation();
+	ChessSquare OpponentKingLoc = opponentPlayer->GetKingLocation();
 	for (int i = 0; i < currPlayer->GetNumPiecesLeft(); i++)
 	{
 		ChessPiece* currPiece = currPlayer->GetPiece(i);
@@ -1687,7 +1687,7 @@ void ChessBoard::ResolveCastleLineOfSight(bool bIsWhite)
 		}
 	}
 	opponentPlayer->ClearAttackingKingPieces();
-	Move KingLoc = currPlayer->GetKingLocation();
+	ChessSquare KingLoc = currPlayer->GetKingLocation();
 	for (int i = 0; i < opponentPlayer->GetNumPiecesLeft(); i++)
 	{
 		ChessPiece* currPiece = opponentPlayer->GetPiece(i);
@@ -1717,7 +1717,7 @@ void ChessBoard::ResolveLineOfSight(ChessPiece* movedPiece)
 	if (pieceToText(movedPiece) == 'K')
 	{
 		opponentPlayer->ClearAttackingKingPieces();
-		Move KingLoc = currPlayer->GetKingLocation();
+		ChessSquare KingLoc = currPlayer->GetKingLocation();
 		for (int i = 0; i < opponentPlayer->GetNumPiecesLeft(); i++)
 		{
 			ChessPiece* currPiece = opponentPlayer->GetPiece(i);
@@ -1727,7 +1727,7 @@ void ChessBoard::ResolveLineOfSight(ChessPiece* movedPiece)
 		return;
 	}
 	
-	Move KingLoc = opponentPlayer->GetKingLocation();
+	ChessSquare KingLoc = opponentPlayer->GetKingLocation();
 	
 	if (!movedPiece->IsInKingArray() )
 	{

@@ -54,37 +54,37 @@ void MoveNode::PrintNode()
 		
 		if (move.isPromotion() )
 		{
-			printf("Move: %c%c%i-%c%i%c, Score:%i\n", pieceToText(move.getPiece()), rowToLetter(move.getStartingRow()), move.getStartingCol()+1,
+			printf("ChessSquare: %c%c%i-%c%i%c, Score:%i\n", pieceToText(move.getPiece()), rowToLetter(move.getStartingRow()), move.getStartingCol()+1,
 				   rowToLetter(move.getRow()), move.getCol()+1, move.GetPromotionChar(),
 				   BoardScore);
 		}
 		else if (move.isCastle() )
 		{
 			if (move.isKingSideCastle() )
-				printf("Move: O-O, Score:%i\n", BoardScore);
+				printf("ChessSquare: O-O, Score:%i\n", BoardScore);
 			else {
-				printf("Move: O-O-O, Score:%i\n", BoardScore);
+				printf("ChessSquare: O-O-O, Score:%i\n", BoardScore);
 			}
 			
 		}
 		else if (move.isCapture() )
 		{
-			printf("Move: %c%c%ix%c%c%i, Score:%i\n", pieceToText(move.getPiece()), rowToLetter(move.getStartingRow()), move.getStartingCol()+1, 
+			printf("ChessSquare: %c%c%ix%c%c%i, Score:%i\n", pieceToText(move.getPiece()), rowToLetter(move.getStartingRow()), move.getStartingCol()+1, 
 				   pieceToText(move.getCapturedPiece()), rowToLetter(move.getRow()), move.getCol()+1, BoardScore);
 		}
 		else
 		{
-			printf("Move: %c%c%i-%c%i, Score:%i\n", pieceToText(move.getPiece()), rowToLetter(move.getStartingRow()), move.getStartingCol()+1,
+			printf("ChessSquare: %c%c%i-%c%i, Score:%i\n", pieceToText(move.getPiece()), rowToLetter(move.getStartingRow()), move.getStartingCol()+1,
 				   rowToLetter(move.getRow()), move.getCol()+1, BoardScore);
 		}
 		fflush(stdout);
 		//if (!bLeafNode)
 		//{
-		//	printf("Move: %c%c%i-%c%i\n", pieceToText(move->getPiece()), rowToLetter(move->getStartingRow()), move->getStartingCol()+1, 
+		//	printf("ChessSquare: %c%c%i-%c%i\n", pieceToText(move->getPiece()), rowToLetter(move->getStartingRow()), move->getStartingCol()+1, 
 		//		   rowToLetter(move->getRow()), move->getCol()+1);
 		//}
 		//else {
-		//	printf("Move: %c%c%i-%c%i Score:%i\n", pieceToText(move->getPiece()), rowToLetter(move->getStartingRow()), move->getStartingCol()+1, 
+		//	printf("ChessSquare: %c%c%i-%c%i Score:%i\n", pieceToText(move->getPiece()), rowToLetter(move->getStartingRow()), move->getStartingCol()+1, 
 		//		   rowToLetter(move->getRow()), move->getCol()+1, BoardScore);
 
 		//}
@@ -93,27 +93,27 @@ void MoveNode::PrintNode()
 	else {
 		if (move.isPromotion() )
 		{
-			printf("Move: %c%c%i-%c%i%c, Score:%i\n", pieceToText(move.getPiece()), rowToLetter(move.getStartingRow()), move.getStartingCol()+1,
+			printf("ChessSquare: %c%c%i-%c%i%c, Score:%i\n", pieceToText(move.getPiece()), rowToLetter(move.getStartingRow()), move.getStartingCol()+1,
 				   rowToLetter(move.getRow()), move.getCol()+1, move.GetPromotionChar(),
 				   BoardScore);
 		}
 		else if (move.isCastle() )
 		{
 			if (move.isKingSideCastle() )
-				printf("Move: O-O, Score:%i\n", BoardScore);
+				printf("ChessSquare: O-O, Score:%i\n", BoardScore);
 			else {
-				printf("Move: O-O-O, Score:%i\n", BoardScore);
+				printf("ChessSquare: O-O-O, Score:%i\n", BoardScore);
 			}
 			
 		}
 		else if (move.isCapture() )
 		{
-			printf("Move: P%c%ix%c%i, Score:%i\n", rowToLetter(move.getStartingRow()), move.getStartingCol()+1, rowToLetter(move.getRow()), move.getCol()+1,
+			printf("ChessSquare: P%c%ix%c%i, Score:%i\n", rowToLetter(move.getStartingRow()), move.getStartingCol()+1, rowToLetter(move.getRow()), move.getCol()+1,
 				   BoardScore);
 		}
 		else
 		{
-			printf("Move: %c%c%i-%c%i, Score:%i\n", pieceToText(move.getPiece()), rowToLetter(move.getStartingRow()), move.getStartingCol()+1,
+			printf("ChessSquare: %c%c%i-%c%i, Score:%i\n", pieceToText(move.getPiece()), rowToLetter(move.getStartingRow()), move.getStartingCol()+1,
 				   rowToLetter(move.getRow()), move.getCol()+1, BoardScore);
 		}
 		

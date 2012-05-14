@@ -88,9 +88,9 @@ void MoveTree::GenerateTree()
 	}*/
 
 	//ChessPiece* currPiece;
-	//Move currLocation;
+	//ChessSquare currLocation;
 	
-	//std::vector<Move*> LegalMoves;
+	//std::vector<ChessSquare*> LegalMoves;
 	
 	//MoveNode* currParent = root;
 	
@@ -122,7 +122,7 @@ void MoveTree::GenerateTree()
 	fflush(stdout);
 	
 	//root->PrintNode();
-	//printf("Best Move: " );
+	//printf("Best ChessSquare: " );
 	/*for (int i = 0; i < root->GetNumChildren(); i++)
 	{
 		root->GetChild(i)->PrintNode();
@@ -133,7 +133,7 @@ void MoveTree::GenerateTree()
 		root->GetChild(i)->PrintNode();
 	}*/
 	//BestMove->PrintNode();
-	//printf("Best Move: \n" );
+	//printf("Best ChessSquare: \n" );
 	/*assert(TreeLevels[1]->GetBestMove() );
 	TreeLevels[1]->GetBestMove()->PrintNode();
 	TreeLevels[1]->GetBestMove()->MakeMove();*/
@@ -302,7 +302,7 @@ void MoveTree::FillNode(int Ply, MoveNode* Parent, bool bIsWhite, WhitePlayer* _
 		
 		Player* currPlayer;
 		ChessPiece* currPiece;
-		Move currLocation;
+		ChessSquare currLocation;
 		if (bIsWhite)
 			currPlayer = _WhitePlayer;
 		else
@@ -350,7 +350,7 @@ void MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite, White
 	
 	Player* currPlayer;
 	ChessPiece* currPiece;
-	Move currLocation;
+	ChessSquare currLocation;
 	if (bIsWhite)
 		currPlayer = _WhitePlayer;
 	else
@@ -681,7 +681,7 @@ void MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite, White
 				Parent->getParent()->SetBestMove(Parent->UnThreadedCopy);
 			else
 				Parent->getParent()->SetBestMove(Parent);
-			//std::vector<Move*> LegalMoves;
+			//std::vector<ChessSquare*> LegalMoves;
 			/*for (int it = 0; it < currPlayer->GetNumPiecesLeft(); it++)
 			 {
 			 currPiece = currPlayer->GetPiece(it);
@@ -729,7 +729,7 @@ void MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite, White
 				Parent->getParent()->SetBestMove(Parent->UnThreadedCopy);
 			else
 				Parent->getParent()->SetBestMove(Parent);
-			//std::vector<Move*> LegalMoves;
+			//std::vector<ChessSquare*> LegalMoves;
 			/*for (int it = 0; it < currPlayer->GetNumPiecesLeft(); it++)
 			 {
 			 currPiece = currPlayer->GetPiece(it);

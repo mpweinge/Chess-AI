@@ -14,7 +14,7 @@ std::vector<ChessMove>& King::GetEvalLegalMoves()
 	return EvalMoves;
 }
 
-bool King::MakeMove(const Move& Move2)
+bool King::MakeMove(const ChessSquare& Move2)
 {	
 	if ( !(abs(Move2.row-currLoc.row) <= 1) || !(abs(Move2.col-currLoc.col) <= 1) )
 		return false;
@@ -35,14 +35,14 @@ bool King::MakeMove(const Move& Move2)
 	
 }
 
-bool King::CheckForCapture(const Move& MoveTo)
+bool King::CheckForCapture(const ChessSquare& MoveTo)
 {
 	//ChessAssert();
 	/*if (bIsWhite)
 	{
 		if ( WhitePlayer::GetInstance()->IsInCheck() )
 		{
-			Move checkLoc = WhitePlayer::GetInstance()->GetCheckingPieceLocation();
+			ChessSquare checkLoc = WhitePlayer::GetInstance()->GetCheckingPieceLocation();
 			if( (checkLoc.row == MoveTo.row) && (checkLoc.col == MoveTo.col) )
 			{
 				//assert(0);
@@ -58,7 +58,7 @@ bool King::CheckForCapture(const Move& MoveTo)
 	{
 		if ( BlackPlayer::GetInstance()->IsInCheck() )
 		{
-			Move checkLoc = BlackPlayer::GetInstance()->GetCheckingPieceLocation();
+			ChessSquare checkLoc = BlackPlayer::GetInstance()->GetCheckingPieceLocation();
 			if( (checkLoc.row == MoveTo.row) && (checkLoc.col == MoveTo.col) )
 			{
 				//assert(0);
@@ -87,7 +87,7 @@ bool King::CheckForCapture(const Move& MoveTo)
 
 King::King(const int& startingX, const int& startingY, const bool& _isWhite, ChessBoard* _Instance)
 {
-	currLoc = Move(startingX, startingY);
+	currLoc = ChessSquare(startingX, startingY);
 	bIsWhite = _isWhite;
 	bMoved = 0;
 	bIsInKingArray = false;
@@ -95,7 +95,7 @@ King::King(const int& startingX, const int& startingY, const bool& _isWhite, Che
 	ChessBoardInstance = _Instance;
 }
 
-bool King::IsAttackingSquare(const Move& Square) const
+bool King::IsAttackingSquare(const ChessSquare& Square) const
 { 
 	if( (abs(Square.col - currLoc.col) <= 1) && ( abs(Square.row - currLoc.row) <= 1) )
 		return true;
@@ -194,17 +194,17 @@ void King::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 	
 	/*if ( player->IsInCheck() )
 	{
-		Move checkLoc = player->GetCheckingPieceLocation();
+		ChessSquare checkLoc = player->GetCheckingPieceLocation();
 		if( (abs(checkLoc.row - currLoc.row) < 2) && (abs(checkLoc.col - currLoc.col)<2) )
 		{
 			if (ChessPiece::ValidCheckStateMove(checkLoc.row, checkLoc.col, this))
-				PotMoves.push_back( Move(checkLoc.row, checkLoc.col) );
+				PotMoves.push_back( ChessSquare(checkLoc.row, checkLoc.col) );
 		}
 		
 		checkingPiece = player->GetCheckingPiece();
 	}*/
 	//int col = currLoc.col;
-	Move testMove = Move(currLoc.row, currLoc.col+1);
+	ChessSquare testMove = ChessSquare(currLoc.row, currLoc.col+1);
 	ChessPiece* testPiece = ChessBoardInstance->GetPiece(testMove.row, testMove.col);
 	if (testPiece)
 	{
@@ -220,7 +220,7 @@ void King::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 			PotMoves.push_back(ChessMove(this, currLoc.row, currLoc.col, testMove.row, testMove.col, false, ChessBoardInstance) );
 	}
 	
-	testMove = Move(currLoc.row+1, currLoc.col);
+	testMove = ChessSquare(currLoc.row+1, currLoc.col);
 	testPiece = ChessBoardInstance->GetPiece(testMove.row, testMove.col);
 	if (testPiece)
 	{
@@ -236,7 +236,7 @@ void King::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 			PotMoves.push_back(ChessMove(this, currLoc.row, currLoc.col, testMove.row, testMove.col, false, ChessBoardInstance) );
 	}
 	
-	testMove = Move(currLoc.row-1, currLoc.col);
+	testMove = ChessSquare(currLoc.row-1, currLoc.col);
 	testPiece = ChessBoardInstance->GetPiece(testMove.row, testMove.col);
 	if (testPiece)
 	{
@@ -252,7 +252,7 @@ void King::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 			PotMoves.push_back(ChessMove(this, currLoc.row, currLoc.col, testMove.row, testMove.col, false, ChessBoardInstance) );
 	}
 	
-	testMove = Move(currLoc.row-1, currLoc.col-1);
+	testMove = ChessSquare(currLoc.row-1, currLoc.col-1);
 	testPiece = ChessBoardInstance->GetPiece(testMove.row, testMove.col);
 	if (testPiece)
 	{
@@ -268,7 +268,7 @@ void King::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 			PotMoves.push_back(ChessMove(this, currLoc.row, currLoc.col, testMove.row, testMove.col, false, ChessBoardInstance) );
 	}
 	
-	testMove = Move(currLoc.row, currLoc.col-1);
+	testMove = ChessSquare(currLoc.row, currLoc.col-1);
 	testPiece = ChessBoardInstance->GetPiece(testMove.row, testMove.col);
 	if (testPiece)
 	{
@@ -284,7 +284,7 @@ void King::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 			PotMoves.push_back(ChessMove(this, currLoc.row, currLoc.col, testMove.row, testMove.col, false, ChessBoardInstance) );
 	}
 	
-	testMove = Move(currLoc.row+1, currLoc.col-1);
+	testMove = ChessSquare(currLoc.row+1, currLoc.col-1);
 	testPiece = ChessBoardInstance->GetPiece(testMove.row, testMove.col);
 	if (testPiece)
 	{
@@ -300,7 +300,7 @@ void King::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 			PotMoves.push_back(ChessMove(this, currLoc.row, currLoc.col, testMove.row, testMove.col, false, ChessBoardInstance) );
 	}
 	
-	testMove = Move(currLoc.row-1, currLoc.col+1);
+	testMove = ChessSquare(currLoc.row-1, currLoc.col+1);
 	testPiece = ChessBoardInstance->GetPiece(testMove.row, testMove.col);
 	if (testPiece)
 	{
@@ -316,7 +316,7 @@ void King::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 			PotMoves.push_back(ChessMove(this, currLoc.row, currLoc.col, testMove.row, testMove.col, false, ChessBoardInstance) );
 	}
 	
-	testMove = Move(currLoc.row+1, currLoc.col+1);
+	testMove = ChessSquare(currLoc.row+1, currLoc.col+1);
 	testPiece = ChessBoardInstance->GetPiece(testMove.row, testMove.col);
 	if (testPiece)
 	{

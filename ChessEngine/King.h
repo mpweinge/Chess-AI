@@ -25,8 +25,8 @@ private:
 	King& operator=( const King& right_hand_side );
 public:
 	
-	void GetLocation(Move& Move2) const { Move2 = currLoc; }
-	Move GetLocation() const { return currLoc; }
+	void GetLocation(ChessSquare& Move2) const { Move2 = currLoc; }
+	ChessSquare GetLocation() const { return currLoc; }
 	void SetCol(const int& col) { currLoc.col = col; }
 	void SetRow(const int& row) { currLoc.row = row; }
 	
@@ -45,9 +45,9 @@ public:
 	
 	bool bHasMoved() { return (bMoved != 0); }
 	void SetHasMoved(const bool bHasMoved) { bMoved += bHasMoved? 1 : -1; }
-	bool IsAttackingSquare(const Move& Square) const;
+	bool IsAttackingSquare(const ChessSquare& Square) const;
 	
-	bool HasLineToKing(Move& KingLoc) 
+	bool HasLineToKing(ChessSquare& KingLoc) 
 	{
 		return false;
 	}
@@ -58,7 +58,7 @@ public:
 	void setBlockingCheck(bool newState) {; }
 	void GetLegalMoves(std::vector<ChessMove>& PotMoves);
 	std::vector<ChessMove>& GetEvalLegalMoves();
-	bool MakeMove(const Move& Move3);
+	bool MakeMove(const ChessSquare& Move3);
 	bool isWhite() const { return bIsWhite; }
 	bool IsInKingArray()  { return bIsInKingArray; }
 	void SetIsInKingArray(const bool InArray) { bIsInKingArray = InArray; }
@@ -89,9 +89,9 @@ public:
 
 private:
 	std::vector<ChessMove> EvalMoves;
-	bool CheckForCapture(const Move& MoveTo);
+	bool CheckForCapture(const ChessSquare& MoveTo);
 	ChessBoard* ChessBoardInstance;
-	Move currLoc;
+	ChessSquare currLoc;
 	bool bIsWhite;
 	bool bHasCastled;
 	int bMoved;

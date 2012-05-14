@@ -179,12 +179,12 @@ enum EWeightingType
 	KingUnderAttackWeight,
 };
 
-class Move
+class ChessSquare
 {
 public:
-	Move() {row = 0; col = 0;}
-	Move(int _row, int _col) { row = _row; col = _col; }
-	~Move() { }
+	ChessSquare() {row = 0; col = 0;}
+	ChessSquare(int _row, int _col) { row = _row; col = _col; }
+	~ChessSquare() { }
 	int row;
 	int col;
 	virtual char getPromotionPiece() const { 

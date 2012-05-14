@@ -14,7 +14,7 @@ std::vector<ChessMove>& Knight::GetEvalLegalMoves()
 	return EvalMoves;
 }
 
-bool Knight::MakeMove(const Move& Move3)
+bool Knight::MakeMove(const ChessSquare& Move3)
 {
 	if (Move3.row < 0 || Move3.col < 0 || Move3.row > 7 || Move3.col > 7)
 		return false;
@@ -55,7 +55,7 @@ bool Knight::MakeMove(const Move& Move3)
 bool Knight::LookForCheck(bool test) const
 {
 	//Get King Location
-	Move KingLoc = ChessBoardInstance->GetKingLocation(bIsWhite);
+	ChessSquare KingLoc = ChessBoardInstance->GetKingLocation(bIsWhite);
 	if( IsAttackingSquare(KingLoc) )
 	{
 		if (!test)
@@ -68,7 +68,7 @@ bool Knight::LookForCheck(bool test) const
 	return false;
 }
 
-bool Knight::IsAttackingSquare(const Move& Square) const
+bool Knight::IsAttackingSquare(const ChessSquare& Square) const
 {
 	if( ((abs(Square.row - currLoc.row) == 2) && (abs(Square.col - currLoc.col) == 1))
 	   || ((abs(Square.col - currLoc.col) == 2) && (abs(Square.row - currLoc.row) == 1)) )
@@ -78,14 +78,14 @@ bool Knight::IsAttackingSquare(const Move& Square) const
 	return false;
 }
 
-bool Knight::CheckForCapture(const Move& MoveTo)
+bool Knight::CheckForCapture(const ChessSquare& MoveTo)
 {
 	//ChessAssert();
 	/*if (bIsWhite)
 	{
 		if ( WhitePlayer::GetInstance()->IsInCheck() )
 		{
-			Move checkLoc = WhitePlayer::GetInstance()->GetCheckingPieceLocation();
+			ChessSquare checkLoc = WhitePlayer::GetInstance()->GetCheckingPieceLocation();
 			if( (checkLoc.row == MoveTo.row) && (checkLoc.col == MoveTo.col) )
 			{
 				ChessBoard::GetInstance()->MakeCapture(this, MoveTo);
@@ -99,7 +99,7 @@ bool Knight::CheckForCapture(const Move& MoveTo)
 	{
 		if ( BlackPlayer::GetInstance()->IsInCheck() )
 		{
-			Move checkLoc = BlackPlayer::GetInstance()->GetCheckingPieceLocation();
+			ChessSquare checkLoc = BlackPlayer::GetInstance()->GetCheckingPieceLocation();
 			if( (checkLoc.row == MoveTo.row) && (checkLoc.col == MoveTo.col) )
 			{
 				ChessBoard::GetInstance()->MakeCapture(this, MoveTo);
@@ -121,14 +121,14 @@ bool Knight::CheckForCapture(const Move& MoveTo)
 
 Knight::Knight(const int& startingX, const int & startingY, const bool _isWhite, ChessBoard* _Instance)
 {
-	currLoc = Move(startingX, startingY);
+	currLoc = ChessSquare(startingX, startingY);
 	bIsWhite = _isWhite;
 	bIsBlockingCheck = false;
 	bIsInKingArray = false;
 	ChessBoardInstance = _Instance;
 }
 
-void Knight::GetLocation(Move& Move2) const
+void Knight::GetLocation(ChessSquare& Move2) const
 {
 	Move2 = currLoc;
 }
@@ -216,20 +216,20 @@ void Knight::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 	
 	/*if ( player->IsInCheck() )
 	{
-		Move checkLoc = player->GetCheckingPieceLocation();
+		ChessSquare checkLoc = player->GetCheckingPieceLocation();
 		if(
 			( abs( checkLoc.row - currLoc.row ) == 1 )&&( abs(checkLoc.col - currLoc.col) == 2 ) ||
 			( abs( checkLoc.row - currLoc.row ) == 2 )&&( abs(checkLoc.col - currLoc.col) == 1 )
 		   )
 		{
-			PotMoves.push_back( Move(checkLoc.row, checkLoc.col) );
+			PotMoves.push_back( ChessSquare(checkLoc.row, checkLoc.col) );
 			return;
 		}
 		return;
 	}*/
 	
 	ChessPiece * currPiece = ChessBoardInstance->GetPiece(currLoc.row+2, currLoc.col+1);
-	Move currMove = Move(currLoc.row + 2, currLoc.col + 1);
+	ChessSquare currMove = ChessSquare(currLoc.row + 2, currLoc.col + 1);
 	if( (currMove.row <= 7) && (currMove.col <= 7) && (currMove.row >= 0) && (currMove.col >= 0))
 	{
 		if (currPiece)
@@ -248,7 +248,7 @@ void Knight::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 	}
 	
 	currPiece = ChessBoardInstance->GetPiece(currLoc.row+1, currLoc.col+2);
-	currMove = Move(currLoc.row + 1, currLoc.col + 2);
+	currMove = ChessSquare(currLoc.row + 1, currLoc.col + 2);
 	if( (currMove.row <= 7) && (currMove.col <= 7) && (currMove.row >= 0) && (currMove.col >= 0))
 	{
 		if (currPiece)
@@ -267,7 +267,7 @@ void Knight::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 	}
 	
 	currPiece = ChessBoardInstance->GetPiece(currLoc.row+1, currLoc.col-2);
-	currMove = Move(currLoc.row + 1, currLoc.col - 2);
+	currMove = ChessSquare(currLoc.row + 1, currLoc.col - 2);
 	if( (currMove.row <= 7) && (currMove.col <= 7) && (currMove.row >= 0) && (currMove.col >= 0))
 	{
 		if (currPiece)
@@ -286,7 +286,7 @@ void Knight::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 	}
 	
 	currPiece = ChessBoardInstance->GetPiece(currLoc.row+2, currLoc.col-1);
-	currMove = Move(currLoc.row + 2, currLoc.col -1);
+	currMove = ChessSquare(currLoc.row + 2, currLoc.col -1);
 	if( (currMove.row <= 7) && (currMove.col <= 7) && (currMove.row >= 0) && (currMove.col >= 0))
 	{
 		if (currPiece)
@@ -305,7 +305,7 @@ void Knight::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 	}
 	
 	currPiece = ChessBoardInstance->GetPiece(currLoc.row-1, currLoc.col+2);
-	currMove = Move(currLoc.row - 1, currLoc.col + 2);
+	currMove = ChessSquare(currLoc.row - 1, currLoc.col + 2);
 	if( (currMove.row <= 7) && (currMove.col <= 7) && (currMove.row >= 0) && (currMove.col >= 0))
 	{
 		if (currPiece)
@@ -324,7 +324,7 @@ void Knight::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 	}
 	
 	currPiece = ChessBoardInstance->GetPiece(currLoc.row-2, currLoc.col+1);
-	currMove = Move(currLoc.row - 2, currLoc.col + 1);
+	currMove = ChessSquare(currLoc.row - 2, currLoc.col + 1);
 	if( (currMove.row <= 7) && (currMove.col <= 7) && (currMove.row >= 0) && (currMove.col >= 0))
 	{
 		if (currPiece)
@@ -343,7 +343,7 @@ void Knight::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 	}
 		
 	currPiece = ChessBoardInstance->GetPiece(currLoc.row-1, currLoc.col-2);
-	currMove = Move(currLoc.row - 1, currLoc.col - 2);
+	currMove = ChessSquare(currLoc.row - 1, currLoc.col - 2);
 	if( (currMove.row <= 7) && (currMove.col <= 7) && (currMove.row >= 0) && (currMove.col >= 0))
 	{
 		if (currPiece)
@@ -362,7 +362,7 @@ void Knight::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 	}
 		
 	currPiece = ChessBoardInstance->GetPiece(currLoc.row-2, currLoc.col-1);
-	currMove = Move(currLoc.row - 2, currLoc.col - 1);
+	currMove = ChessSquare(currLoc.row - 2, currLoc.col - 1);
 	if( (currMove.row <= 7) && (currMove.col <= 7) && (currMove.row >= 0) && (currMove.col >= 0))
 	{
 		if (currPiece)

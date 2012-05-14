@@ -36,17 +36,17 @@ public:
 	virtual void RemovePiece(ChessPiece* piece) = 0;
 	virtual ChessPiece* GetPiece(int index) const = 0;
 	virtual int GetNumPiecesLeft() const = 0;
-	virtual Move GetKingLocation() = 0;
+	virtual ChessSquare GetKingLocation() = 0;
 	virtual void EnterCheckState() = 0;
 	virtual void ClearCheckState() = 0;
 	virtual bool IsInCheck() = 0;
 	virtual void PawnPromotion(ChessPiece* pawn, ChessPiece* newPiece) = 0;
 	//virtual ChessPiece* GetCheckingPiece() = 0;
-	//virtual Move GetCheckingPieceLocation() = 0;
+	//virtual ChessSquare GetCheckingPieceLocation() = 0;
 	virtual bool CheckForCheckMate() = 0;
 	virtual ChessPiece* FindCapturedPiece(const int row, const int col, ChessPiece* capturedPiece) = 0;
 	virtual void RebirthCapturedPiece(ChessPiece* capturedPiece) = 0;
-	virtual void UndoPawnPromotion(int row, Move promotionSquare, ChessPiece* PromotedPiece) = 0;
+	virtual void UndoPawnPromotion(int row, ChessSquare promotionSquare, ChessPiece* PromotedPiece) = 0;
 	virtual const bool HasCastled() const = 0;
 	static const bool CanCastle(const bool bIsWhite, const bool bKingSide, ChessBoard* _BoardInstance);
 	virtual const bool CanCastle(bool bKingSide, ChessBoard* _BoardInstance) = 0;
@@ -70,7 +70,7 @@ public:
 	void RemovePiece(ChessPiece* piece);
 	ChessPiece* GetPiece(int index) const;
 	int GetNumPiecesLeft() const { return remainingPieces.size(); }
-	Move GetKingLocation();
+	ChessSquare GetKingLocation();
 	void EnterCheckState();
 	void ClearCheckState()
 	{ 
@@ -82,10 +82,10 @@ public:
 	bool IsCheckMated() { return bIsCheckmated; }
 	bool CheckForCheckMate();
 	//ChessPiece* GetCheckingPiece() { return checkingPiece; }
-	//Move GetCheckingPieceLocation() { return checkingPiece->GetLocation(); }
+	//ChessSquare GetCheckingPieceLocation() { return checkingPiece->GetLocation(); }
 	ChessPiece* FindCapturedPiece(const int row, const int col, ChessPiece* capturedPiece);
 	void RebirthCapturedPiece(ChessPiece* capturedPiece);
-	void UndoPawnPromotion(int row, Move promotionSquare, ChessPiece* PromotedPiece);
+	void UndoPawnPromotion(int row, ChessSquare promotionSquare, ChessPiece* PromotedPiece);
 	const bool HasCastled() const { return bHasCastled; }
 	void Castle() { bHasCastled = true; }
 	const bool CanCastle(bool bKingSide, ChessBoard* _BoardInstance);
@@ -149,7 +149,7 @@ public:
 		printf("White: ");
 		for (int i = 0; i < remainingPieces.size(); i++)
 		{
-			Move PieceLoc = remainingPieces[i]->GetLocation();
+			ChessSquare PieceLoc = remainingPieces[i]->GetLocation();
 			printf("Piece %c Location: %c%i ", pieceToText(remainingPieces[i]), rowToLetter(PieceLoc.row), PieceLoc.col+1);
 			remainingPieces[i]->isWhite() ? printf("White") : printf("Black") ;
 		}
@@ -203,7 +203,7 @@ public:
 	void RemovePiece(ChessPiece* piece);
 	ChessPiece* GetPiece(int index) const;
 	int GetNumPiecesLeft() const { return remainingPieces.size(); }
-	Move GetKingLocation();
+	ChessSquare GetKingLocation();
 	void EnterCheckState();
 	void ClearCheckState()
 	{ 
@@ -215,10 +215,10 @@ public:
 	bool CheckForCheckMate();
 	//ChessPiece* GetCheckingPiece() { return checkingPiece; }
 	void PawnPromotion(ChessPiece* pawn, ChessPiece* newPiece);
-	//Move GetCheckingPieceLocation() { return checkingPiece->GetLocation(); }
+	//ChessSquare GetCheckingPieceLocation() { return checkingPiece->GetLocation(); }
 	ChessPiece* FindCapturedPiece(const int row, const int col, ChessPiece* capturedPiece);
 	void RebirthCapturedPiece(ChessPiece* capturedPiece);
-	void UndoPawnPromotion(int row, Move promotionSquare, ChessPiece* PromotedPiece);
+	void UndoPawnPromotion(int row, ChessSquare promotionSquare, ChessPiece* PromotedPiece);
 	const bool HasCastled() const { return bHasCastled; }
 	void Castle() { bHasCastled = true; }
 	const bool CanCastle(bool bKingSide, ChessBoard* _BoardInstance);
@@ -283,7 +283,7 @@ public:
 		printf("Black:  ");
 		for (int i = 0; i < remainingPieces.size(); i++)
 		{
-			Move PieceLoc = remainingPieces[i]->GetLocation();
+			ChessSquare PieceLoc = remainingPieces[i]->GetLocation();
 			printf("Piece %c Location: %c%i\n", pieceToText(remainingPieces[i]), rowToLetter(PieceLoc.row), PieceLoc.col+1);		
 		}
 	}

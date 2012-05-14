@@ -47,9 +47,9 @@ void pieceToText(const ChessPiece* piece, char& outText)
 	
 }
 
-bool ChessPiece::ValidCheckStateMove(const Move& Move3, const ChessPiece* instance)
+bool ChessPiece::ValidCheckStateMove(const ChessSquare& Move3, const ChessPiece* instance)
 {
-	Move startingLoc = instance->GetLocation();
+	ChessSquare startingLoc = instance->GetLocation();
 	if( (Move3.row > 7) || (Move3.col < 0) || (startingLoc.row > 7) || (startingLoc.col < 0) ||
 	   (Move3.row < 0) || (Move3.col > 7) || (startingLoc.row < 0) || (startingLoc.col > 7) )
 		return false;
@@ -80,8 +80,8 @@ bool ChessPiece::ValidCheckStateMove(const Move& Move3, const ChessPiece* instan
 		if( (Piece == 'N' || Piece == 'P') && (PieceInstance != 'K') )
 			return false;
 		
-		Move checkLoc = checkPiece->GetLocation();
-		Move kingLoc = WhitePlayer::GetInstance()->GetKingLocation();
+		ChessSquare checkLoc = checkPiece->GetLocation();
+		ChessSquare kingLoc = WhitePlayer::GetInstance()->GetKingLocation();
 		
 		int diffx = kingLoc.row - checkLoc.row;
 		int diffy = kingLoc.col - checkLoc.col;
@@ -162,8 +162,8 @@ bool ChessPiece::ValidCheckStateMove(const Move& Move3, const ChessPiece* instan
 		if( (Piece == 'N' || Piece == 'P') && (PieceInstance != 'K') )
 			return false;
 		
-		Move checkLoc = checkPiece->GetLocation();
-		Move kingLoc = BlackPlayer::GetInstance()->GetKingLocation();
+		ChessSquare checkLoc = checkPiece->GetLocation();
+		ChessSquare kingLoc = BlackPlayer::GetInstance()->GetKingLocation();
 		
 		int diffx = kingLoc.row - checkLoc.row;
 		int diffy = kingLoc.col - checkLoc.col;
@@ -224,7 +224,7 @@ bool ChessPiece::ValidCheckStateMove(const Move& Move3, const ChessPiece* instan
 	}*/
 }
 
-bool checkPuttingInCheck(const Move& Move3, const Move& startingLoc, bool bWhiteMove, ChessBoard* ChessBoardInstance)
+bool checkPuttingInCheck(const ChessSquare& Move3, const ChessSquare& startingLoc, bool bWhiteMove, ChessBoard* ChessBoardInstance)
 {
 	if( (Move3.row > 7) || (Move3.col < 0) || (startingLoc.row > 7) || (startingLoc.col < 0) ||
 		(Move3.row < 0) || (Move3.col > 7) || (startingLoc.row < 0) || (startingLoc.col > 7) )
@@ -263,7 +263,7 @@ bool checkPuttingInCheck(const Move& Move3, const Move& startingLoc, bool bWhite
 		
 		 //Need this here for kings because don't know who is attacking their new square
 		//opponentPlayer->ClearAttackingKingPieces();
-		Move KingLoc = Move3;
+		ChessSquare KingLoc = Move3;
 		bool bKingInCheck = false;
 		for (int i = 0; i < opponentPlayer->GetNumPiecesLeft(); i++)
 		{

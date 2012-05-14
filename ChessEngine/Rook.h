@@ -24,8 +24,8 @@ private:
 	Rook(const Rook& original);
 	Rook& operator=( const Rook& right_hand_side );
 public:
-	void GetLocation(Move& Move2) const { Move2 = currLoc; }
-	Move GetLocation() const { return currLoc; }
+	void GetLocation(ChessSquare& Move2) const { Move2 = currLoc; }
+	ChessSquare GetLocation() const { return currLoc; }
 	void SetCol(const int& col) { currLoc.col = col; }
 	void SetRow(const int& row) { currLoc.row = row; }
 	
@@ -37,7 +37,7 @@ public:
 	double GetDefendingScore(const Chromosome* calcChromo);
 	double GetPieceUnderAttackScore(const Chromosome* calcChromo);
 	
-	bool HasLineToKing(Move& KingLoc) 
+	bool HasLineToKing(ChessSquare& KingLoc) 
 	{
 		if( (currLoc.row - KingLoc.row) == 0)
 			return true;
@@ -52,12 +52,12 @@ public:
 	void GetLegalMoves(std::vector<ChessMove>& PotMoves);
 	std::vector<ChessMove>& GetEvalLegalMoves();
 	bool HasLegalMove();
-	bool MakeMove(const Move& Move3);
+	bool MakeMove(const ChessSquare& Move3);
 	bool isWhite() const { return bIsWhite; }
 	bool isBlockingCheck() const { return bIsBlockingCheck; }
 	void setBlockingCheck(bool newState) { bIsBlockingCheck = newState; }
 	bool LookForCheck(bool test) const;
-	bool IsAttackingSquare(const Move& Square) const;
+	bool IsAttackingSquare(const ChessSquare& Square) const;
 	char Name() const { return 'R'; }
 	
 	bool IsInKingArray()  { return bIsInKingArray; }
@@ -77,9 +77,9 @@ public:
 
 private:
 	std::vector<ChessMove> EvalMoves;
-	bool CheckForCapture(const Move& MoveTo);
+	bool CheckForCapture(const ChessSquare& MoveTo);
 	ChessBoard* ChessBoardInstance;
-	Move currLoc;
+	ChessSquare currLoc;
 	bool bIsWhite;
 	int bMoved;
 	bool bIsBlockingCheck;

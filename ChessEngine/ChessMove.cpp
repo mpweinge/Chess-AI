@@ -62,11 +62,11 @@ ChessMove::ChessMove(ChessPiece* _piece, const int _startingRow, const int _star
 	
 	if (bIsCapture)
 	{
-		capturedPiece = ChessBoardInstance->GetPiece(Move(row, col));
+		capturedPiece = ChessBoardInstance->GetPiece(ChessSquare(row, col));
 		if (capturedPiece == NULL)
 		{
 			bIsEnPassant = true;
-			capturedPiece = ChessBoardInstance->GetPiece(Move(row, startingCol));
+			capturedPiece = ChessBoardInstance->GetPiece(ChessSquare(row, startingCol));
 		}
 		
 	}

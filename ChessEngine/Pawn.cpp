@@ -16,7 +16,7 @@ std::vector<ChessMove>& Pawn::GetEvalLegalMoves()
 	return EvalMoves;
 }
 
-bool Pawn::MakeMove(const Move& Move2)
+bool Pawn::MakeMove(const ChessSquare& Move2)
 {	
 
 	if ( (bIsWhite) && (Move2.col == currLoc.col + 1) && (abs(Move2.row - currLoc.row) == 1) )
@@ -119,7 +119,7 @@ bool Pawn::MakeMove(const Move& Move2)
 	
 }
 
-bool Pawn::CheckForCapture(const Move& MoveTo)
+bool Pawn::CheckForCapture(const ChessSquare& MoveTo)
 {
 	//ChessAssert();
 	/*ChessPiece* captPiece = NULL;*/
@@ -138,7 +138,7 @@ bool Pawn::CheckForCapture(const Move& MoveTo)
 		{
 			if ( WhitePlayer::GetInstance()->IsInCheck() )
 			{
-				Move checkLoc = WhitePlayer::GetInstance()->GetCheckingPieceLocation();
+				ChessSquare checkLoc = WhitePlayer::GetInstance()->GetCheckingPieceLocation();
 				if( (checkLoc.row == MoveTo.row) && (checkLoc.col == MoveTo.col) )
 				{
 					if (MoveTo.col == 7)
@@ -159,7 +159,7 @@ bool Pawn::CheckForCapture(const Move& MoveTo)
 		{
 			if ( BlackPlayer::GetInstance()->IsInCheck() )
 			{
-				Move checkLoc = BlackPlayer::GetInstance()->GetCheckingPieceLocation();
+				ChessSquare checkLoc = BlackPlayer::GetInstance()->GetCheckingPieceLocation();
 				if( (checkLoc.row == MoveTo.row) && (checkLoc.col == MoveTo.col) )
 				{
 					if (MoveTo.col == 7)
@@ -220,7 +220,7 @@ bool Pawn::CheckForCapture(const Move& MoveTo)
 	return false;
 }
 
-bool Pawn::CheckForEnPassant(const Move& MoveTo, ChessPiece* &_captPiece)
+bool Pawn::CheckForEnPassant(const ChessSquare& MoveTo, ChessPiece* &_captPiece)
 {
 	//check the location
 	if( (bIsWhite && (currLoc.col == 4) ) || (!bIsWhite && (currLoc.col == 3) ) )
@@ -235,7 +235,7 @@ bool Pawn::CheckForEnPassant(const Move& MoveTo, ChessPiece* &_captPiece)
 			return false;
 		if (bIsWhite)
 		{
-			Move captPiece = Move(lastMove->getRow(), lastMove->getCol());
+			ChessSquare captPiece = ChessSquare(lastMove->getRow(), lastMove->getCol());
 			if (
 				(lastMove->getStartingCol() == 6) && (lastMove->getCol() == 4)
 				&& (lastMove->getRow() == MoveTo.row)
@@ -244,7 +244,7 @@ bool Pawn::CheckForEnPassant(const Move& MoveTo, ChessPiece* &_captPiece)
 			{
 				/*if (WhitePlayer::GetInstance()->IsInCheck() )
 				{
-					Move checkLoc = BlackPlayer::GetInstance()->GetCheckingPieceLocation();
+					ChessSquare checkLoc = BlackPlayer::GetInstance()->GetCheckingPieceLocation();
 					if( (checkLoc.row == lastMove->getRow()) && (checkLoc.col == lastMove->getCol() ) )
 					{
 						//ChessBoard::GetInstance()->EnPassantCapture(this, MoveTo, *captPiece);
@@ -272,7 +272,7 @@ bool Pawn::CheckForEnPassant(const Move& MoveTo, ChessPiece* &_captPiece)
 		}
 		else 
 		{
-			Move captPiece = Move(lastMove->getRow(), lastMove->getCol());
+			ChessSquare captPiece = ChessSquare(lastMove->getRow(), lastMove->getCol());
 			if (
 				(lastMove->getStartingCol() == 1) && (lastMove->getCol() == 3)
 				&& (lastMove->getRow() == MoveTo.row)
@@ -281,7 +281,7 @@ bool Pawn::CheckForEnPassant(const Move& MoveTo, ChessPiece* &_captPiece)
 			{
 				/*if (BlackPlayer::GetInstance()->IsInCheck() )
 				{
-					Move checkLoc = WhitePlayer::GetInstance()->GetCheckingPieceLocation();
+					ChessSquare checkLoc = WhitePlayer::GetInstance()->GetCheckingPieceLocation();
 					if( (checkLoc.row == lastMove->getRow()) && (checkLoc.col == lastMove->getCol() ) )
 					{
 						//ChessBoard::GetInstance()->EnPassantCapture(this, MoveTo, *captPiece);
@@ -314,7 +314,7 @@ bool Pawn::CheckForEnPassant(const Move& MoveTo, ChessPiece* &_captPiece)
 
 bool Pawn::LookForCheck(bool test) const
 {
-	Move KingLoc = ChessBoardInstance->GetKingLocation(bIsWhite);
+	ChessSquare KingLoc = ChessBoardInstance->GetKingLocation(bIsWhite);
 	if( IsAttackingSquare(KingLoc) )
 	{
 		if (!test)
@@ -327,7 +327,7 @@ bool Pawn::LookForCheck(bool test) const
 	return false;
 }
 
-bool Pawn::IsAttackingSquare(const Move& Square) const
+bool Pawn::IsAttackingSquare(const ChessSquare& Square) const
 {
 	int diffx = abs(Square.row - currLoc.row);
 	if( diffx == 1)
@@ -347,7 +347,7 @@ bool Pawn::IsAttackingSquare(const Move& Square) const
 
 Pawn::Pawn(const int& startingX, const int& startingY, const bool& _isWhite, ChessBoard* _Instance)
 {
-	currLoc = Move(startingX, startingY);
+	currLoc = ChessSquare(startingX, startingY);
 	bIsWhite = _isWhite;
 	bIsBlockingCheck = false;
 	bIsInKingArray = false;
@@ -419,8 +419,8 @@ bool Pawn::HasLegalMove()
 void Pawn::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 {
 	Player* player;
-	Move EnPassant1(currLoc.row-1, currLoc.col);
-	Move EnPassant2(currLoc.row+1, currLoc.col);
+	ChessSquare EnPassant1(currLoc.row-1, currLoc.col);
+	ChessSquare EnPassant2(currLoc.row+1, currLoc.col);
 	int incr;
 	if (bIsWhite)
 	{
@@ -448,25 +448,25 @@ void Pawn::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 	
 	/*if ( isBlockingCheck() )
 	{
-		Move checkLoc = player->GetCheckingPieceLocation();
+		ChessSquare checkLoc = player->GetCheckingPieceLocation();
 		
 		if (checkLoc.row == currLoc.row )
 		{
 			if(( (checkLoc.col - currLoc.col) > 1 ) && !ChessBoard::GetInstance()->bHasPiece(currLoc.row, currLoc.col+incr) 
 			   && ChessPiece::ValidCheckStateMove(currLoc.row, currLoc.col+incr, this)
 			   )
-				PotMoves.push_back(Move(currLoc.row, currLoc.col+incr) );
+				PotMoves.push_back(ChessSquare(currLoc.row, currLoc.col+incr) );
 			else if(( (checkLoc.col - currLoc.col) < 0) && !ChessBoard::GetInstance()->bHasPiece(currLoc.row, currLoc.col+incr) 
 					&& ChessPiece::ValidCheckStateMove(currLoc.row, currLoc.col+incr, this)
 					)
-				PotMoves.push_back(Move(currLoc.row, currLoc.col+incr) );
+				PotMoves.push_back(ChessSquare(currLoc.row, currLoc.col+incr) );
 		}
 		return;
 	}
 	else if (player->IsInCheck() )
 	{
-		Move checkLoc = player->GetCheckingPieceLocation();
-		Move kingLoc = player->GetKingLocation();
+		ChessSquare checkLoc = player->GetCheckingPieceLocation();
+		ChessSquare kingLoc = player->GetKingLocation();
 		char p = pieceToText(player->GetCheckingPiece());
 		
 		if( ( p != 'N') && (p != 'P') )
@@ -475,14 +475,14 @@ void Pawn::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 			if (!ChessBoard::GetInstance()->bHasPiece(currLoc.row, currLoc.col+incr))
 			{
 				if (ChessPiece::ValidCheckStateMove(currLoc.row, currLoc.col+incr, this) )
-					PotMoves.push_back(Move(currLoc.row, currLoc.col+incr));
+					PotMoves.push_back(ChessSquare(currLoc.row, currLoc.col+incr));
 				if (!ChessBoard::GetInstance()->bHasPiece(currLoc.row, currLoc.col+2*incr))
 				{
 					if (ChessPiece::ValidCheckStateMove(currLoc.row, currLoc.col+2*incr, this) 
 						&&( ( bIsWhite && (currLoc.col == 1)) || (!bIsWhite && (currLoc.col == 7)))
 						&& !(ChessBoard::GetInstance()->bHasPiece( currLoc.row,currLoc.col + incr) )
 						)
-						PotMoves.push_back(Move(currLoc.row, currLoc.col+2*incr));
+						PotMoves.push_back(ChessSquare(currLoc.row, currLoc.col+2*incr));
 				}
 			}
 			ChessPiece *leftPiece = ChessBoard::GetInstance()->GetPiece(currLoc.row-1, currLoc.col+incr);
@@ -499,7 +499,7 @@ void Pawn::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 						PotMoves.push_back(new PromotionMove(currLoc.row+1, currLoc.col+incr, bishop));
 					}
 					else
-						PotMoves.push_back(Move(currLoc.row+1, currLoc.col+incr) );
+						PotMoves.push_back(ChessSquare(currLoc.row+1, currLoc.col+incr) );
 				}
 				else {
 				}
@@ -517,7 +517,7 @@ void Pawn::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 						PotMoves.push_back(new PromotionMove(currLoc.row-1, currLoc.col+incr, bishop));
 					}
 					else
-						PotMoves.push_back(Move(currLoc.row-1, currLoc.col+incr) );
+						PotMoves.push_back(ChessSquare(currLoc.row-1, currLoc.col+incr) );
 				}
 				else {
 				}
@@ -532,14 +532,14 @@ void Pawn::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 				if ((checkLoc.col == currLoc.col + 1) && abs((checkLoc.row - currLoc.row) == 1) )
 				{
 					if (ChessPiece::ValidCheckStateMove(checkLoc.row, currLoc.col+1, this) )
-						PotMoves.push_back(Move(checkLoc.row, currLoc.col+1) );
+						PotMoves.push_back(ChessSquare(checkLoc.row, currLoc.col+1) );
 				}
 			}
 			else {
 				if ((checkLoc.col == currLoc.col - 1) && abs((checkLoc.row - currLoc.row) == 1) )
 				{
 					if (ChessPiece::ValidCheckStateMove(checkLoc.row, currLoc.col-1, this) )
-						PotMoves.push_back(Move(checkLoc.row, currLoc.col-1) );
+						PotMoves.push_back(ChessSquare(checkLoc.row, currLoc.col-1) );
 				}
 			}
 

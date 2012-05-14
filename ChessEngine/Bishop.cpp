@@ -14,7 +14,7 @@ std::vector<ChessMove>& Bishop::GetEvalLegalMoves()
 	return EvalMoves;
 }
 
-bool Bishop::MakeMove(const Move& Move2)
+bool Bishop::MakeMove(const ChessSquare& Move2)
 {
 	
 	//Check if there is a piece along the diagonal
@@ -59,14 +59,14 @@ bool Bishop::MakeMove(const Move& Move2)
 	}
 }
 
-bool Bishop::CheckForCapture(const Move& MoveTo)
+bool Bishop::CheckForCapture(const ChessSquare& MoveTo)
 {
 	//ChessAssert();
 	/*if (bIsWhite)
 	{
 		if ( WhitePlayer::GetInstance()->IsInCheck() )
 		{
-			Move checkLoc = WhitePlayer::GetInstance()->GetCheckingPieceLocation();
+			ChessSquare checkLoc = WhitePlayer::GetInstance()->GetCheckingPieceLocation();
 			if( (checkLoc.row == MoveTo.row) && (checkLoc.col == MoveTo.col) )
 			{
 				ChessBoard::GetInstance()->MakeCapture(this, MoveTo);
@@ -80,7 +80,7 @@ bool Bishop::CheckForCapture(const Move& MoveTo)
 	{
 		if ( BlackPlayer::GetInstance()->IsInCheck() )
 		{
-			Move checkLoc = BlackPlayer::GetInstance()->GetCheckingPieceLocation();
+			ChessSquare checkLoc = BlackPlayer::GetInstance()->GetCheckingPieceLocation();
 			if( (checkLoc.row == MoveTo.row) && (checkLoc.col == MoveTo.col) )
 			{
 				ChessBoard::GetInstance()->MakeCapture(this, MoveTo);
@@ -106,7 +106,7 @@ bool Bishop::CheckForCapture(const Move& MoveTo)
 
 Bishop::Bishop(const int& startingX, const int& startingY, const bool _isWhite, ChessBoard* _Instance)
 {
-	currLoc = Move(startingX, startingY);
+	currLoc = ChessSquare(startingX, startingY);
 	bIsWhite = _isWhite;
 	bIsBlockingCheck = false;
 	bIsInKingArray = false;
@@ -115,7 +115,7 @@ Bishop::Bishop(const int& startingX, const int& startingY, const bool _isWhite, 
 
 bool Bishop::LookForCheck(bool test) const
 {
-	Move KingLoc = ChessBoardInstance->GetKingLocation(bIsWhite);
+	ChessSquare KingLoc = ChessBoardInstance->GetKingLocation(bIsWhite);
 
 	if ( IsAttackingSquare(KingLoc)	)
 	{
@@ -130,7 +130,7 @@ bool Bishop::LookForCheck(bool test) const
 	return false;
 }
 
-bool Bishop::IsAttackingSquare(const Move& Square) const
+bool Bishop::IsAttackingSquare(const ChessSquare& Square) const
 {
 	int diffx = Square.row - currLoc.row;
 	int diffy = Square.col - currLoc.col;
@@ -145,7 +145,7 @@ bool Bishop::IsAttackingSquare(const Move& Square) const
 	return true;
 }
 
-void Bishop::GetLocation(Move& Move2) const
+void Bishop::GetLocation(ChessSquare& Move2) const
 {
 	Move2 = currLoc;
 }
@@ -227,7 +227,7 @@ void Bishop::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 	
 	/*if ( isBlockingCheck() )
 	{
-		Move checkLoc = player->GetCheckingPieceLocation();
+		ChessSquare checkLoc = player->GetCheckingPieceLocation();
 		int diffx = currLoc.row - checkLoc.row;
 		int diffy = currLoc.col - checkLoc.col;
 		
@@ -239,20 +239,20 @@ void Bishop::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 														 diffy > 0 ? currLoc.col + i : currLoc.col - i ) )
 					return;
 				else {
-					PotMoves.push_back(Move( diffx > 0 ? currLoc.row + i : currLoc.row - i, 
+					PotMoves.push_back(ChessSquare( diffx > 0 ? currLoc.row + i : currLoc.row - i, 
 												diffy > 0 ? currLoc.col + i : currLoc.col - i ) );
 				}
 
 			}
-			PotMoves.push_back(Move(checkLoc.row, checkLoc.col)) ;
+			PotMoves.push_back(ChessSquare(checkLoc.row, checkLoc.col)) ;
 		}
 		return;
 	}*/
 	
 	/*if ( player->IsInCheck() )
 	{		
-		Move checkLoc = player->GetCheckingPieceLocation();
-		Move kingLoc = player->GetKingLocation();
+		ChessSquare checkLoc = player->GetCheckingPieceLocation();
+		ChessSquare kingLoc = player->GetKingLocation();
 		char p = pieceToText(player->GetCheckingPiece());
 		
 		if( ( p != 'N') && (p != 'P') )
@@ -264,30 +264,30 @@ void Bishop::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 			{
 				for (int i = 1; i < abs(xdiff); i++)
 				{
-					const Move temp(xdiff < 0 ? kingLoc.row + i : kingLoc.row - i, 
+					const ChessSquare temp(xdiff < 0 ? kingLoc.row + i : kingLoc.row - i, 
 									ydiff < 0 ? kingLoc.col + i : kingLoc.col - i);
 					if (IsAttackingSquare(temp) )
-						PotMoves.push_back(Move(temp.row, temp.col) );
+						PotMoves.push_back(ChessSquare(temp.row, temp.col) );
 				}
 			}
 			else if (xdiff == 0)
 			{
 				for (int i = 1; i < abs(ydiff); i++)
 				{
-					const Move temp(kingLoc.row, 
+					const ChessSquare temp(kingLoc.row, 
 									ydiff < 0 ? kingLoc.col + i : kingLoc.col - i);
 					if (IsAttackingSquare(temp) )
-						PotMoves.push_back(Move(temp.row, temp.col) );
+						PotMoves.push_back(ChessSquare(temp.row, temp.col) );
 				}
 			}
 			else
 			{
 				for (int i = 1; i < abs(xdiff); i++)
 				{
-					const Move temp(xdiff < 0 ? kingLoc.row + i: kingLoc.row - i, 
+					const ChessSquare temp(xdiff < 0 ? kingLoc.row + i: kingLoc.row - i, 
 									kingLoc.col);
 					if (IsAttackingSquare(temp) )
-						PotMoves.push_back(Move(temp.row, temp.col) );
+						PotMoves.push_back(ChessSquare(temp.row, temp.col) );
 				}
 			}
 
@@ -306,7 +306,7 @@ void Bishop::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 														 diffy > 0 ? currLoc.col + i : currLoc.col - i ) )
 				   return;
 			}
-			PotMoves.push_back(Move(checkLoc.row, checkLoc.col)) ;
+			PotMoves.push_back(ChessSquare(checkLoc.row, checkLoc.col)) ;
 		}
 		return;
 	}*/
@@ -315,7 +315,7 @@ void Bishop::GetLegalMoves(std::vector<ChessMove>& PotMoves)
 
 	//int limTwo = currLoc.col;
 	
-	Move tempMove = currLoc;
+	ChessSquare tempMove = currLoc;
 	
 	for (int i = 0; i < 8; i++)
 	{
