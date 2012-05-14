@@ -1,8 +1,13 @@
-This is a chess AI written in C++ with a front end in Objective C. It was completed entirely from scratch utilizing no third party libraries (with the exception of OpenGL). 
+Chess AI
+========
 
-The engine uses object oriented principles, multithreading, and genetic algorithms to decide which move to make. 
+This is a chess AI written in C++ with a front end in Objective C. It was completed entirely from scratch utilizing no third party libraries (with the exception of OpenGL, and technically Cocoa). 
+
+The engine uses object oriented principles, multithreading, and genetic algorithms to decide which move to make. The reinforcement learning framework is currently in progress (using TD-Leaf(lambda) to update weightings instead of genetic algorithms). 
 
 A minimax tree with a fixed ply of 4 is used (although this will in the future be changed to use variable ply). 
 Tree searching and generation is performed by multiple threads. Alpha beta pruning is used to improve the searching down the tree. 
 
-The front end uses simplified ray tracing to intersect user presses with the board. The interface was created with OpenGL. 
+The front end uses simplified ray tracing to intersect user mouse presses with the chess board (to determine what square the user clicked on). The 3D interface was created with OpenGL. 
+
+This engine was used to generate a 'smarter' AI by playing itself ~4500 times, and adapting via genetic algorithms. There is, however, still much more learning needed to be able to challenge experienced players. 
