@@ -44,9 +44,7 @@ static void* ThreadStartFunction(void* _pThreadData)
 	
 	//ThreadBoard->PrintBoard();
 	
-	//NEED TO LOOK INTO WHY THIS IS LEAKING MEMORY TOMORROW !!
 	pThreadData->Tree->FillAlphaBetaNode(pThreadData->Ply, pThreadCopy, !pThreadData->bIsWhite, ThreadBoard->GetWhitePlayer(), ThreadBoard->GetBlackPlayer(), ThreadBoard );
-	//LOOK INTO THESE LEAKS TOMORROW
 	
 	ThreadBoard->Erase();
 	delete(ThreadBoard);

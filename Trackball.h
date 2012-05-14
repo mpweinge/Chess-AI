@@ -1,12 +1,3 @@
-/*
- *  Trackball.h
- *  ChessUI
- *
- *  Created by Michael Weingert on 12-03-16.
- *  Copyright 2012 __MyCompanyName__. All rights reserved.
- *
- */
-
 //
 // File:        trackball.h
 //

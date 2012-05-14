@@ -262,7 +262,6 @@ recVec SphereDrawQueue[10];
     gTrackingViewInfo = self;
 }
 
-//Wtf is dolly lol
 - (void)otherMouseDown:(NSEvent *)theEvent //dolly
 {
     NSPoint location = [self convertPoint:[theEvent locationInWindow] fromView:nil];
