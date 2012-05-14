@@ -1,0 +1,4 @@
+New Chromosome: 400Parent 1: 303Parent 2: 302 ParentCrossover: Arithmetic Inversion MutateMutation Flip Bit MutateIndex 10
+New Chromosome: 401Parent 1: 301Parent 2: 301 ParentCrossover: Arithmetic MutateMutation Boundary MutateIndex 6
+New Chromosome: 402One Parent: 303No Crossover No Mutation
+New Chromosome: 403Parent 1: 303Parent 2: 303 ParentCrossover: Arithmetic Inversion MutateMutation Flip Bit MutateIndex 9

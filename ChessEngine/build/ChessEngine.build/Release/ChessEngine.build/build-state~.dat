@@ -1,0 +1,1248 @@
+TChessEngine
+v7
+r0
+t354545087.978290
+cCheck dependencies
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/main.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessBoard.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessPlayer.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessMove.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessLog.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessPiece.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Knight.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Bishop.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Rook.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Pawn.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/King.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Queen.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/MoveNode.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/MoveTree.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessChromosome.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Tournament.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/main.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessEngine normal x86_64
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessBoard.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessPlayer.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessMove.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessLog.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessPiece.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Knight.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Bishop.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Rook.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Pawn.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/King.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Queen.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/MoveNode.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/MoveTree.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessChromosome.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Tournament.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/main.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cLd /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessEngine normal i386
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessBoard.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessPlayer.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessMove.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessLog.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessPiece.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Knight.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Bishop.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Rook.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Pawn.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/King.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Queen.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/MoveNode.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/MoveTree.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessChromosome.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Tournament.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cLd /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessEngine normal ppc
+cCreateUniversalBinary /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine.dSYM /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp
+c000000004F50FAE50000000000002549
+t1330707173
+s9545
+i"Bishop.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.h
+c000000004F50FAE50000000000000582
+t1330707173
+s1410
+i"ChessPiece.h"
+i"ChessBoard.h"
+i"assert.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp
+c000000004F5C21610000000000005C4D
+t1331437921
+s23629
+i"ChessBoard.h"
+i<iostream>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.h
+c000000004F5589D8000000000000082C
+t1331005912
+s2092
+i"Constants.h"
+i<vector>
+i"ChessMove.h"
+i"ChessPiece.h"
+i"Constants.h"
+i"ChessLog.h"
+i"ChessPlayer.h"
+i<stdio.h>
+i<stdlib.h>
+i"Pawn.h"
+i"ChessChromosome.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp
+c000000004F6FE1630000000000001749
+t1332732259
+s5961
+i"ChessChromosome.h"
+i"assert.h"
+i<string>
+i<math.h>
+i"ChessBoard.h"
+i<fstream>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.h
+c000000004F710DBA0000000000000E60
+t1332809146
+s3680
+i"Constants.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp
+c000000004F581F8D000000000000065A
+t1331175309
+s1626
+i"ChessLog.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.h
+c000000004F55860C000000000000024C
+t1331004940
+s588
+i"ChessMove.h"
+i"ChessPlayer.h"
+i"Constants.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp
+c000000004F5406E70000000000000E33
+t1330906855
+s3635
+i"ChessMove.h"
+i"ChessLog.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.h
+c000000004F54103100000000000007F9
+t1330909233
+s2041
+i"assert.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp
+c000000004F5D009500000000000021C9
+t1331495061
+s8649
+i"ChessPiece.h"
+i"ChessPlayer.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.h
+c000000004F50FB0800000000000008BD
+t1330707208
+s2237
+i"Constants.h"
+i"ChessMove.h"
+i<vector>
+i<string>
+i"ChessChromosome.h"
+i<typeinfo>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp
+c000000004F5C18150000000000002E86
+t1331435541
+s11910
+i"ChessPlayer.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.h
+c000000004F5583120000000000000EDD
+t1331004178
+s3805
+i"ChessMove.h"
+i"Constants.h"
+i"ChessPiece.h"
+i"ChessBoard.h"
+i<vector>
+i"Rook.h"
+i"Bishop.h"
+i"Knight.h"
+i"Pawn.h"
+i"Queen.h"
+i"King.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Constants.h
+c000000004F7110F60000000000000F8C
+t1332809974
+s3980
+i<assert.h>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp
+c000000004F6F971F0000000000001D68
+t1332713247
+s7528
+i"King.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.h
+c000000004F50FAE500000000000005A6
+t1330707173
+s1446
+i"ChessPiece.h"
+i"ChessBoard.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp
+c000000004F50FAE50000000000001E2D
+t1330707173
+s7725
+i"Knight.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.h
+c000000004F50FAE50000000000000597
+t1330707173
+s1431
+i"ChessPiece.h"
+i"ChessBoard.h"
+i"Constants.h"
+i"assert.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp
+c000000004F50F69A0000000000000A9D
+t1330706074
+s2717
+i"MoveNode.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.h
+c000000004F50FCB00000000000000A8D
+t1330707632
+s2701
+i"ChessMove.h"
+i"ChessBoard.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp
+c000000004F71113D0000000000003A98
+t1332810045
+s15000
+i"MoveTree.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.h
+c000000004F5C2DBB00000000000006AC
+t1331441083
+s1708
+i"MoveNode.h"
+i"ChessMove.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp
+c000000004F710D790000000000003A50
+t1332809081
+s14928
+i"Pawn.h"
+i"ChessMove.h"
+i"math.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.h
+c000000004F50FAE50000000000000595
+t1330707173
+s1429
+i"ChessPiece.h"
+i"ChessBoard.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp
+c000000004F5CDA830000000000003649
+t1331485315
+s13897
+i"Queen.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.h
+c000000004F50FAE30000000000000554
+t1330707171
+s1364
+i"ChessPiece.h"
+i"ChessBoard.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp
+c000000004F5CDA54000000000000270A
+t1331485268
+s9994
+i"Rook.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.h
+c000000004F50FAE500000000000005CF
+t1330707173
+s1487
+i"ChessPiece.h"
+i"ChessBoard.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp
+c000000004F7120480000000000002129
+t1332813896
+s8489
+i"Tournament.h"
+i<fstream>
+i"Constants.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.h
+c000000004F6FD54D00000000000006D3
+t1332729165
+s1747
+i"ChessChromosome.h"
+i"ChessBoard.h"
+i"MoveTree.h"
+i"Constants.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Bishop.o
+t1332852278
+s90252
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessBoard.o
+t1332852277
+s187504
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessChromosome.o
+t1332852280
+s102120
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessEngine
+t1332852281
+s162840
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessEngine.LinkFileList
+c000000004F71B62D00000000000008BA
+t1332852269
+s2234
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessLog.o
+t1332852277
+s45188
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessMove.o
+t1332852277
+s47168
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessPiece.o
+t1332852277
+s60944
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessPlayer.o
+t1332852276
+s116904
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/King.o
+t1332852279
+s88428
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Knight.o
+t1332852278
+s87484
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/MoveNode.o
+t1332852279
+s51320
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/MoveTree.o
+t1332852280
+s122460
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Pawn.o
+t1332852279
+s107372
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Queen.o
+t1332852279
+s98724
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Rook.o
+t1332852278
+s91900
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Tournament.o
+t1332852281
+s173372
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/main.o
+t1332852275
+s173864
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Bishop.o
+t1332852284
+s98388
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessBoard.o
+t1332852282
+s198088
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessChromosome.o
+t1332852287
+s105832
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessEngine
+t1332852287
+s177124
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessEngine.LinkFileList
+c000000004F71B62D00000000000008AA
+t1332852269
+s2218
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessLog.o
+t1332852283
+s45600
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessMove.o
+t1332852283
+s48700
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessPiece.o
+t1332852283
+s61740
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessPlayer.o
+t1332852282
+s124536
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/King.o
+t1332852285
+s93808
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Knight.o
+t1332852283
+s92632
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/MoveNode.o
+t1332852285
+s51940
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/MoveTree.o
+t1332852286
+s126180
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Pawn.o
+t1332852285
+s118220
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Queen.o
+t1332852286
+s114164
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Rook.o
+t1332852284
+s102332
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Tournament.o
+t1332852287
+s177052
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/main.o
+t1332852282
+s177072
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Bishop.o
+t1332852272
+s99760
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessBoard.o
+t1332852270
+s204168
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessChromosome.o
+t1332852275
+s105704
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessEngine
+t1332852275
+s179152
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessEngine.LinkFileList
+c000000004F71B62D00000000000008DA
+t1332852269
+s2266
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessLog.o
+t1332852271
+s46596
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessMove.o
+t1332852271
+s50568
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessPiece.o
+t1332852272
+s64004
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessPlayer.o
+t1332852271
+s126308
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/King.o
+t1332852273
+s96764
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Knight.o
+t1332852272
+s95456
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/MoveNode.o
+t1332852274
+s51780
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/MoveTree.o
+t1332852274
+s132160
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Pawn.o
+t1332852273
+s117320
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Queen.o
+t1332852274
+s109344
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Rook.o
+t1332852273
+s101744
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Tournament.o
+t1332852275
+s180628
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/main.o
+t1332852270
+s177876
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine
+t1332852287
+s525284
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine.dSYM
+t1332852287
+s102
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp
+c000000004F7111260000000000003113
+t1332810022
+s12563
+i<iostream>
+i"ChessPlayer.h"
+i"ChessBoard.h"
+i<vector>
+i"Constants.h"
+i<stdio.h>
+i"MoveTree.h"
+i"ChessChromosome.h"
+i"Tournament.h"
+i<fstream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies354545068#354545069#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Bishop.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545077.603111
+e354545078.204825
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Bishop.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp354545077#354545078#0(0"0(0#0#69"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp8603062560#1619"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Bishop.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessBoard.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545075.853399
+e354545077.124928
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessBoard.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp354545075#354545077#0(0"0(0#0#73"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp8608516544#1627"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessBoard.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessChromosome.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545079.862725
+e354545080.478487
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessChromosome.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp354545079#354545080#0(0"0(0#0#78"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp8607214624#1637"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessChromosome.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessLog.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545077.033131
+e354545077.470172
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessLog.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp354545077#354545077#0(0"0(0#0#71"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp8608624288#1623"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessLog.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessMove.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545076.672106
+e354545077.033046
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessMove.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp354545076#354545077#0(0"0(0#0#72"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp8602775648#1625"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessMove.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessPiece.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545077.125060
+e354545077.603022
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessPiece.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp354545077#354545077#0(0"0(0#0#73"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp8603443968#1627"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessPiece.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessPlayer.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545075.971373
+e354545076.672011
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessPlayer.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp354545075#354545076#0(0"0(0#0#74"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp8603328704#1629"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessPlayer.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/King.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545078.897427
+e354545079.446208
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/King.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp354545078#354545079#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp8607703968#1615"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/King.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Knight.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545077.470335
+e354545078.135864
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Knight.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp354545077#354545078#0(0"0(0#0#69"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp8606806176#1619"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Knight.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/MoveNode.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545079.446307
+e354545079.827587
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/MoveNode.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp354545079#354545079#0(0"0(0#0#71"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp8607610496#1623"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/MoveNode.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/MoveTree.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545079.827684
+e354545080.464154
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/MoveTree.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp354545079#354545080#0(0"0(0#0#71"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp8608004320#1623"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/MoveTree.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Pawn.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545078.204911
+e354545079.093599
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Pawn.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp354545078#354545079#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp8605347008#1615"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Pawn.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Queen.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545079.093761
+e354545079.862630
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Queen.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp354545079#354545079#0(0"0(0#0#68"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp8608048448#1617"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Queen.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Rook.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545078.136088
+e354545078.897338
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Rook.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp354545078#354545078#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp8607008960#1615"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Rook.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Tournament.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545080.464249
+e354545081.320439
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Tournament.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp354545080#354545081#0(0"0(0#0#73"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp8607474624#1627"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/Tournament.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/main.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s354545075.114521
+e354545075.971286
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/main.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp354545075#354545075#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp8608016928#1615"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/i386 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/main.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Bishop.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545083.551470
+e354545084.303063
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Bishop.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp354545083#354545084#0(0"0(0#0#69"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp8603390784#1626"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Bishop.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessBoard.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545081.387127
+e354545082.663773
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessBoard.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp354545081#354545082#0(0"0(0#0#73"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp8605459840#1634"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessBoard.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessChromosome.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545086.455919
+e354545087.309441
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessChromosome.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp354545086#354545087#0(0"0(0#0#78"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp8607161600#1644"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessChromosome.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessLog.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545082.889904
+e354545083.209588
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessLog.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp354545082#354545083#0(0"0(0#0#71"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp8607667840#1630"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessLog.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessMove.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545082.663859
+e354545083.067751
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessMove.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp354545082#354545083#0(0"0(0#0#72"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp8605198432#1632"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessMove.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessPiece.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545083.067841
+e354545083.551382
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessPiece.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp354545083#354545083#0(0"0(0#0#73"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp8607206752#1634"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessPiece.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessPlayer.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545082.011964
+e354545082.889750
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessPlayer.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp354545082#354545082#0(0"0(0#0#74"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp8608026016#1636"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessPlayer.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/King.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545084.648053
+e354545085.317805
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/King.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp354545084#354545085#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp8607495040#1622"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/King.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Knight.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545083.209686
+e354545083.941316
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Knight.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp354545083#354545083#0(0"0(0#0#69"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp8603076256#1626"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Knight.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/MoveNode.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545085.428614
+e354545085.867543
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/MoveNode.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp354545085#354545085#0(0"0(0#0#71"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp8605586848#1630"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/MoveNode.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/MoveTree.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545085.867630
+e354545086.594012
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/MoveTree.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp354545085#354545086#0(0"0(0#0#71"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp8608000896#1630"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/MoveTree.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Pawn.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545084.303155
+e354545085.428530
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Pawn.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp354545084#354545085#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp8606824992#1622"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Pawn.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Queen.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545085.317896
+e354545086.455771
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Queen.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp354545085#354545086#0(0"0(0#0#68"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp8607905408#1624"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Queen.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Rook.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545083.941405
+e354545084.647896
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Rook.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp354545083#354545084#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp8605622048#1622"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Rook.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Tournament.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545086.594102
+e354545087.499336
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Tournament.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp354545086#354545087#0(0"0(0#0#73"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp8608189120#1634"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/Tournament.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/main.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s354545080.478588
+e354545082.011876
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/main.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp354545080#354545082#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp8605218400#1622"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/ppc -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Bishop.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545072.184535
+e354545072.803489
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Bishop.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp354545072#354545072#0(0"0(0#0#69"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp7886488416478786560#1625"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Bishop.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Bishop.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessBoard.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545069.408190
+e354545071.005520
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessBoard.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp354545069#354545071#0(0"0(0#0#73"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp8608639072#1633"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessBoard.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessChromosome.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545074.485315
+e354545075.114425
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessChromosome.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp354545074#354545075#0(0"0(0#0#78"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp8610158208#1643"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessChromosome.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessChromosome.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessLog.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545071.507672
+e354545071.936700
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessLog.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp354545071#354545071#0(0"0(0#0#71"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp8608447680#1629"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessLog.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessLog.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessMove.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545071.005677
+e354545071.507584
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessMove.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp354545071#354545071#0(0"0(0#0#72"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp8603305664#1631"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessMove.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessPiece.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545071.678744
+e354545072.184436
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessPiece.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp354545071#354545072#0(0"0(0#0#73"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp8608506464#1633"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessPiece.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessPlayer.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545070.646902
+e354545071.678651
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessPlayer.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp354545070#354545071#0(0"0(0#0#74"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp8608504352#1635"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessPlayer.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/King.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545073.244626
+e354545073.820298
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/King.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp354545073#354545073#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp8608610016#1621"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/King.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/King.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Knight.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545071.936790
+e354545072.573230
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Knight.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp354545071#354545072#0(0"0(0#0#69"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp8599765280#1625"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Knight.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Knight.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/MoveNode.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545073.820404
+e354545074.158197
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/MoveNode.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp354545073#354545074#0(0"0(0#0#71"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp8607283072#1629"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveNode.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/MoveNode.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/MoveTree.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545074.158510
+e354545074.813776
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/MoveTree.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp354545074#354545074#0(0"0(0#0#71"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp8608277152#1629"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/MoveTree.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/MoveTree.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Pawn.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545072.803584
+e354545073.651547
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Pawn.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp354545072#354545073#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp8604987072#1621"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Pawn.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Pawn.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Queen.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545073.651642
+e354545074.485225
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Queen.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp354545073#354545074#0(0"0(0#0#68"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp8603533728#1623"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Queen.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Queen.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Rook.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545072.573379
+e354545073.244529
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Rook.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp354545072#354545073#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp8604940384#1621"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Rook.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Rook.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Tournament.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545074.813870
+e354545075.622304
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Tournament.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp354545074#354545075#0(0"0(0#0#73"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp8607873568#1633"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Tournament.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/Tournament.o0#
+
+CCompileC build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/main.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s354545069.386902
+e354545070.646803
+r1
+xCompileC
+xbuild/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/main.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp354545069#354545070#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp7886488416478786560#1621"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/main.o0#
+
+CCreateUniversalBinary /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine normal "x86_64 i386 ppc"
+s354545087.647527
+e354545087.677582
+r1
+xCreateUniversalBinary
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@72"CreateUniversalBinary build/Release/ChessEngine normal "x86_64 i386 ppc"354545087#354545087#0(0"0(0#0#74"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/x86_64 i386 ppc8605282560#611"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    /usr/bin/lipo -create /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessEngine /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessEngine /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessEngine -output /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine0#
+
+CGenerateDSYMFile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine.dSYM /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine
+s354545087.677664
+e354545087.978175
+r1
+xGenerateDSYMFile
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine.dSYM
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine
+lSLF07#2@73"GenerateDSYMFile build/Release/ChessEngine.dSYM build/Release/ChessEngine354545087#354545087#0(0"0(0#0#84"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine8608500864#278"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    /Developer/usr/bin/dsymutil /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release/ChessEngine.dSYM0#
+
+CLd /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessEngine normal i386
+s354545081.320587
+e354545081.387029
+r1
+xLd
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessEngine
+xnormal
+xi386
+old: warning: directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -L not found
+old: warning: directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -F not found
+lSLF07#2@145"Link /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessEngine354545081#354545081#0(242"ld: warning: directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -L not foundld: warning: directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -F not found2(22@107"Directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -L not found354545081#0#121#0(6@0"354545081#0#0#0#0#0"0(22@107"Directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -F not found354545081#121#121#0(6@0"354545081#0#0#0#0#0"0(0#0#0"8607498368#676"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -filelist /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessEngine.LinkFileList -mmacosx-version-min=10.6 -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/i386/ChessEngine0#
+
+CLd /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessEngine normal ppc
+s354545087.499417
+e354545087.647428
+r1
+xLd
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessEngine
+xnormal
+xppc
+old: warning: directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -L not found
+old: warning: directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -F not found
+lSLF07#2@144"Link /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessEngine354545087#354545087#0(242"ld: warning: directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -L not foundld: warning: directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -F not found2(22@107"Directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -L not found354545087#0#121#0(6@0"354545087#0#0#0#0#0"0(22@107"Directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -F not found354545087#121#121#0(6@0"354545087#0#0#0#0#0"0(0#0#0"8602852960#673"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -filelist /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessEngine.LinkFileList -mmacosx-version-min=10.6 -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/ppc/ChessEngine0#
+
+CLd /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessEngine normal x86_64
+s354545075.622394
+e354545075.853259
+r1
+xLd
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessEngine
+xnormal
+xx86_64
+old: warning: directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -L not found
+old: warning: directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -F not found
+lSLF07#2@147"Link /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessEngine354545075#354545075#0(242"ld: warning: directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -L not foundld: warning: directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -F not found2(22@107"Directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -L not found354545075#0#121#0(6@0"354545075#0#0#0#0#0"0(22@107"Directory '/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release' following -F not found354545075#121#121#0(6@0"354545075#0#0#0#0#0"0(0#0#0"8604874208#682"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Release -filelist /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessEngine.LinkFileList -mmacosx-version-min=10.6 -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Release/ChessEngine.build/Objects-normal/x86_64/ChessEngine0#
+

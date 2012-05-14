@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* ChessUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ChessUIAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A61C03E915140C4200F7BFBB /* Trackball.c in Sources */ = {isa = PBXBuildFile; fileRef = A61C03E815140C4200F7BFBB /* Trackball.c */; };
+		A62F64CB15180B620054F0A7 /* 3DPieces.c in Sources */ = {isa = PBXBuildFile; fileRef = A62F64CA15180B620054F0A7 /* 3DPieces.c */; };
+		A6573EE71510381600E3C891 /* WindowEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A6573EE61510381600E3C891 /* WindowEventHandler.m */; };
+		A666872214CB1AF000EAC594 /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = A666872114CB1AF000EAC594 /* MyOpenGLView.m */; };
+		A666872714CB33A000EAC594 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A666872614CB33A000EAC594 /* OpenGL.framework */; };
+		A6B048EA151BFCA000A72542 /* Collision.c in Sources */ = {isa = PBXBuildFile; fileRef = A6B048E9151BFCA000A72542 /* Collision.c */; };
+		A6C5F02F1556FE5D00FDA394 /* ChessEngineWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A6C5EF721556D5C000FDA394 /* ChessEngineWrapper.mm */; };
+		A6C5F0961557003200FDA394 /* Bishop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0671557003200FDA394 /* Bishop.cpp */; };
+		A6C5F0971557003200FDA394 /* BoardNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0691557003200FDA394 /* BoardNodes.cpp */; };
+		A6C5F0981557003200FDA394 /* ChessBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F06B1557003200FDA394 /* ChessBoard.cpp */; };
+		A6C5F0991557003200FDA394 /* ChessChromosome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F06D1557003200FDA394 /* ChessChromosome.cpp */; };
+		A6C5F09A1557003200FDA394 /* ChessLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F06F1557003200FDA394 /* ChessLog.cpp */; };
+		A6C5F09B1557003200FDA394 /* ChessMove.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0711557003200FDA394 /* ChessMove.cpp */; };
+		A6C5F09C1557003200FDA394 /* ChessPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0731557003200FDA394 /* ChessPiece.cpp */; };
+		A6C5F09D1557003200FDA394 /* ChessPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0751557003200FDA394 /* ChessPlayer.cpp */; };
+		A6C5F09E1557003200FDA394 /* Constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0771557003200FDA394 /* Constants.cpp */; };
+		A6C5F09F1557003200FDA394 /* King.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0791557003200FDA394 /* King.cpp */; };
+		A6C5F0A01557003200FDA394 /* Knight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F07B1557003200FDA394 /* Knight.cpp */; };
+		A6C5F0A21557003200FDA394 /* MajorPieceNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F07E1557003200FDA394 /* MajorPieceNodes.cpp */; };
+		A6C5F0A31557003200FDA394 /* MinorPieceNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0801557003200FDA394 /* MinorPieceNodes.cpp */; };
+		A6C5F0A41557003200FDA394 /* MoveNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0821557003200FDA394 /* MoveNode.cpp */; };
+		A6C5F0A51557003200FDA394 /* MoveTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0841557003200FDA394 /* MoveTree.cpp */; };
+		A6C5F0A61557003200FDA394 /* NeuralInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0861557003200FDA394 /* NeuralInput.cpp */; };
+		A6C5F0A71557003200FDA394 /* NeuralNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0881557003200FDA394 /* NeuralNode.cpp */; };
+		A6C5F0A81557003200FDA394 /* NeuralRoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F08A1557003200FDA394 /* NeuralRoot.cpp */; };
+		A6C5F0A91557003200FDA394 /* Pawn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F08C1557003200FDA394 /* Pawn.cpp */; };
+		A6C5F0AA1557003200FDA394 /* PawnNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F08E1557003200FDA394 /* PawnNodes.cpp */; };
+		A6C5F0AB1557003200FDA394 /* Queen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0901557003200FDA394 /* Queen.cpp */; };
+		A6C5F0AC1557003200FDA394 /* Rook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0921557003200FDA394 /* Rook.cpp */; };
+		A6C5F0AD1557003200FDA394 /* Tournament.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F0941557003200FDA394 /* Tournament.cpp */; };
+		A6C5F3321557345300FDA394 /* DrawingQueues.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F3311557345300FDA394 /* DrawingQueues.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* ChessUIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessUIAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* ChessUIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessUIAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* ChessUI_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessUI_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* ChessUI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ChessUI-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ChessUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61C03E715140C4200F7BFBB /* Trackball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trackball.h; sourceTree = "<group>"; };
+		A61C03E815140C4200F7BFBB /* Trackball.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Trackball.c; sourceTree = "<group>"; };
+		A62F64C915180B620054F0A7 /* 3DPieces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3DPieces.h; sourceTree = "<group>"; };
+		A62F64CA15180B620054F0A7 /* 3DPieces.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 3DPieces.c; sourceTree = "<group>"; };
+		A6573EE51510381600E3C891 /* WindowEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowEventHandler.h; sourceTree = "<group>"; };
+		A6573EE61510381600E3C891 /* WindowEventHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowEventHandler.m; sourceTree = "<group>"; };
+		A666872014CB1AF000EAC594 /* MyOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		A666872114CB1AF000EAC594 /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+		A666872614CB33A000EAC594 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		A6B048E8151BFCA000A72542 /* Collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collision.h; sourceTree = "<group>"; };
+		A6B048E9151BFCA000A72542 /* Collision.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Collision.c; sourceTree = "<group>"; };
+		A6B0490D151C0E9700A72542 /* CommonInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonInclude.h; sourceTree = "<group>"; };
+		A6C5EF691556D3FF00FDA394 /* ObjectiveCWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCWrapper.h; sourceTree = "<group>"; };
+		A6C5EF711556D5C000FDA394 /* ChessEngineWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessEngineWrapper.h; sourceTree = "<group>"; };
+		A6C5EF721556D5C000FDA394 /* ChessEngineWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChessEngineWrapper.mm; sourceTree = "<group>"; };
+		A6C5F0671557003200FDA394 /* Bishop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Bishop.cpp; path = ChessEngine/Bishop.cpp; sourceTree = "<group>"; };
+		A6C5F0681557003200FDA394 /* Bishop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bishop.h; path = ChessEngine/Bishop.h; sourceTree = "<group>"; };
+		A6C5F0691557003200FDA394 /* BoardNodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BoardNodes.cpp; path = ChessEngine/BoardNodes.cpp; sourceTree = "<group>"; };
+		A6C5F06A1557003200FDA394 /* BoardNodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoardNodes.h; path = ChessEngine/BoardNodes.h; sourceTree = "<group>"; };
+		A6C5F06B1557003200FDA394 /* ChessBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChessBoard.cpp; path = ChessEngine/ChessBoard.cpp; sourceTree = "<group>"; };
+		A6C5F06C1557003200FDA394 /* ChessBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChessBoard.h; path = ChessEngine/ChessBoard.h; sourceTree = "<group>"; };
+		A6C5F06D1557003200FDA394 /* ChessChromosome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChessChromosome.cpp; path = ChessEngine/ChessChromosome.cpp; sourceTree = "<group>"; };
+		A6C5F06E1557003200FDA394 /* ChessChromosome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChessChromosome.h; path = ChessEngine/ChessChromosome.h; sourceTree = "<group>"; };
+		A6C5F06F1557003200FDA394 /* ChessLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChessLog.cpp; path = ChessEngine/ChessLog.cpp; sourceTree = "<group>"; };
+		A6C5F0701557003200FDA394 /* ChessLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChessLog.h; path = ChessEngine/ChessLog.h; sourceTree = "<group>"; };
+		A6C5F0711557003200FDA394 /* ChessMove.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChessMove.cpp; path = ChessEngine/ChessMove.cpp; sourceTree = "<group>"; };
+		A6C5F0721557003200FDA394 /* ChessMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChessMove.h; path = ChessEngine/ChessMove.h; sourceTree = "<group>"; };
+		A6C5F0731557003200FDA394 /* ChessPiece.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChessPiece.cpp; path = ChessEngine/ChessPiece.cpp; sourceTree = "<group>"; };
+		A6C5F0741557003200FDA394 /* ChessPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChessPiece.h; path = ChessEngine/ChessPiece.h; sourceTree = "<group>"; };
+		A6C5F0751557003200FDA394 /* ChessPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChessPlayer.cpp; path = ChessEngine/ChessPlayer.cpp; sourceTree = "<group>"; };
+		A6C5F0761557003200FDA394 /* ChessPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChessPlayer.h; path = ChessEngine/ChessPlayer.h; sourceTree = "<group>"; };
+		A6C5F0771557003200FDA394 /* Constants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Constants.cpp; path = ChessEngine/Constants.cpp; sourceTree = "<group>"; };
+		A6C5F0781557003200FDA394 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ChessEngine/Constants.h; sourceTree = "<group>"; };
+		A6C5F0791557003200FDA394 /* King.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = King.cpp; path = ChessEngine/King.cpp; sourceTree = "<group>"; };
+		A6C5F07A1557003200FDA394 /* King.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = King.h; path = ChessEngine/King.h; sourceTree = "<group>"; };
+		A6C5F07B1557003200FDA394 /* Knight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Knight.cpp; path = ChessEngine/Knight.cpp; sourceTree = "<group>"; };
+		A6C5F07C1557003200FDA394 /* Knight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Knight.h; path = ChessEngine/Knight.h; sourceTree = "<group>"; };
+		A6C5F07E1557003200FDA394 /* MajorPieceNodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MajorPieceNodes.cpp; path = ChessEngine/MajorPieceNodes.cpp; sourceTree = "<group>"; };
+		A6C5F07F1557003200FDA394 /* MajorPieceNodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MajorPieceNodes.h; path = ChessEngine/MajorPieceNodes.h; sourceTree = "<group>"; };
+		A6C5F0801557003200FDA394 /* MinorPieceNodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MinorPieceNodes.cpp; path = ChessEngine/MinorPieceNodes.cpp; sourceTree = "<group>"; };
+		A6C5F0811557003200FDA394 /* MinorPieceNodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinorPieceNodes.h; path = ChessEngine/MinorPieceNodes.h; sourceTree = "<group>"; };
+		A6C5F0821557003200FDA394 /* MoveNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MoveNode.cpp; path = ChessEngine/MoveNode.cpp; sourceTree = "<group>"; };
+		A6C5F0831557003200FDA394 /* MoveNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveNode.h; path = ChessEngine/MoveNode.h; sourceTree = "<group>"; };
+		A6C5F0841557003200FDA394 /* MoveTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MoveTree.cpp; path = ChessEngine/MoveTree.cpp; sourceTree = "<group>"; };
+		A6C5F0851557003200FDA394 /* MoveTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveTree.h; path = ChessEngine/MoveTree.h; sourceTree = "<group>"; };
+		A6C5F0861557003200FDA394 /* NeuralInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NeuralInput.cpp; path = ChessEngine/NeuralInput.cpp; sourceTree = "<group>"; };
+		A6C5F0871557003200FDA394 /* NeuralInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NeuralInput.h; path = ChessEngine/NeuralInput.h; sourceTree = "<group>"; };
+		A6C5F0881557003200FDA394 /* NeuralNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NeuralNode.cpp; path = ChessEngine/NeuralNode.cpp; sourceTree = "<group>"; };
+		A6C5F0891557003200FDA394 /* NeuralNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NeuralNode.h; path = ChessEngine/NeuralNode.h; sourceTree = "<group>"; };
+		A6C5F08A1557003200FDA394 /* NeuralRoot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NeuralRoot.cpp; path = ChessEngine/NeuralRoot.cpp; sourceTree = "<group>"; };
+		A6C5F08B1557003200FDA394 /* NeuralRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NeuralRoot.h; path = ChessEngine/NeuralRoot.h; sourceTree = "<group>"; };
+		A6C5F08C1557003200FDA394 /* Pawn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pawn.cpp; path = ChessEngine/Pawn.cpp; sourceTree = "<group>"; };
+		A6C5F08D1557003200FDA394 /* Pawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pawn.h; path = ChessEngine/Pawn.h; sourceTree = "<group>"; };
+		A6C5F08E1557003200FDA394 /* PawnNodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PawnNodes.cpp; path = ChessEngine/PawnNodes.cpp; sourceTree = "<group>"; };
+		A6C5F08F1557003200FDA394 /* PawnNodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PawnNodes.h; path = ChessEngine/PawnNodes.h; sourceTree = "<group>"; };
+		A6C5F0901557003200FDA394 /* Queen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Queen.cpp; path = ChessEngine/Queen.cpp; sourceTree = "<group>"; };
+		A6C5F0911557003200FDA394 /* Queen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Queen.h; path = ChessEngine/Queen.h; sourceTree = "<group>"; };
+		A6C5F0921557003200FDA394 /* Rook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rook.cpp; path = ChessEngine/Rook.cpp; sourceTree = "<group>"; };
+		A6C5F0931557003200FDA394 /* Rook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rook.h; path = ChessEngine/Rook.h; sourceTree = "<group>"; };
+		A6C5F0941557003200FDA394 /* Tournament.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tournament.cpp; path = ChessEngine/Tournament.cpp; sourceTree = "<group>"; };
+		A6C5F0951557003200FDA394 /* Tournament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tournament.h; path = ChessEngine/Tournament.h; sourceTree = "<group>"; };
+		A6C5F3301557345300FDA394 /* DrawingQueues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingQueues.h; sourceTree = "<group>"; };
+		A6C5F3311557345300FDA394 /* DrawingQueues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingQueues.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				A666872714CB33A000EAC594 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* ChessUIAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* ChessUIAppDelegate.m */,
+				A666872014CB1AF000EAC594 /* MyOpenGLView.h */,
+				A666872114CB1AF000EAC594 /* MyOpenGLView.m */,
+				A6573EE51510381600E3C891 /* WindowEventHandler.h */,
+				A6C5F0661557000100FDA394 /* ChessEngine Source */,
+				A6573EE61510381600E3C891 /* WindowEventHandler.m */,
+				A61C03E715140C4200F7BFBB /* Trackball.h */,
+				A61C03E815140C4200F7BFBB /* Trackball.c */,
+				A62F64C915180B620054F0A7 /* 3DPieces.h */,
+				A62F64CA15180B620054F0A7 /* 3DPieces.c */,
+				A6B048E8151BFCA000A72542 /* Collision.h */,
+				A6B048E9151BFCA000A72542 /* Collision.c */,
+				A6B0490D151C0E9700A72542 /* CommonInclude.h */,
+				A6C5EF691556D3FF00FDA394 /* ObjectiveCWrapper.h */,
+				A6C5EF711556D5C000FDA394 /* ChessEngineWrapper.h */,
+				A6C5EF721556D5C000FDA394 /* ChessEngineWrapper.mm */,
+				A6C5F3301557345300FDA394 /* DrawingQueues.h */,
+				A6C5F3311557345300FDA394 /* DrawingQueues.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ChessUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ChessUI */ = {
+			isa = PBXGroup;
+			children = (
+				A666872614CB33A000EAC594 /* OpenGL.framework */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ChessUI;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* ChessUI_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* ChessUI-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C5F0661557000100FDA394 /* ChessEngine Source */ = {
+			isa = PBXGroup;
+			children = (
+				A6C5F0671557003200FDA394 /* Bishop.cpp */,
+				A6C5F0681557003200FDA394 /* Bishop.h */,
+				A6C5F0691557003200FDA394 /* BoardNodes.cpp */,
+				A6C5F06A1557003200FDA394 /* BoardNodes.h */,
+				A6C5F06B1557003200FDA394 /* ChessBoard.cpp */,
+				A6C5F06C1557003200FDA394 /* ChessBoard.h */,
+				A6C5F06D1557003200FDA394 /* ChessChromosome.cpp */,
+				A6C5F06E1557003200FDA394 /* ChessChromosome.h */,
+				A6C5F06F1557003200FDA394 /* ChessLog.cpp */,
+				A6C5F0701557003200FDA394 /* ChessLog.h */,
+				A6C5F0711557003200FDA394 /* ChessMove.cpp */,
+				A6C5F0721557003200FDA394 /* ChessMove.h */,
+				A6C5F0731557003200FDA394 /* ChessPiece.cpp */,
+				A6C5F0741557003200FDA394 /* ChessPiece.h */,
+				A6C5F0751557003200FDA394 /* ChessPlayer.cpp */,
+				A6C5F0761557003200FDA394 /* ChessPlayer.h */,
+				A6C5F0781557003200FDA394 /* Constants.h */,
+				A6C5F0771557003200FDA394 /* Constants.cpp */,
+				A6C5F0791557003200FDA394 /* King.cpp */,
+				A6C5F07A1557003200FDA394 /* King.h */,
+				A6C5F07B1557003200FDA394 /* Knight.cpp */,
+				A6C5F07C1557003200FDA394 /* Knight.h */,
+				A6C5F07E1557003200FDA394 /* MajorPieceNodes.cpp */,
+				A6C5F07F1557003200FDA394 /* MajorPieceNodes.h */,
+				A6C5F0801557003200FDA394 /* MinorPieceNodes.cpp */,
+				A6C5F0811557003200FDA394 /* MinorPieceNodes.h */,
+				A6C5F0821557003200FDA394 /* MoveNode.cpp */,
+				A6C5F0831557003200FDA394 /* MoveNode.h */,
+				A6C5F0841557003200FDA394 /* MoveTree.cpp */,
+				A6C5F0851557003200FDA394 /* MoveTree.h */,
+				A6C5F0861557003200FDA394 /* NeuralInput.cpp */,
+				A6C5F0871557003200FDA394 /* NeuralInput.h */,
+				A6C5F0881557003200FDA394 /* NeuralNode.cpp */,
+				A6C5F0891557003200FDA394 /* NeuralNode.h */,
+				A6C5F08A1557003200FDA394 /* NeuralRoot.cpp */,
+				A6C5F08B1557003200FDA394 /* NeuralRoot.h */,
+				A6C5F08C1557003200FDA394 /* Pawn.cpp */,
+				A6C5F08D1557003200FDA394 /* Pawn.h */,
+				A6C5F08E1557003200FDA394 /* PawnNodes.cpp */,
+				A6C5F08F1557003200FDA394 /* PawnNodes.h */,
+				A6C5F0901557003200FDA394 /* Queen.cpp */,
+				A6C5F0911557003200FDA394 /* Queen.h */,
+				A6C5F0921557003200FDA394 /* Rook.cpp */,
+				A6C5F0931557003200FDA394 /* Rook.h */,
+				A6C5F0941557003200FDA394 /* Tournament.cpp */,
+				A6C5F0951557003200FDA394 /* Tournament.h */,
+			);
+			name = "ChessEngine Source";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ChessUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ChessUI" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessUI;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ChessUI;
+			productReference = 8D1107320486CEB800E47090 /* ChessUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ChessUI" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ChessUI */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ChessUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* ChessUIAppDelegate.m in Sources */,
+				A666872214CB1AF000EAC594 /* MyOpenGLView.m in Sources */,
+				A6573EE71510381600E3C891 /* WindowEventHandler.m in Sources */,
+				A61C03E915140C4200F7BFBB /* Trackball.c in Sources */,
+				A62F64CB15180B620054F0A7 /* 3DPieces.c in Sources */,
+				A6B048EA151BFCA000A72542 /* Collision.c in Sources */,
+				A6C5F02F1556FE5D00FDA394 /* ChessEngineWrapper.mm in Sources */,
+				A6C5F0961557003200FDA394 /* Bishop.cpp in Sources */,
+				A6C5F0971557003200FDA394 /* BoardNodes.cpp in Sources */,
+				A6C5F0981557003200FDA394 /* ChessBoard.cpp in Sources */,
+				A6C5F0991557003200FDA394 /* ChessChromosome.cpp in Sources */,
+				A6C5F09A1557003200FDA394 /* ChessLog.cpp in Sources */,
+				A6C5F09B1557003200FDA394 /* ChessMove.cpp in Sources */,
+				A6C5F09C1557003200FDA394 /* ChessPiece.cpp in Sources */,
+				A6C5F09D1557003200FDA394 /* ChessPlayer.cpp in Sources */,
+				A6C5F09E1557003200FDA394 /* Constants.cpp in Sources */,
+				A6C5F09F1557003200FDA394 /* King.cpp in Sources */,
+				A6C5F0A01557003200FDA394 /* Knight.cpp in Sources */,
+				A6C5F0A21557003200FDA394 /* MajorPieceNodes.cpp in Sources */,
+				A6C5F0A31557003200FDA394 /* MinorPieceNodes.cpp in Sources */,
+				A6C5F0A41557003200FDA394 /* MoveNode.cpp in Sources */,
+				A6C5F0A51557003200FDA394 /* MoveTree.cpp in Sources */,
+				A6C5F0A61557003200FDA394 /* NeuralInput.cpp in Sources */,
+				A6C5F0A71557003200FDA394 /* NeuralNode.cpp in Sources */,
+				A6C5F0A81557003200FDA394 /* NeuralRoot.cpp in Sources */,
+				A6C5F0A91557003200FDA394 /* Pawn.cpp in Sources */,
+				A6C5F0AA1557003200FDA394 /* PawnNodes.cpp in Sources */,
+				A6C5F0AB1557003200FDA394 /* Queen.cpp in Sources */,
+				A6C5F0AC1557003200FDA394 /* Rook.cpp in Sources */,
+				A6C5F0AD1557003200FDA394 /* Tournament.cpp in Sources */,
+				A6C5F3321557345300FDA394 /* DrawingQueues.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ChessUI_Prefix.pch;
+				INFOPLIST_FILE = "ChessUI-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ChessUI;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ChessUI_Prefix.pch;
+				INFOPLIST_FILE = "ChessUI-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ChessUI;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ChessUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ChessUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

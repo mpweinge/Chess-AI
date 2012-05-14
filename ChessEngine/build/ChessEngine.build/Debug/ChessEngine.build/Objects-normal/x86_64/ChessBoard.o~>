@@ -1,0 +1,18 @@
+In file included from /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.h:15,
+                 from /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp:10:
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.h: In member function 'ChessMove* ChessMove::Copy()':
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.h:121: warning: format '%i' expects type 'int', but argument 2 has type 'ChessMove*'
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp: In member function 'int ChessBoard::Castle(ChessPiece*, ChessPiece*, bool, int)':
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp:209: warning: format '%i' expects type 'int', but argument 2 has type 'ChessMove*'
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp: In member function 'int ChessBoard::MovePiece(ChessPiece*, int, int)':
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp:302: warning: format '%i' expects type 'int', but argument 2 has type 'ChessMove*'
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp: In member function 'void ChessBoard::MakeCapture(ChessPiece*, const Move&)':
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp:665: warning: format '%i' expects type 'int', but argument 2 has type 'ChessMove*'
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp: In member function 'void ChessBoard::EnPassantCapture(ChessPiece*, const Move&, const Move&)':
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp:734: warning: format '%i' expects type 'int', but argument 2 has type 'ChessMove*'
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp: In member function 'void ChessBoard::PromotePawn(Pawn*, const Move*, char)':
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp:851: warning: format '%i' expects type 'int', but argument 2 has type 'ChessMove*'
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp:863: warning: format '%i' expects type 'int', but argument 2 has type 'ChessMove*'
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp: In member function 'int ChessBoard::CalculateScore(const Chromosome*)':
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp:1021: warning: unused variable 'WhiteKing'
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessBoard.cpp:1022: warning: unused variable 'BlackKing'

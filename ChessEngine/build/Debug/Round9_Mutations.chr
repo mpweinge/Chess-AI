@@ -1,0 +1,4 @@
+New Chromosome: 1000One Parent: 902No Crossover No Mutation
+New Chromosome: 1001One Parent: 903No Crossover No Mutation
+New Chromosome: 1002Parent 1: 903Parent 2: 902 ParentCrossover: Arithmetic MutateMutation Bit String MutateIndex 4
+New Chromosome: 1003One Parent: 901No Crossover No Mutation

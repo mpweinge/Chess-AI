@@ -1,0 +1,1676 @@
+TChessUI
+v7
+r0
+t358441139.119356
+cCheck dependencies
+cProcessInfoPlistFile /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Info.plist ChessUI-Info.plist
+cCopyStringsFile /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/Mikey/Desktop/ChessUI/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch.gch ChessUI_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-guhgczotaknjqcbozskdzkifwisn/ChessUI_Prefix.pch.gch ChessUI_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-ftbcqtioqqagcvchpurxvvznmxfb/ChessUI_Prefix.pch.gch ChessUI_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch.gch ChessUI_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main.o /Users/Mikey/Desktop/ChessUI/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUIAppDelegate.o /Users/Mikey/Desktop/ChessUI/ChessUIAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o /Users/Mikey/Desktop/ChessUI/MyOpenGLView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/WindowEventHandler.o /Users/Mikey/Desktop/ChessUI/WindowEventHandler.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Trackball.o /Users/Mikey/Desktop/ChessUI/Trackball.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/3DPieces.o /Users/Mikey/Desktop/ChessUI/3DPieces.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Collision.o /Users/Mikey/Desktop/ChessUI/Collision.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessEngineWrapper.o /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Bishop.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Bishop.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/BoardNodes.o /Users/Mikey/Desktop/ChessUI/ChessEngine/BoardNodes.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessBoard.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessBoard.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessChromosome.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessLog.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessLog.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessMove.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessMove.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessPiece.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPiece.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessPlayer.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPlayer.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Constants.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Constants.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/King.o /Users/Mikey/Desktop/ChessUI/ChessEngine/King.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Knight.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Knight.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MajorPieceNodes.o /Users/Mikey/Desktop/ChessUI/ChessEngine/MajorPieceNodes.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MinorPieceNodes.o /Users/Mikey/Desktop/ChessUI/ChessEngine/MinorPieceNodes.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MoveNode.o /Users/Mikey/Desktop/ChessUI/ChessEngine/MoveNode.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MoveTree.o /Users/Mikey/Desktop/ChessUI/ChessEngine/MoveTree.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralInput.o /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralInput.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralNode.o /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralNode.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralRoot.o /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralRoot.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Pawn.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Pawn.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/PawnNodes.o /Users/Mikey/Desktop/ChessUI/ChessEngine/PawnNodes.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Queen.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Queen.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Rook.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Rook.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Tournament.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Tournament.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/DrawingQueues.o /Users/Mikey/Desktop/ChessUI/DrawingQueues.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI normal x86_64
+cTouch /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BD2501F0000000000025B59
+t1272074271
+s154457
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BD2501F0000000000003F84
+t1272074271
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/execinfo.h
+c000000004BBD2CE900000000000004BE
+t1270689001
+s1214
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004EDEBFD00000000000043360
+t1323220944
+s275296
+
+N/Users/Mikey/Desktop/ChessUI/3DPieces.c
+c000000004FA7D3E00000000000004D8D
+t1336398816
+s19853
+i"3DPieces.h"
+i"assert.h"
+i<math.h>
+
+N/Users/Mikey/Desktop/ChessUI/3DPieces.h
+c000000004F89F86400000000000005C9
+t1334442084
+s1481
+i"CommonInclude.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Bishop.cpp
+c000000004FA7D02E0000000000002A96
+t1336397870
+s10902
+i"Bishop.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Bishop.h
+c000000004F98B16900000000000008DE
+t1335406953
+s2270
+i"ChessPiece.h"
+i"ChessBoard.h"
+i"assert.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/BoardNodes.cpp
+c000000004F876539000000000000023D
+t1334273337
+s573
+i"BoardNodes.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/BoardNodes.h
+c000000004F87653900000000000007CA
+t1334273337
+s1994
+i"NeuralNode.h"
+i"Constants.h"
+i<vector>
+i"NeuralInput.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessBoard.cpp
+c000000004FAC800F0000000000009F53
+t1336705039
+s40787
+i"ChessBoard.h"
+i<iostream>
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessBoard.h
+c000000004FABBD370000000000000E8E
+t1336655159
+s3726
+i"Constants.h"
+i<vector>
+i"ChessMove.h"
+i"ChessPiece.h"
+i"Constants.h"
+i"ChessLog.h"
+i"ChessPlayer.h"
+i<stdio.h>
+i<stdlib.h>
+i"Pawn.h"
+i"ChessChromosome.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp
+c000000004F8CB27900000000000018A1
+t1334620793
+s6305
+i"ChessChromosome.h"
+i"assert.h"
+i<string>
+i<math.h>
+i"ChessBoard.h"
+i<fstream>
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.h
+c000000004F8F517E0000000000000FCE
+t1334792574
+s4046
+i"Constants.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessLog.cpp
+c000000004F98BD620000000000000843
+t1335410018
+s2115
+i"ChessLog.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessLog.h
+c000000004FAD292C00000000000004E3
+t1336748332
+s1251
+i"ChessMove.h"
+i"ChessPlayer.h"
+i"Constants.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessMove.cpp
+c000000004FA80F550000000000000F76
+t1336414037
+s3958
+i"ChessMove.h"
+i"ChessLog.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessMove.h
+c000000004FAC868E0000000000000F96
+t1336706702
+s3990
+i"assert.h"
+i"Constants.h"
+i<stdio.h>
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPiece.cpp
+c000000004F939BBD000000000000276F
+t1335073725
+s10095
+i"ChessPiece.h"
+i"ChessPlayer.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPiece.h
+c000000004F98C0C70000000000000B7D
+t1335410887
+s2941
+i"Constants.h"
+i"ChessMove.h"
+i<vector>
+i<string>
+i"ChessChromosome.h"
+i<typeinfo>
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPlayer.cpp
+c000000004FA9CE3E0000000000004B63
+t1336528446
+s19299
+i"ChessPlayer.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPlayer.h
+c000000004F98BB0A000000000000273F
+t1335409418
+s10047
+i"ChessMove.h"
+i"Constants.h"
+i"ChessPiece.h"
+i"ChessBoard.h"
+i<vector>
+i"Rook.h"
+i"Bishop.h"
+i"Knight.h"
+i"Pawn.h"
+i"Queen.h"
+i"King.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Constants.cpp
+c000000004F9487BA000000000000023C
+t1335134138
+s572
+i"Constants.h"
+i"ChessBoard.h"
+i"ChessLog.h"
+i<execinfo.h>
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Constants.h
+c000000004FAC81C50000000000001157
+t1336705477
+s4439
+i<assert.h>
+i<stdlib.h>
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/King.cpp
+c000000004FA7D02E00000000000026C5
+t1336397870
+s9925
+i"King.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/King.h
+c000000004F98BA210000000000000A2C
+t1335409185
+s2604
+i"ChessPiece.h"
+i"ChessBoard.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Knight.cpp
+c000000004FA7CFBA0000000000002B7B
+t1336397754
+s11131
+i"Knight.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Knight.h
+c000000004F98BA130000000000000A32
+t1335409171
+s2610
+i"ChessPiece.h"
+i"ChessBoard.h"
+i"Constants.h"
+i"assert.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/MajorPieceNodes.cpp
+c000000004F87653A00000000000005F8
+t1334273338
+s1528
+i"MajorPieceNodes.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/MajorPieceNodes.h
+c000000004F8A2F550000000000002C99
+t1334456149
+s11417
+i"NeuralNode.h"
+i"Constants.h"
+i<vector>
+i"NeuralInput.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/MinorPieceNodes.cpp
+c000000004F87653A00000000000005CF
+t1334273338
+s1487
+i"MinorPieceNodes.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/MinorPieceNodes.h
+c000000004F8A2F55000000000000218E
+t1334456149
+s8590
+i"NeuralNode.h"
+i"Constants.h"
+i<vector>
+i"NeuralInput.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/MoveNode.cpp
+c000000004FAC80CD0000000000000DA9
+t1336705229
+s3497
+i"MoveNode.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/MoveNode.h
+c000000004F9B50CD0000000000000C12
+t1335578829
+s3090
+i"ChessMove.h"
+i"ChessBoard.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/MoveTree.cpp
+c000000004FAD0C150000000000005E88
+t1336740885
+s24200
+i"MoveTree.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/MoveTree.h
+c000000004F9B71A50000000000000871
+t1335587237
+s2161
+i"MoveNode.h"
+i"ChessMove.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralInput.cpp
+c000000004F87653A00000000000000B4
+t1334273338
+s180
+i"NeuralInput.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralInput.h
+c000000004F87653A000000000000075F
+t1334273338
+s1887
+i"Constants.h"
+i<vector>
+i"Knight.h"
+i"Bishop.h"
+i"Queen.h"
+i"King.h"
+i"Pawn.h"
+i"Rook.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralNode.cpp
+c000000004F87653A000000000000025E
+t1334273338
+s606
+i"NeuralNode.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralNode.h
+c000000004F87653A00000000000005D4
+t1334273338
+s1492
+i"Constants.h"
+i"NeuralInput.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralRoot.cpp
+c000000004F87653A000000000000134E
+t1334273338
+s4942
+i"NeuralRoot.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralRoot.h
+c000000004F87653A00000000000005C2
+t1334273338
+s1474
+i"NeuralNode.h"
+i<vector>
+i"NeuralInput.h"
+i"ChessPlayer.h"
+i"MinorPieceNodes.h"
+i"MajorPieceNodes.h"
+i"BoardNodes.h"
+i"PawnNodes.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Pawn.cpp
+c000000004FA9CC9D0000000000004B16
+t1336528029
+s19222
+i"Pawn.h"
+i"ChessMove.h"
+i"math.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Pawn.h
+c000000004F98BA74000000000000099D
+t1335409268
+s2461
+i"ChessPiece.h"
+i"ChessBoard.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/PawnNodes.cpp
+c000000004F87653A00000000000002B4
+t1334273338
+s692
+i"PawnNodes.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/PawnNodes.h
+c000000004F87653A00000000000009D0
+t1334273338
+s2512
+i"NeuralNode.h"
+i<vector>
+i"Constants.h"
+i"ChessBoard.h"
+i"NeuralInput.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Queen.cpp
+c000000004FA7D02E0000000000003CBE
+t1336397870
+s15550
+i"Queen.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Queen.h
+c000000004F98BA210000000000000987
+t1335409185
+s2439
+i"ChessPiece.h"
+i"ChessBoard.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Rook.cpp
+c000000004FA7D0220000000000002AD4
+t1336397858
+s10964
+i"Rook.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Rook.h
+c000000004F98BA2100000000000009C5
+t1335409185
+s2501
+i"ChessPiece.h"
+i"ChessBoard.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Tournament.cpp
+c000000004FAABA7B0000000000003178
+t1336588923
+s12664
+i"Tournament.h"
+i<fstream>
+i"Constants.h"
+i<stdio.h>
+i<iostream>
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/Tournament.h
+c000000004F8E28490000000000000726
+t1334716489
+s1830
+i"ChessChromosome.h"
+i"ChessBoard.h"
+i"MoveTree.h"
+i"Constants.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngine/main.cpp
+c000000004FA6BCC600000000000030F9
+t1336327366
+s12537
+i<iostream>
+i"ChessPlayer.h"
+i"ChessBoard.h"
+i<vector>
+i"Constants.h"
+i<stdio.h>
+i"MoveTree.h"
+i"ChessChromosome.h"
+i"Tournament.h"
+i<fstream>
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.h
+c000000004FAC6FCE00000000000005A8
+t1336700878
+s1448
+i<Cocoa/Cocoa.h>
+i"DrawingQueues.h"
+i"ObjectiveCWrapper.h"
+i"MyOpenGLView.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm
+c000000004FAD0C21000000000000419B
+t1336740897
+s16795
+i"ChessEngineWrapper.h"
+i"./ChessEngine/ChessBoard.h"
+i"./ChessEngine/MoveTree.h"
+i"MyOpenGLView.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessUIAppDelegate.h
+c000000004FAC2BAA0000000000000425
+t1336683434
+s1061
+i<Cocoa/Cocoa.h>
+i"MyOpenGLView.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessUIAppDelegate.m
+c000000004FAD0C4F00000000000008D3
+t1336740943
+s2259
+i"ChessUIAppDelegate.h"
+i"ChessEngineWrapper.h"
+
+N/Users/Mikey/Desktop/ChessUI/ChessUI_Prefix.pch
+c000000004F581FC90000000000000091
+t1331175369
+s145
+i<Cocoa/Cocoa.h>
+
+N/Users/Mikey/Desktop/ChessUI/Collision.c
+c000000004F6F3A4F0000000000000BE2
+t1332689487
+s3042
+i"Collision.h"
+i"3DPieces.h"
+
+N/Users/Mikey/Desktop/ChessUI/Collision.h
+c000000004F6F3A38000000000000010E
+t1332689464
+s270
+i"CommonInclude.h"
+i"math.h"
+
+N/Users/Mikey/Desktop/ChessUI/CommonInclude.h
+c000000004FAC746B0000000000000186
+t1336702059
+s390
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+
+N/Users/Mikey/Desktop/ChessUI/DrawingQueues.h
+c000000004FAABC5C000000000000036E
+t1336589404
+s878
+i<Cocoa/Cocoa.h>
+
+N/Users/Mikey/Desktop/ChessUI/DrawingQueues.m
+c000000004FA733C20000000000000594
+t1336357826
+s1428
+i"DrawingQueues.h"
+
+N/Users/Mikey/Desktop/ChessUI/English.lproj/InfoPlist.strings
+c000000004F581FC9000000000000002D
+t1331175369
+s45
+
+N/Users/Mikey/Desktop/ChessUI/English.lproj/MainMenu.xib
+c000000004FAD0C880000000000032CAD
+t1336741000
+s208045
+
+N/Users/Mikey/Desktop/ChessUI/MyOpenGLView.h
+c000000004FA6FE20000000000000080B
+t1336344096
+s2059
+i"CommonInclude.h"
+i"ObjectiveCWrapper.h"
+i"DrawingQueues.h"
+
+N/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m
+c000000004FAACB8A0000000000007A32
+t1336593290
+s31282
+i<Cocoa/Cocoa.h>
+i"MyOpenGLView.h"
+i"Trackball.h"
+i"3DPieces.h"
+i"Collision.h"
+i"ChessEngineWrapper.h"
+
+N/Users/Mikey/Desktop/ChessUI/ObjectiveCWrapper.h
+c000000004FA6EDC1000000000000015C
+t1336339905
+s348
+
+N/Users/Mikey/Desktop/ChessUI/Trackball.c
+c000000004F63D55900000000000027FA
+t1331942745
+s10234
+i"Trackball.h"
+i"trackball.h"
+i<math.h>
+
+N/Users/Mikey/Desktop/ChessUI/Trackball.h
+c000000004F63D5590000000000000EAF
+t1331942745
+s3759
+
+N/Users/Mikey/Desktop/ChessUI/WindowEventHandler.h
+c000000004F6BD8AB00000000000000E6
+t1332467883
+s230
+
+N/Users/Mikey/Desktop/ChessUI/WindowEventHandler.m
+c000000004F613D2F00000000000000B5
+t1331772719
+s181
+i"WindowEventHandler.h"
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/3DPieces.o
+t1336702065
+s37960
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Bishop.o
+t1336706714
+s125920
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/BoardNodes.o
+t1336706715
+s75640
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessBoard.o
+t1336748335
+s258940
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessChromosome.o
+t1336748336
+s94332
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessEngineWrapper.o
+t1336748335
+s238472
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessLog.o
+t1336748335
+s70836
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessMove.o
+t1336748336
+s74576
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessPiece.o
+t1336706717
+s69084
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessPlayer.o
+t1336706717
+s184612
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUI.LinkFileList
+c000000004FA6FE480000000000000CFC
+t1336344136
+s3324
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUIAppDelegate.o
+t1336740986
+s46368
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Collision.o
+t1336702065
+s4084
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Constants.o
+t1336748336
+s17344
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/DrawingQueues.o
+t1336589405
+s20348
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/King.o
+t1336706717
+s127004
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Knight.o
+t1336706717
+s127664
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MajorPieceNodes.o
+t1336706718
+s159928
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MinorPieceNodes.o
+t1336706718
+s154876
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MoveNode.o
+t1336748336
+s92688
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MoveTree.o
+t1336748337
+s193844
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o
+t1336702064
+s86564
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralInput.o
+t1336706719
+s15444
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralNode.o
+t1336706719
+s24324
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralRoot.o
+t1336748337
+s325080
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Pawn.o
+t1336706720
+s135072
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/PawnNodes.o
+t1336748337
+s102764
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Queen.o
+t1336706721
+s129032
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Rook.o
+t1336706721
+s125644
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Tournament.o
+t1336748338
+s310432
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Trackball.o
+t1331942746
+s8596
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/WindowEventHandler.o
+t1332467884
+s4172
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main-86BCC60ECD9E715A.o
+t1336330432
+s242240
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main-B9843B6026D6EFA4.o
+t1336330428
+s4968
+
+N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main.o
+t1331690355
+s4968
+
+N/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app
+t1336748339
+s102
+
+N/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Info.plist
+t1331175369
+s886
+
+N/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI
+t1336748339
+s681920
+
+N/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/PkgInfo
+t1331175369
+s8
+
+N/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1331175369
+s92
+
+N/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/MainMenu.nib
+t1336741002
+s39488
+
+N/Users/Mikey/Desktop/ChessUI/main.m
+c000000004F581FC90000000000000102
+t1331175369
+s258
+i<Cocoa/Cocoa.h>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/ChessUIAppDelegate.h
+c000000004F1AE1C40000000000000140
+t1327161796
+s320
+i<Cocoa/Cocoa.h>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/ChessUIAppDelegate.m
+c000000004F1AE1C40000000000000175
+t1327161796
+s373
+i"ChessUIAppDelegate.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/ChessUI_Prefix.pch
+c000000004F1AE1C40000000000000091
+t1327161796
+s145
+i<Cocoa/Cocoa.h>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/English.lproj/InfoPlist.strings
+c000000004F1AE1C3000000000000002D
+t1327161795
+s45
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/English.lproj/MainMenu.xib
+c000000004F1C8E0C000000000002D60D
+t1327271436
+s185869
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/MyOpenGLView.h
+c000000004F1AFCF30000000000000101
+t1327168755
+s257
+i<Cocoa/Cocoa.h>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/MyOpenGLView.m
+c000000004F1C90330000000000002C48
+t1327271987
+s11336
+i"MyOpenGLView.h"
+i<OpenGL/gl.h>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUI.LinkFileList
+c000000004F1AFC7B00000000000001AE
+t1327168635
+s430
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUIAppDelegate.o
+t1327168640
+s21160
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o
+t1327271989
+s38008
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main.o
+t1327168640
+s5048
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app
+t1327271989
+s102
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/Info.plist
+t1327168635
+s886
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI
+t1327271989
+s29376
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/PkgInfo
+t1327168635
+s8
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1327168635
+s92
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/MainMenu.nib
+t1327271441
+s35102
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/main.m
+c000000004F1AE1C40000000000000102
+t1327161796
+s258
+i<Cocoa/Cocoa.h>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/ChessUIAppDelegate.h
+c000000004F581FC90000000000000140
+t1331175369
+s320
+i<Cocoa/Cocoa.h>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/ChessUIAppDelegate.m
+c000000004F581FC90000000000000175
+t1331175369
+s373
+i"ChessUIAppDelegate.h"
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/ChessUI_Prefix.pch
+c000000004F581FC90000000000000091
+t1331175369
+s145
+i<Cocoa/Cocoa.h>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/English.lproj/InfoPlist.strings
+c000000004F581FC9000000000000002D
+t1331175369
+s45
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/English.lproj/MainMenu.xib
+c000000004F581FC9000000000002D60D
+t1331175369
+s185869
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/MyOpenGLView.h
+c000000004F581FC90000000000000101
+t1331175369
+s257
+i<Cocoa/Cocoa.h>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/MyOpenGLView.m
+c000000004F581FC90000000000002C48
+t1331175369
+s11336
+i"MyOpenGLView.h"
+i<OpenGL/gl.h>
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUI.LinkFileList
+c000000004F581FC900000000000001AE
+t1331175369
+s430
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUIAppDelegate.o
+t1331175369
+s21160
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o
+t1331175369
+s38008
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main.o
+t1331175369
+s5048
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/Debug/ChessUI.app
+t1331175369
+s102
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/Debug/ChessUI.app/Contents/Info.plist
+t1331175369
+s886
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI
+t1331175369
+s29376
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/Debug/ChessUI.app/Contents/PkgInfo
+t1331175369
+s8
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1331175369
+s92
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/MainMenu.nib
+t1331175369
+s35102
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/main.m
+c000000004F581FC90000000000000102
+t1331175369
+s258
+i<Cocoa/Cocoa.h>
+
+N/var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch.gch
+t1331690355
+s54306576
+
+N/var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-clqmkzlotvthohczngcgfnidkheq/ChessUI_Prefix.pch.gch
+t1327168640
+s54306576
+
+N/var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-ftbcqtioqqagcvchpurxvvznmxfb/ChessUI_Prefix.pch.gch
+t1336329972
+s58648208
+
+N/var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-guhgczotaknjqcbozskdzkifwisn/ChessUI_Prefix.pch.gch
+t1331942745
+s2195824
+
+N/var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch.gch
+t1336330428
+s2523504
+
+N/var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-hhlqqcbqkzahmohhpziarppdvcab/ChessUI_Prefix.pch.gch
+t2
+s0
+
+NChessUI-Info.plist
+c000000004F581FC900000000000003EA
+t1331175369
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies358441134#358441134#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/3DPieces.o /Users/Mikey/Desktop/ChessUI/3DPieces.c normal x86_64 c com.apple.compilers.gcc.4_2
+s358394864.444609
+e358394865.164902
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/3DPieces.o
+x/Users/Mikey/Desktop/ChessUI/3DPieces.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/Mikey/Desktop/ChessUI/3DPieces.c358394864#358394865#0(0"0(0#0#39"/Users/Mikey/Desktop/ChessUI/3DPieces.c8623087360#1338"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-guhgczotaknjqcbozskdzkifwisn/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/3DPieces.c -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/3DPieces.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Bishop.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Bishop.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399514.178967
+e358399514.863788
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Bishop.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/Bishop.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/Bishop.cpp358399514#358399514#0(0"0(0#0#51"/Users/Mikey/Desktop/ChessUI/ChessEngine/Bishop.cpp8646910880#1367"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/Bishop.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Bishop.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/BoardNodes.o /Users/Mikey/Desktop/ChessUI/ChessEngine/BoardNodes.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399514.863886
+e358399515.517096
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/BoardNodes.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/BoardNodes.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/BoardNodes.cpp358399514#358399515#0(0"0(0#0#55"/Users/Mikey/Desktop/ChessUI/ChessEngine/BoardNodes.cpp8640799680#1375"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/BoardNodes.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/BoardNodes.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessBoard.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessBoard.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358441134.103490
+e358441135.626030
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessBoard.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessBoard.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessBoard.cpp358441134#358441135#0(0"0(0#0#55"/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessBoard.cpp8618517760#1375"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessBoard.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessBoard.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessChromosome.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358441135.590690
+e358441136.203367
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessChromosome.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp358441135#358441136#0(0"0(0#0#60"/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp8612850016#1385"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessChromosome.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessEngineWrapper.o /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+s358441134.082163
+e358441135.590531
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessEngineWrapper.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In member function 'void CImplement::PlayMatch()':
+o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:394: warning: unused variable 'threadError'
+o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:450: warning: unused variable 'threadError'
+o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void -[ChessEngineWrapper GenerateTree](ChessEngineWrapper*, objc_selector*)':
+o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:605: warning: unused variable 'threadError'
+o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine2(void*)':
+o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:636: warning: control reaches end of non-void function
+o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':
+o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:595: warning: control reaches end of non-void function
+lSLF07#2@58"Compile /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358441134#358441135#0(952"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In member function 'void CImplement::PlayMatch()':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:394: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:450: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void -[ChessEngineWrapper GenerateTree](ChessEngineWrapper*, objc_selector*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:605: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine2(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:636: warning: control reaches end of non-void function/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:595: warning: control reaches end of non-void function5(22@29"Unused variable 'threadError'358441135#103#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358433697#394#0#394#0#19"unused variable '*'0(22@29"Unused variable 'threadError'358441135#198#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358433697#450#0#450#0#19"unused variable '*'0(22@29"Unused variable 'threadError'358441135#437#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358433697#605#0#605#0#19"unused variable '*'0(22@40"Control reaches end of non-void function358441135#636#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358433697#636#0#636#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function358441135#846#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358433697#595#0#595#0#40"control reaches end of non-void function0(0#0#50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm3401403401131030528#1388"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-ftbcqtioqqagcvchpurxvvznmxfb/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessEngineWrapper.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessLog.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessLog.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358441135.626128
+e358441135.953479
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessLog.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessLog.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessLog.cpp358441135#358441135#0(0"0(0#0#53"/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessLog.cpp8612498592#1371"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessLog.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessLog.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessMove.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessMove.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358441135.953573
+e358441136.310904
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessMove.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessMove.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessMove.cpp358441135#358441136#0(0"0(0#0#54"/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessMove.cpp8622862944#1373"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessMove.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessMove.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessPiece.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPiece.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399516.698536
+e358399517.111467
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessPiece.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPiece.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPiece.cpp358399516#358399517#0(0"0(0#0#55"/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPiece.cpp8640680000#1375"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPiece.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessPiece.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessPlayer.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPlayer.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399516.712119
+e358399517.396553
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessPlayer.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPlayer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPlayer.cpp358399516#358399517#0(0"0(0#0#56"/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPlayer.cpp8640099296#1377"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessPlayer.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessPlayer.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUIAppDelegate.o /Users/Mikey/Desktop/ChessUI/ChessUIAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s358433786.282205
+e358433786.698767
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUIAppDelegate.o
+x/Users/Mikey/Desktop/ChessUI/ChessUIAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Mikey/Desktop/ChessUI/ChessUIAppDelegate.m358433786#358433786#0(0"0(0#0#49"/Users/Mikey/Desktop/ChessUI/ChessUIAppDelegate.m8626416736#1368"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessUIAppDelegate.m -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUIAppDelegate.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUIAppDelegate.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/ChessUIAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s348861440.343503
+e348861440.680470
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUIAppDelegate.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/ChessUIAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/ChessUIAppDelegate.m348861440#348861440#0(0"0(0#0#87"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/ChessUIAppDelegate.m8621335744#1788"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-clqmkzlotvthohczngcgfnidkheq/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/ChessUIAppDelegate.m -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUIAppDelegate.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUIAppDelegate.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/ChessUIAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Collision.o /Users/Mikey/Desktop/ChessUI/Collision.c normal x86_64 c com.apple.compilers.gcc.4_2
+s358394864.692401
+e358394865.062076
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Collision.o
+x/Users/Mikey/Desktop/ChessUI/Collision.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/Mikey/Desktop/ChessUI/Collision.c358394864#358394865#0(0"0(0#0#40"/Users/Mikey/Desktop/ChessUI/Collision.c8639419776#1340"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-guhgczotaknjqcbozskdzkifwisn/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/Collision.c -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Collision.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Constants.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Constants.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358441136.203613
+e358441136.543299
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Constants.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/Constants.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/Constants.cpp358441136#358441136#0(0"0(0#0#54"/Users/Mikey/Desktop/ChessUI/ChessEngine/Constants.cpp8612339264#1373"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/Constants.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Constants.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/DrawingQueues.o /Users/Mikey/Desktop/ChessUI/DrawingQueues.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s358282204.996898
+e358282205.247884
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/DrawingQueues.o
+x/Users/Mikey/Desktop/ChessUI/DrawingQueues.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/Mikey/Desktop/ChessUI/DrawingQueues.m358282204#358282205#0(0"0(0#0#44"/Users/Mikey/Desktop/ChessUI/DrawingQueues.m8620050336#1358"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/DrawingQueues.m -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/DrawingQueues.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/King.o /Users/Mikey/Desktop/ChessUI/ChessEngine/King.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399517.396651
+e358399517.909563
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/King.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/King.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/King.cpp358399517#358399517#0(0"0(0#0#49"/Users/Mikey/Desktop/ChessUI/ChessEngine/King.cpp8641288032#1363"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/King.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/King.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Knight.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Knight.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399517.486731
+e358399517.962009
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Knight.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/Knight.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/Knight.cpp358399517#358399517#0(0"0(0#0#51"/Users/Mikey/Desktop/ChessUI/ChessEngine/Knight.cpp8640207680#1367"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/Knight.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Knight.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MajorPieceNodes.o /Users/Mikey/Desktop/ChessUI/ChessEngine/MajorPieceNodes.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399517.910096
+e358399518.453814
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MajorPieceNodes.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/MajorPieceNodes.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/MajorPieceNodes.cpp358399517#358399518#0(0"0(0#0#60"/Users/Mikey/Desktop/ChessUI/ChessEngine/MajorPieceNodes.cpp8642587520#1385"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/MajorPieceNodes.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MajorPieceNodes.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MinorPieceNodes.o /Users/Mikey/Desktop/ChessUI/ChessEngine/MinorPieceNodes.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399517.962106
+e358399518.483781
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MinorPieceNodes.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/MinorPieceNodes.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/MinorPieceNodes.cpp358399517#358399518#0(0"0(0#0#60"/Users/Mikey/Desktop/ChessUI/ChessEngine/MinorPieceNodes.cpp8641046752#1385"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/MinorPieceNodes.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MinorPieceNodes.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MoveNode.o /Users/Mikey/Desktop/ChessUI/ChessEngine/MoveNode.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358441136.311285
+e358441136.715725
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MoveNode.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/MoveNode.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/MoveNode.cpp358441136#358441136#0(0"0(0#0#53"/Users/Mikey/Desktop/ChessUI/ChessEngine/MoveNode.cpp8606766336#1371"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/MoveNode.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MoveNode.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MoveTree.o /Users/Mikey/Desktop/ChessUI/ChessEngine/MoveTree.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358441136.543395
+e358441137.118430
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MoveTree.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/MoveTree.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/MoveTree.cpp358441136#358441137#0(0"0(0#0#53"/Users/Mikey/Desktop/ChessUI/ChessEngine/MoveTree.cpp8613389280#1371"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/MoveTree.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MoveTree.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o /Users/Mikey/Desktop/ChessUI/MyOpenGLView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s358394864.096205
+e358394864.692277
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o
+x/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m: In function '+[MyOpenGLView basicPixelFormat]':
+o/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m:166: warning: cast from pointer to integer of different size
+lSLF07#2@51"Compile /Users/Mikey/Desktop/ChessUI/MyOpenGLView.m358394864#358394864#0(198"/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m: In function '+[MyOpenGLView basicPixelFormat]':/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m:166: warning: cast from pointer to integer of different size1(22@46"Cast from pointer to integer of different size358394864#93#105#0(6@43"/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m358286090#166#0#166#0#46"cast from pointer to integer of different size0(0#0#43"/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m8636068736#1356"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/MyOpenGLView.m -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/MyOpenGLView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s348964788.604170
+e348964789.057444
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/MyOpenGLView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/MyOpenGLView.m: In function 'drawAnObject':
+o/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/MyOpenGLView.m:31: warning: unused variable 'ret'
+lSLF07#2@89"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/MyOpenGLView.m348964788#348964789#0(228"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/MyOpenGLView.m: In function 'drawAnObject':/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/MyOpenGLView.m:31: warning: unused variable 'ret'1(22@21"Unused variable 'ret'348964788#111#117#0(6@81"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/MyOpenGLView.m348964787#31#0#31#0#19"unused variable '*'0(0#0#81"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/MyOpenGLView.m8618543808#1776"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-clqmkzlotvthohczngcgfnidkheq/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/MyOpenGLView.m -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/MyOpenGLView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralInput.o /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralInput.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399519.039796
+e358399519.624251
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralInput.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralInput.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralInput.cpp358399519#358399519#0(0"0(0#0#56"/Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralInput.cpp8627270880#1377"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralInput.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralInput.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralNode.o /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralNode.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399519.301893
+e358399519.911765
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralNode.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralNode.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralNode.cpp358399519#358399519#0(0"0(0#0#55"/Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralNode.cpp8639688032#1375"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralNode.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralNode.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralRoot.o /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralRoot.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358441136.715973
+e358441137.427348
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralRoot.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralRoot.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralRoot.cpp358441136#358441137#0(0"0(0#0#55"/Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralRoot.cpp8610762176#1375"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralRoot.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralRoot.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Pawn.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Pawn.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399519.911852
+e358399520.408501
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Pawn.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/Pawn.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/Pawn.cpp358399519#358399520#0(0"0(0#0#49"/Users/Mikey/Desktop/ChessUI/ChessEngine/Pawn.cpp8641140416#1363"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/Pawn.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Pawn.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/PawnNodes.o /Users/Mikey/Desktop/ChessUI/ChessEngine/PawnNodes.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358441137.118754
+e358441137.533747
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/PawnNodes.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/PawnNodes.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/PawnNodes.cpp358441137#358441137#0(0"0(0#0#54"/Users/Mikey/Desktop/ChessUI/ChessEngine/PawnNodes.cpp8619590912#1373"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/PawnNodes.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/PawnNodes.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Queen.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Queen.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399520.685083
+e358399521.380133
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Queen.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/Queen.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/Queen.cpp358399520#358399521#0(0"0(0#0#50"/Users/Mikey/Desktop/ChessUI/ChessEngine/Queen.cpp8646776832#1365"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/Queen.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Queen.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Rook.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Rook.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358399521.032870
+e358399521.726544
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Rook.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/Rook.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/Rook.cpp358399521#358399521#0(0"0(0#0#49"/Users/Mikey/Desktop/ChessUI/ChessEngine/Rook.cpp8598455552#1363"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/Rook.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Rook.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Tournament.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Tournament.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358441137.427590
+e358441138.098124
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Tournament.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/Tournament.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/Tournament.cpp358441137#358441138#0(0"0(0#0#55"/Users/Mikey/Desktop/ChessUI/ChessEngine/Tournament.cpp8613569888#1375"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/Tournament.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Tournament.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Trackball.o /Users/Mikey/Desktop/ChessUI/Trackball.c normal x86_64 c com.apple.compilers.gcc.4_2
+s353635546.262366
+e353635546.387216
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Trackball.o
+x/Users/Mikey/Desktop/ChessUI/Trackball.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/Mikey/Desktop/ChessUI/Trackball.c353635546#353635546#0(0"0(0#0#40"/Users/Mikey/Desktop/ChessUI/Trackball.c8608904704#1340"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-guhgczotaknjqcbozskdzkifwisn/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/Trackball.c -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/Trackball.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/WindowEventHandler.o /Users/Mikey/Desktop/ChessUI/WindowEventHandler.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s354160684.302623
+e354160684.670532
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/WindowEventHandler.o
+x/Users/Mikey/Desktop/ChessUI/WindowEventHandler.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Mikey/Desktop/ChessUI/WindowEventHandler.m354160684#354160684#0(0"0(0#0#49"/Users/Mikey/Desktop/ChessUI/WindowEventHandler.m8934604640#1368"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/WindowEventHandler.m -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/WindowEventHandler.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main-86BCC60ECD9E715A.o /Users/Mikey/Desktop/ChessUI/ChessEngine/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358023231.742875
+e358023232.663768
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main-86BCC60ECD9E715A.o
+x/Users/Mikey/Desktop/ChessUI/ChessEngine/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/main.cpp358023231#358023232#0(0"0(0#0#49"/Users/Mikey/Desktop/ChessUI/ChessEngine/main.cpp8623814624#1380"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/main.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main-86BCC60ECD9E715A.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main-B9843B6026D6EFA4.o /Users/Mikey/Desktop/ChessUI/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s358023228.185440
+e358023228.499607
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main-B9843B6026D6EFA4.o
+x/Users/Mikey/Desktop/ChessUI/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/Mikey/Desktop/ChessUI/main.m358023228#358023228#0(0"0(0#0#35"/Users/Mikey/Desktop/ChessUI/main.m8635822464#1357"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/main.m -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main-B9843B6026D6EFA4.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main.o /Users/Mikey/Desktop/ChessUI/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s353383155.645161
+e353383155.861208
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main.o
+x/Users/Mikey/Desktop/ChessUI/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/Mikey/Desktop/ChessUI/main.m353383155#353383155#0(0"0(0#0#35"/Users/Mikey/Desktop/ChessUI/main.m8611302592#1340"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/main.m -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s348861440.342048
+e348861440.599846
+r1
+xCompileC
+xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/main.m348861440#348861440#0(0"0(0#0#73"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/main.m8608274656#1760"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-clqmkzlotvthohczngcgfnidkheq/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/main.m -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/main.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/Mikey/Desktop/ChessUI/English.lproj/MainMenu.xib
+s358433801.931900
+e358433802.284098
+r1
+xCompileXIB
+x/Users/Mikey/Desktop/ChessUI/English.lproj/MainMenu.xib
+o2012-05-11 08:56:42.220 ibtool[77601:607] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
+o2012-05-11 08:56:42.222 ibtool[77601:607] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
+o/* com.apple.ibtool.document.warnings */
+o/Users/Mikey/Desktop/ChessUI/English.lproj/MainMenu.xib:535: warning: NSOpenGLViews are not supported in windows with "One Shot" memory enabled.
+o/Users/Mikey/Desktop/ChessUI/English.lproj/MainMenu.xib:593: warning: The 'MoveList' outlet of 'Chess Engine Wrapper' is connected to 'Text Field Cell (Multiline Label)' but 'MoveList' is no longer defined on ChessEngineWrapper.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib358433801#358433802#0(737"2012-05-11 08:56:42.220 ibtool[77601:607] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***2012-05-11 08:56:42.222 ibtool[77601:607] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***/* com.apple.ibtool.document.warnings *//Users/Mikey/Desktop/ChessUI/English.lproj/MainMenu.xib:535: warning: NSOpenGLViews are not supported in windows with "One Shot" memory enabled./Users/Mikey/Desktop/ChessUI/English.lproj/MainMenu.xib:593: warning: The 'MoveList' outlet of 'Chess Engine Wrapper' is connected to 'Text Field Cell (Multiline Label)' but 'MoveList' is no longer defined on ChessEngineWrapper.2(22@74"NSOpenGLViews are not supported in windows with "One Shot" memory enabled.358433802#18446744073709551615#0#0(6@55"/Users/Mikey/Desktop/ChessUI/English.lproj/MainMenu.xib358433800#535#0#535#0#0"0(22@158"The 'MoveList' outlet of 'Chess Engine Wrapper' is connected to 'Text Field Cell (Multiline Label)' but 'MoveList' is no longer defined on ChessEngineWrapper.358433802#18446744073709551615#0#0(6@55"/Users/Mikey/Desktop/ChessUI/English.lproj/MainMenu.xib358433800#593#0#593#0#0"0(0#0#55"/Users/Mikey/Desktop/ChessUI/English.lproj/MainMenu.xib8649505408#334"    cd /Users/Mikey/Desktop/ChessUI    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Mikey/Desktop/ChessUI/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/English.lproj/MainMenu.xib
+s348964240.799034
+e348964241.101665
+r1
+xCompileXIB
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/English.lproj/MainMenu.xib
+o2012-01-22 17:30:41.051 ibtool[46493:607] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
+o2012-01-22 17:30:41.053 ibtool[46493:607] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
+o/* com.apple.ibtool.document.warnings */
+o/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/English.lproj/MainMenu.xib:535: warning: NSOpenGLViews are not supported in windows with "One Shot" memory enabled.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib348964240#348964241#0(546"2012-01-22 17:30:41.051 ibtool[46493:607] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***2012-01-22 17:30:41.053 ibtool[46493:607] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***/* com.apple.ibtool.document.warnings *//Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/English.lproj/MainMenu.xib:535: warning: NSOpenGLViews are not supported in windows with "One Shot" memory enabled.0(0#0#93"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/English.lproj/MainMenu.xib8614812448#450"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/English.lproj/MainMenu.xib
+r0
+
+CCopyStringsFile /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s348861435.793869
+e348861435.890771
+r1
+xCopyStringsFile
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings348861435#348861435#0(0"0(0#0#98"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/English.lproj/InfoPlist.strings8619751168#423"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CLd /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI normal x86_64
+s358441138.098210
+e358441139.112169
+r1
+xLd
+x/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI
+xnormal
+xx86_64
+lSLF07#2@80"Link /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI358441138#358441139#0(0"0(0#0#0"8629118048#510"    cd /Users/Mikey/Desktop/ChessUI    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/ChessUI/build/Debug -F/Users/Mikey/Desktop/ChessUI/build/Debug -filelist /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUI.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -o /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI0#
+
+CLd /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI normal x86_64
+s348964789.057530
+e348964789.100727
+r1
+xLd
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI
+xnormal
+xx86_64
+lSLF07#2@118"Link /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI348964789#348964789#0(0"0(0#0#0"8620022048#702"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug -filelist /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUI.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI0#
+
+CLd /Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Info.plist ChessUI-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/Info.plist ChessUI-Info.plist
+s348861435.771154
+e348861435.793771
+r1
+xProcessInfoPlistFile
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/Info.plist
+xChessUI-Info.plist
+lSLF07#2@26"Process ChessUI-Info.plist348861435#348861435#0(0"0(0#0#85"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/ChessUI-Info.plist12948162466873460#396"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI"    builtin-infoPlistUtility ChessUI-Info.plist -genpkginfo /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/Debug/ChessUI.app/Contents/Info.plist ChessUI-Info.plist
+r0
+
+CProcessPCH /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch.gch ChessUI_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s353383150.659085
+e353383155.644960
+r1
+xProcessPCH
+x/var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch.gch
+xChessUI_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile ChessUI_Prefix.pch353383150#353383155#0(0"0(0#0#47"/Users/Mikey/Desktop/ChessUI/ChessUI_Prefix.pch8237188487031518208#1256"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -c /Users/Mikey/Desktop/ChessUI/ChessUI_Prefix.pch -o /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-clqmkzlotvthohczngcgfnidkheq/ChessUI_Prefix.pch.gch ChessUI_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s348861436.245654
+e348861440.341856
+r1
+xProcessPCH
+x/var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-clqmkzlotvthohczngcgfnidkheq/ChessUI_Prefix.pch.gch
+xChessUI_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile ChessUI_Prefix.pch348861436#348861440#0(0"0(0#0#85"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/ChessUI_Prefix.pch8620576704#1638"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/ChessUI_Prefix.pch -o /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-clqmkzlotvthohczngcgfnidkheq/ChessUI_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-guhgczotaknjqcbozskdzkifwisn/ChessUI_Prefix.pch.gch ChessUI_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+s353635545.386827
+e353635545.944447
+r1
+xProcessPCH
+x/var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-guhgczotaknjqcbozskdzkifwisn/ChessUI_Prefix.pch.gch
+xChessUI_Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile ChessUI_Prefix.pch353635545#353635545#0(0"0(0#0#47"/Users/Mikey/Desktop/ChessUI/ChessUI_Prefix.pch8237188487031518208#1246"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -c /Users/Mikey/Desktop/ChessUI/ChessUI_Prefix.pch -o /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-guhgczotaknjqcbozskdzkifwisn/ChessUI_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-hhlqqcbqkzahmohhpziarppdvcab/ChessUI_Prefix.pch.gch ChessUI_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-ftbcqtioqqagcvchpurxvvznmxfb/ChessUI_Prefix.pch.gch ChessUI_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+s358022765.792362
+e358022772.122960
+r1
+xProcessPCH++
+x/var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-ftbcqtioqqagcvchpurxvvznmxfb/ChessUI_Prefix.pch.gch
+xChessUI_Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile ChessUI_Prefix.pch358022765#358022772#0(0"0(0#0#47"/Users/Mikey/Desktop/ChessUI/ChessUI_Prefix.pch6866113061248657408#1275"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -c /Users/Mikey/Desktop/ChessUI/ChessUI_Prefix.pch -o /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-ftbcqtioqqagcvchpurxvvznmxfb/ChessUI_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch.gch ChessUI_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358023227.652886
+e358023228.185328
+r1
+xProcessPCH++
+x/var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch.gch
+xChessUI_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile ChessUI_Prefix.pch358023227#358023228#0(0"0(0#0#47"/Users/Mikey/Desktop/ChessUI/ChessUI_Prefix.pch8635348768#1265"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -c /Users/Mikey/Desktop/ChessUI/ChessUI_Prefix.pch -o /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch.gch0#
+
+CTouch /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app
+s358441139.112349
+e358441139.119305
+r1
+xTouch
+x/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app
+lSLF07#2@58"Touch /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app358441139#358441139#0(0"0(0#0#0"8629191776#111"    cd /Users/Mikey/Desktop/ChessUI    /usr/bin/touch -c /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app0#
+
+CTouch /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app
+s348964789.100819
+e348964789.103601
+r1
+xTouch
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app
+lSLF07#2@96"Touch /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app348964789#348964789#0(0"0(0#0#0"8614421600#189"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI"    /usr/bin/touch -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessUI/build/Debug/ChessUI.app0#
+
+CTouch /Users/Mikey/Desktop/Programming:Hacking/Obj-C/WorksInProgress/LastWorkingBeforeTourney/ChessUI/build/Debug/ChessUI.app
+r0
+

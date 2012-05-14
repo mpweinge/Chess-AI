@@ -1,0 +1,14 @@
+Chromosome: 102 ParentCrossover: Arithmetic Inversion MutateMutation Bit String MutateIndex 8
+Chromosome: 103 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6
+Chromosome: 104 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6
+Chromosome: 105 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6
+Chromosome: 106 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6
+Chromosome: 107 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6
+Chromosome: 108 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6
+Chromosome: 109 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6
+Chromosome: 110 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6
+Chromosome: 111 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6
+Chromosome: 112 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6
+Chromosome: 113 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6
+Chromosome: 114 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6
+Chromosome: 115 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 6

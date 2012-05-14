@@ -1,0 +1,18 @@
+In file included from /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.h:13,
+                 from /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp:10:
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.h:21: error: 'ChessBoard' has not been declared
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.h:22: error: 'ChessBoard' has not been declared
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.h:23: error: 'ChessBoard' has not been declared
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.h:24: error: expected `)' before '*' token
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.h:69: error: ISO C++ forbids declaration of 'ChessBoard' with no type
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.h:69: error: expected ';' before '*' token
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.h: In constructor 'ChessMove::ChessMove(bool, int*)':
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessMove.h:23: error: 'ChessBoardInstance' was not declared in this scope
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp: In member function 'virtual void WhitePlayer::PawnPromotion(ChessPiece*, ChessPiece*)':
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp:202: error: 'ChessBoardInstance' was not declared in this scope
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp: In member function 'virtual void BlackPlayer::PawnPromotion(ChessPiece*, ChessPiece*)':
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp:228: error: 'ChessBoardInstance' was not declared in this scope
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp: In member function 'virtual void WhitePlayer::UndoPawnPromotion(int, Move, ChessPiece*)':
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp:260: error: 'ChessBoardInstance' was not declared in this scope
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp: In member function 'virtual void BlackPlayer::UndoPawnPromotion(int, Move, ChessPiece*)':
+/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPlayer.cpp:293: error: 'ChessBoardInstance' was not declared in this scope

@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F6A0486A84900D96B5E /* ChessEngine.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* ChessEngine.1 */; };
+		A60A59B914D221B60022472A /* ChessPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A60A59B814D221B60022472A /* ChessPiece.cpp */; };
+		A60A59BC14D223C10022472A /* Knight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A60A59BB14D223C10022472A /* Knight.cpp */; };
+		A60A59C314D24ABF0022472A /* Bishop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A60A59C214D24ABF0022472A /* Bishop.cpp */; };
+		A65AB90114CA489A0077C880 /* ChessBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A65AB90014CA489A0077C880 /* ChessBoard.cpp */; };
+		A65AB90414CA4A540077C880 /* ChessPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A65AB90314CA4A540077C880 /* ChessPlayer.cpp */; };
+		A66C1E9915254BD300E506D2 /* NeuralNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A66C1E9815254BD300E506D2 /* NeuralNode.cpp */; };
+		A66C1EB21525597E00E506D2 /* NeuralInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A66C1EB11525597E00E506D2 /* NeuralInput.cpp */; };
+		A678832B152E926500951175 /* MinorPieceNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A678832A152E926500951175 /* MinorPieceNodes.cpp */; };
+		A6788331152E93B700951175 /* MajorPieceNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6788330152E93B700951175 /* MajorPieceNodes.cpp */; };
+		A6788334152E947300951175 /* BoardNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6788333152E947300951175 /* BoardNodes.cpp */; };
+		A6788337152E94F700951175 /* PawnNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6788336152E94F700951175 /* PawnNodes.cpp */; };
+		A68DC27514D63E2600FA3031 /* Rook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68DC27414D63E2600FA3031 /* Rook.cpp */; };
+		A68DC30B14D7847E00FA3031 /* Pawn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68DC30A14D7847E00FA3031 /* Pawn.cpp */; };
+		A68DC32A14D7884B00FA3031 /* King.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68DC32914D7884B00FA3031 /* King.cpp */; };
+		A68DC33A14D78BE800FA3031 /* Queen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68DC33914D78BE800FA3031 /* Queen.cpp */; };
+		A69820CB14D0D25900B58CCA /* ChessMove.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69820CA14D0D25900B58CCA /* ChessMove.cpp */; };
+		A69820CE14D0D2C200B58CCA /* ChessLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69820CD14D0D2C200B58CCA /* ChessLog.cpp */; };
+		A6AAE8581523FD9900BEF54C /* Constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE8571523FD9900BEF54C /* Constants.cpp */; };
+		A6B1C34314FC6CE7008EAA67 /* ChessChromosome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B1C34214FC6CE7008EAA67 /* ChessChromosome.cpp */; };
+		A6B1C34714FC734A008EAA67 /* Tournament.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B1C34614FC734A008EAA67 /* Tournament.cpp */; };
+		A6FAC36C14E828EA0028A7AF /* MoveNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6FAC36B14E828EA0028A7AF /* MoveNode.cpp */; };
+		A6FAC36F14E82D430028A7AF /* MoveTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* ChessEngine.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* ChessEngine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChessEngine; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60A59B714D221B60022472A /* ChessPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessPiece.h; sourceTree = "<group>"; };
+		A60A59B814D221B60022472A /* ChessPiece.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChessPiece.cpp; sourceTree = "<group>"; };
+		A60A59BA14D223C10022472A /* Knight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Knight.h; sourceTree = "<group>"; };
+		A60A59BB14D223C10022472A /* Knight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Knight.cpp; sourceTree = "<group>"; };
+		A60A59C114D24ABF0022472A /* Bishop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bishop.h; sourceTree = "<group>"; };
+		A60A59C214D24ABF0022472A /* Bishop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bishop.cpp; sourceTree = "<group>"; };
+		A65AB8FF14CA489A0077C880 /* ChessBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessBoard.h; sourceTree = "<group>"; };
+		A65AB90014CA489A0077C880 /* ChessBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChessBoard.cpp; sourceTree = "<group>"; };
+		A65AB90214CA4A540077C880 /* ChessPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessPlayer.h; sourceTree = "<group>"; };
+		A65AB90314CA4A540077C880 /* ChessPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChessPlayer.cpp; sourceTree = "<group>"; };
+		A66C1E9715254BD300E506D2 /* NeuralNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeuralNode.h; sourceTree = "<group>"; };
+		A66C1E9815254BD300E506D2 /* NeuralNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NeuralNode.cpp; sourceTree = "<group>"; };
+		A66C1EB01525597E00E506D2 /* NeuralInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeuralInput.h; sourceTree = "<group>"; };
+		A66C1EB11525597E00E506D2 /* NeuralInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NeuralInput.cpp; sourceTree = "<group>"; };
+		A6788329152E926500951175 /* MinorPieceNodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinorPieceNodes.h; sourceTree = "<group>"; };
+		A678832A152E926500951175 /* MinorPieceNodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinorPieceNodes.cpp; sourceTree = "<group>"; };
+		A678832F152E93B700951175 /* MajorPieceNodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MajorPieceNodes.h; sourceTree = "<group>"; };
+		A6788330152E93B700951175 /* MajorPieceNodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MajorPieceNodes.cpp; sourceTree = "<group>"; };
+		A6788332152E947300951175 /* BoardNodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardNodes.h; sourceTree = "<group>"; };
+		A6788333152E947300951175 /* BoardNodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoardNodes.cpp; sourceTree = "<group>"; };
+		A6788335152E94F700951175 /* PawnNodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PawnNodes.h; sourceTree = "<group>"; };
+		A6788336152E94F700951175 /* PawnNodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PawnNodes.cpp; sourceTree = "<group>"; };
+		A68DC27314D63E2600FA3031 /* Rook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rook.h; sourceTree = "<group>"; };
+		A68DC27414D63E2600FA3031 /* Rook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rook.cpp; sourceTree = "<group>"; };
+		A68DC30914D7847E00FA3031 /* Pawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pawn.h; sourceTree = "<group>"; };
+		A68DC30A14D7847E00FA3031 /* Pawn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pawn.cpp; sourceTree = "<group>"; };
+		A68DC32814D7884B00FA3031 /* King.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = King.h; sourceTree = "<group>"; };
+		A68DC32914D7884B00FA3031 /* King.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = King.cpp; sourceTree = "<group>"; };
+		A68DC33814D78BE800FA3031 /* Queen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queen.h; sourceTree = "<group>"; };
+		A68DC33914D78BE800FA3031 /* Queen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Queen.cpp; sourceTree = "<group>"; };
+		A69820C914D0D21A00B58CCA /* ChessMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessMove.h; sourceTree = "<group>"; };
+		A69820CA14D0D25900B58CCA /* ChessMove.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChessMove.cpp; sourceTree = "<group>"; };
+		A69820CC14D0D2C200B58CCA /* ChessLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessLog.h; sourceTree = "<group>"; };
+		A69820CD14D0D2C200B58CCA /* ChessLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChessLog.cpp; sourceTree = "<group>"; };
+		A69820D714D0F08000B58CCA /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A6AAE8571523FD9900BEF54C /* Constants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Constants.cpp; sourceTree = "<group>"; };
+		A6B1C34114FC6CE7008EAA67 /* ChessChromosome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessChromosome.h; sourceTree = "<group>"; };
+		A6B1C34214FC6CE7008EAA67 /* ChessChromosome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChessChromosome.cpp; sourceTree = "<group>"; };
+		A6B1C34514FC734A008EAA67 /* Tournament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tournament.h; sourceTree = "<group>"; };
+		A6B1C34614FC734A008EAA67 /* Tournament.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tournament.cpp; sourceTree = "<group>"; };
+		A6FAC36A14E828EA0028A7AF /* MoveNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveNode.h; sourceTree = "<group>"; };
+		A6FAC36B14E828EA0028A7AF /* MoveNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MoveNode.cpp; sourceTree = "<group>"; };
+		A6FAC36D14E82D430028A7AF /* MoveTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveTree.h; sourceTree = "<group>"; };
+		A6FAC36E14E82D430028A7AF /* MoveTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MoveTree.cpp; sourceTree = "<group>"; };
+		C6859E8B029090EE04C91782 /* ChessEngine.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ChessEngine.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* ChessEngine */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = ChessEngine;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				A65AB90014CA489A0077C880 /* ChessBoard.cpp */,
+				A65AB8FF14CA489A0077C880 /* ChessBoard.h */,
+				A6FAC36114E8263C0028A7AF /* Chess Game */,
+				A69820CC14D0D2C200B58CCA /* ChessLog.h */,
+				A69820CD14D0D2C200B58CCA /* ChessLog.cpp */,
+				A69820C914D0D21A00B58CCA /* ChessMove.h */,
+				A69820CA14D0D25900B58CCA /* ChessMove.cpp */,
+				A65AB90214CA4A540077C880 /* ChessPlayer.h */,
+				A65AB90314CA4A540077C880 /* ChessPlayer.cpp */,
+				A69820D714D0F08000B58CCA /* Constants.h */,
+				A6AAE8571523FD9900BEF54C /* Constants.cpp */,
+				A6FAC36A14E828EA0028A7AF /* MoveNode.h */,
+				A6FAC36B14E828EA0028A7AF /* MoveNode.cpp */,
+				A6FAC36D14E82D430028A7AF /* MoveTree.h */,
+				A6FAC36E14E82D430028A7AF /* MoveTree.cpp */,
+				A6B1C34114FC6CE7008EAA67 /* ChessChromosome.h */,
+				A6B1C34214FC6CE7008EAA67 /* ChessChromosome.cpp */,
+				A6B1C34514FC734A008EAA67 /* Tournament.h */,
+				A6B1C34614FC734A008EAA67 /* Tournament.cpp */,
+				A66C1E9715254BD300E506D2 /* NeuralNode.h */,
+				A66C1E9815254BD300E506D2 /* NeuralNode.cpp */,
+				A6788328152E924800951175 /* Nodes */,
+				A66C1EB01525597E00E506D2 /* NeuralInput.h */,
+				A66C1EB11525597E00E506D2 /* NeuralInput.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* ChessEngine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6788328152E924800951175 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				A6788329152E926500951175 /* MinorPieceNodes.h */,
+				A678832A152E926500951175 /* MinorPieceNodes.cpp */,
+				A678832F152E93B700951175 /* MajorPieceNodes.h */,
+				A6788330152E93B700951175 /* MajorPieceNodes.cpp */,
+				A6788332152E947300951175 /* BoardNodes.h */,
+				A6788333152E947300951175 /* BoardNodes.cpp */,
+				A6788335152E94F700951175 /* PawnNodes.h */,
+				A6788336152E94F700951175 /* PawnNodes.cpp */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+		A6FAC36114E8263C0028A7AF /* Chess Game */ = {
+			isa = PBXGroup;
+			children = (
+				A60A59B714D221B60022472A /* ChessPiece.h */,
+				A60A59B814D221B60022472A /* ChessPiece.cpp */,
+				A60A59BA14D223C10022472A /* Knight.h */,
+				A60A59BB14D223C10022472A /* Knight.cpp */,
+				A60A59C114D24ABF0022472A /* Bishop.h */,
+				A60A59C214D24ABF0022472A /* Bishop.cpp */,
+				A68DC27314D63E2600FA3031 /* Rook.h */,
+				A68DC27414D63E2600FA3031 /* Rook.cpp */,
+				A68DC30914D7847E00FA3031 /* Pawn.h */,
+				A68DC30A14D7847E00FA3031 /* Pawn.cpp */,
+				A68DC32814D7884B00FA3031 /* King.h */,
+				A68DC32914D7884B00FA3031 /* King.cpp */,
+				A68DC33814D78BE800FA3031 /* Queen.h */,
+				A68DC33914D78BE800FA3031 /* Queen.cpp */,
+			);
+			name = "Chess Game";
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* ChessEngine.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* ChessEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "ChessEngine" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessEngine;
+			productInstallPath = "$(HOME)/bin";
+			productName = ChessEngine;
+			productReference = 8DD76F6C0486A84900D96B5E /* ChessEngine */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "ChessEngine" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* ChessEngine */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* ChessEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				A65AB90114CA489A0077C880 /* ChessBoard.cpp in Sources */,
+				A65AB90414CA4A540077C880 /* ChessPlayer.cpp in Sources */,
+				A69820CB14D0D25900B58CCA /* ChessMove.cpp in Sources */,
+				A69820CE14D0D2C200B58CCA /* ChessLog.cpp in Sources */,
+				A60A59B914D221B60022472A /* ChessPiece.cpp in Sources */,
+				A60A59BC14D223C10022472A /* Knight.cpp in Sources */,
+				A60A59C314D24ABF0022472A /* Bishop.cpp in Sources */,
+				A68DC27514D63E2600FA3031 /* Rook.cpp in Sources */,
+				A68DC30B14D7847E00FA3031 /* Pawn.cpp in Sources */,
+				A68DC32A14D7884B00FA3031 /* King.cpp in Sources */,
+				A68DC33A14D78BE800FA3031 /* Queen.cpp in Sources */,
+				A6FAC36C14E828EA0028A7AF /* MoveNode.cpp in Sources */,
+				A6FAC36F14E82D430028A7AF /* MoveTree.cpp in Sources */,
+				A6B1C34314FC6CE7008EAA67 /* ChessChromosome.cpp in Sources */,
+				A6B1C34714FC734A008EAA67 /* Tournament.cpp in Sources */,
+				A6AAE8581523FD9900BEF54C /* Constants.cpp in Sources */,
+				A66C1E9915254BD300E506D2 /* NeuralNode.cpp in Sources */,
+				A66C1EB21525597E00E506D2 /* NeuralInput.cpp in Sources */,
+				A678832B152E926500951175 /* MinorPieceNodes.cpp in Sources */,
+				A6788331152E93B700951175 /* MajorPieceNodes.cpp in Sources */,
+				A6788334152E947300951175 /* BoardNodes.cpp in Sources */,
+				A6788337152E94F700951175 /* PawnNodes.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = ChessEngine;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = ChessEngine;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "ChessEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "ChessEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

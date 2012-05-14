@@ -1,0 +1,59 @@
+TChessEngine
+v7
+r0
+t348801123.537686
+cCheck dependencies
+cCompileC build/ChessEngine.build/Debug/ChessEngine.build/Objects-normal/x86_64/main.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Debug/ChessEngine normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Debug/ChessEngine.build/Objects-normal/x86_64/ChessEngine.LinkFileList
+c000000004F1A10E30000000000000088
+t1327108323
+s136
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Debug/ChessEngine.build/Objects-normal/x86_64/main.o
+t1327108323
+s67016
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Debug/ChessEngine
+t1327108323
+s10616
+
+N/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp
+c000000004F1A10D8000000000000008F
+t1327108312
+s143
+i<iostream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies348801122#348801123#0(0"0(0#1#0"8590147040#0"0#
+
+CCompileC build/ChessEngine.build/Debug/ChessEngine.build/Objects-normal/x86_64/main.o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s348801123.035177
+e348801123.501431
+r1
+xCompileC
+xbuild/ChessEngine.build/Debug/ChessEngine.build/Objects-normal/x86_64/main.o
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp348801123#348801123#0(0"0(0#0#67"/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp8599456480#1585"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Debug/ChessEngine.build/ChessEngine-generated-files.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Debug/ChessEngine.build/ChessEngine-own-target-headers.hmap -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Debug/ChessEngine.build/ChessEngine-all-target-headers.hmap -iquote /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Debug/ChessEngine.build/ChessEngine-project-headers.hmap -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Debug -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Debug/include -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Debug/ChessEngine.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Debug/ChessEngine.build/DerivedSources -c /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/main.cpp -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Debug/ChessEngine.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Debug/ChessEngine normal x86_64
+s348801123.501515
+e348801123.537641
+r1
+xLd
+x/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Debug/ChessEngine
+xnormal
+xx86_64
+lSLF07#2@87"Link /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Debug/ChessEngine348801123#348801123#0(0"0(0#0#0"8616148640#616"    cd "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Debug -F/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Debug -filelist /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/ChessEngine.build/Debug/ChessEngine.build/Objects-normal/x86_64/ChessEngine.LinkFileList -mmacosx-version-min=10.6 -o /Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/build/Debug/ChessEngine0#
+

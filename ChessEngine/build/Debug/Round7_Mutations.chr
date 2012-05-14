@@ -1,0 +1,4 @@
+New Chromosome: 800One Parent: 703No Crossover No Mutation
+New Chromosome: 801Parent 1: 701Parent 2: 702 ParentCrossover: Arithmetic Inversion MutateMutation Flip Bit MutateIndex 10
+New Chromosome: 802Parent 1: 703Parent 2: 701 ParentCrossover: Multiple Point MutateNo Mutation
+New Chromosome: 803One Parent: 703No Crossover No Mutation

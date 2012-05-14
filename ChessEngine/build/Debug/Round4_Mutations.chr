@@ -1,0 +1,4 @@
+New Chromosome: 500Parent 1: 401Parent 2: 403 ParentCrossover: Uniform Point MutateNo Mutation
+New Chromosome: 501Parent 1: 403Parent 2: 403 ParentCrossover: Single Point MutateMutation Boundary MutateIndex 2
+New Chromosome: 502Parent 1: 401Parent 2: 403 ParentCrossover: Arithmetic MutateMutation Boundary MutateIndex 5
+New Chromosome: 503Parent 1: 403Parent 2: 402 ParentCrossover: Uniform Point MutateMutation Bit String MutateIndex 17

@@ -1,0 +1,4 @@
+New Chromosome: 200Parent 1: 101Parent 2: 103 ParentCrossover: Arithmetic MutateNo Mutation
+New Chromosome: 201One Parent: 103No Crossover No Mutation
+New Chromosome: 202Parent 1: 101Parent 2: 103 ParentCrossover: Single Point MutateMutation Order MutateIndex 9
+New Chromosome: 203One Parent: 103No Crossover No Mutation

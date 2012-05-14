@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ChessUI' target in the 'ChessUI' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

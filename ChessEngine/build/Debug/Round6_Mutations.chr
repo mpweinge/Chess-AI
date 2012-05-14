@@ -1,0 +1,4 @@
+New Chromosome: 700Parent 1: 603Parent 2: 602 ParentCrossover: Arithmetic MutateMutation Flip Bit MutateIndex 19
+New Chromosome: 701One Parent: 603No Crossover No Mutation
+New Chromosome: 702One Parent: 601No Crossover No Mutation
+New Chromosome: 703Parent 1: 602Parent 2: 601 ParentCrossover: Single Point MutateMutation Boundary MutateIndex 3

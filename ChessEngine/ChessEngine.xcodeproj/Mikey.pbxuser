@@ -1,0 +1,2774 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A65AB8F714CA48580077C880 /* ChessEngine */;
+		activeTarget = 8DD76F620486A84900D96B5E /* ChessEngine */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* ChessEngine */,
+		);
+		breakpoints = (
+			A6F3E44114F34423003E2C00 /* Constants.h:191 */,
+			A6DD362D14F49AE500647901 /* main.cpp:469 */,
+			A67990E314F98B4000FFE615 /* main.cpp:395 */,
+			A67990E514F98B4300FFE615 /* main.cpp:383 */,
+			A62B98AB150D145100A34CAF /* King.cpp:212 */,
+			A62B98E8150D2F4700A34CAF /* main.cpp:149 */,
+			A62B98F3150D2FC000A34CAF /* main.cpp:149 */,
+			A62B98F7150D300900A34CAF /* Pawn.cpp:21 */,
+			A62B98FC150D303900A34CAF /* Pawn.cpp:195 */,
+			A62B990F150D323000A34CAF /* Pawn.cpp:392 */,
+			A62B9931150D398700A34CAF /* Pawn.cpp:314 */,
+			A6FB0B1C1520063500F1E4FA /* ChessChromosome.h:125 */,
+			A6FB0B2C1520072D00F1E4FA /* main.cpp:173 */,
+			A6FB0B6F15200B1500F1E4FA /* main.cpp:171 */,
+			A6AAE88C1524002000BEF54C /* Pawn.cpp:81 */,
+			A6AAE88E1524002700BEF54C /* Pawn.cpp:103 */,
+			A6AAE8901524003400BEF54C /* Pawn.cpp:143 */,
+			A6AAE8921524003E00BEF54C /* Pawn.cpp:164 */,
+			A6AAE8941524004300BEF54C /* Pawn.cpp:180 */,
+			A6AAE91E152490F000BEF54C /* MoveTree.cpp:656 */,
+			A66C208915291AB800E506D2 /* MoveTree.cpp:192 */,
+			A66C20A31529206F00E506D2 /* main.cpp:456 */,
+			A66C20A9152922C500E506D2 /* ChessBoard.cpp:833 */,
+			A66C20B5152924F500E506D2 /* MoveTree.cpp:118 */,
+			A66C21B715294D7A00E506D2 /* Knight.h:65 */,
+			A66C21BB15294D8B00E506D2 /* Knight.h:50 */,
+			A66C21BD15294D8C00E506D2 /* Knight.h:44 */,
+			A6DCE15D152A8DAC00C61F4D /* Tournament.cpp:187 */,
+			A6DCE257152D1BDE00C61F4D /* MoveNode.cpp:36 */,
+			A6DCE28D152D237B00C61F4D /* ChessPlayer.cpp:682 */,
+			A6DCE28F152D237B00C61F4D /* ChessPlayer.cpp:654 */,
+			A6DCE2C0152D383400C61F4D /* MoveTree.cpp:658 */,
+			A6DCE2C2152D383900C61F4D /* MoveTree.cpp:660 */,
+			A6DCE2C4152D383900C61F4D /* MoveTree.cpp:663 */,
+			A6DCE2C6152D383A00C61F4D /* MoveTree.cpp:659 */,
+			A61749B7152EAAA5003190BB /* ChessBoard.cpp:827 */,
+			A61749CA152EAB4D003190BB /* ChessBoard.cpp:808 */,
+			A6174A05152F652A003190BB /* Pawn.cpp:594 */,
+			A601863C1536527C0078E54A /* King.cpp:165 */,
+			A601863E1536527D0078E54A /* King.cpp:176 */,
+			A67F6FF7153BAF70000451CD /* ChessPlayer.cpp:225 */,
+			A670A91F153F865E0065C8DA /* Tournament.cpp:431 */,
+			A670A924153F86C70065C8DA /* Tournament.cpp:382 */,
+			A631860C1541093800212DCB /* Tournament.cpp:85 */,
+			A631861A15410A6200212DCB /* Tournament.cpp:129 */,
+			A631862015410AD800212DCB /* Tournament.cpp:87 */,
+			A631862215410B0700212DCB /* Tournament.cpp:89 */,
+			A631862915410CB600212DCB /* Tournament.cpp:185 */,
+			A667D38A1542608300B14339 /* main.cpp:19 */,
+			A6C3C76715435D4F007C86DE /* ChessBoard.cpp:84 */,
+			A6C3C76B15435D5F007C86DE /* ChessBoard.cpp:67 */,
+			A6C3C7B61543860D007C86DE /* MoveTree.cpp:195 */,
+			A6890CA81543D114004C0994 /* ChessPlayer.cpp:809 */,
+			A6890CAA1543D116004C0994 /* ChessPlayer.cpp:784 */,
+			A6890CDC1543D3CF004C0994 /* ChessPlayer.h:142 */,
+			A665D03A154469D5009A0BD5 /* ChessBoard.cpp:278 */,
+			A665D076154478B9009A0BD5 /* MoveTree.cpp:530 */,
+			A665D07C15447965009A0BD5 /* MoveTree.cpp:667 */,
+			A665D11B1544AB4A009A0BD5 /* MoveTree.cpp:671 */,
+			A665D1421544B2E0009A0BD5 /* MoveTree.cpp:477 */,
+			A665D1571544B512009A0BD5 /* MoveTree.cpp:504 */,
+			A66FD88A15479CA100C210AA /* MoveTree.cpp:21 */,
+			A66FD8CC1547A0D000C210AA /* MoveTree.cpp:52 */,
+			A66FD9EC1548ED7100C210AA /* MoveTree.cpp:51 */,
+			A6FA74681548F28700638A86 /* ChessPlayer.h:309 */,
+			A6FA74931548F55900638A86 /* ChessBoard.cpp:209 */,
+			A6FA74951548F55C00638A86 /* ChessBoard.cpp:302 */,
+			A6FA74971548F55F00638A86 /* ChessBoard.cpp:665 */,
+			A6FA74991548F56100638A86 /* ChessBoard.cpp:734 */,
+			A6FA749B1548F56300638A86 /* ChessBoard.cpp:851 */,
+			A6FA749D1548F56600638A86 /* ChessBoard.cpp:863 */,
+			A6FA749F1548F57200638A86 /* ChessMove.h:122 */,
+		);
+		codeSenseManager = A65AB8FE14CA48760077C880 /* Code sense */;
+		executables = (
+			A65AB8F714CA48580077C880 /* ChessEngine */,
+		);
+		expressions = (
+			"WhitePlayer::GetInstance()",
+			"BlackPlayer::GetInstance()",
+			"ChessLog::GetInstance()",
+			BlackPlayer,
+			"
+",
+			bWhiteMove,
+			"ChessBoard::GetInstance()",
+			WhitePlayer,
+			move,
+			ChessBoard,
+			_WhitePlayer,
+			remainingPieces,
+			KingAttackingPieces,
+			Children,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					62,
+					118,
+					47,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					561,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					647,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					381,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 358011678;
+			PBXWorkspaceStateSaveDate = 358011678;
+		};
+		perUserProjectItems = {
+			A603515D154A0FF0003D01B4 = A603515D154A0FF0003D01B4 /* PBXTextBookmark */;
+			A603515E154A0FF0003D01B4 = A603515E154A0FF0003D01B4 /* PBXTextBookmark */;
+			A603517C154A4004003D01B4 = A603517C154A4004003D01B4 /* PBXTextBookmark */;
+			A6035181154A4004003D01B4 = A6035181154A4004003D01B4 /* PBXTextBookmark */;
+			A60351AA154A44F9003D01B4 = A60351AA154A44F9003D01B4 /* PBXTextBookmark */;
+			A60351B4154A4570003D01B4 = A60351B4154A4570003D01B4 /* PBXTextBookmark */;
+			A60A59E214D2547C0022472A = A60A59E214D2547C0022472A /* PBXTextBookmark */;
+			A63186381541120E00212DCB = A63186381541120E00212DCB /* PBXTextBookmark */;
+			A665D0C615449D6C009A0BD5 = A665D0C615449D6C009A0BD5 /* PBXTextBookmark */;
+			A665D0F71544A515009A0BD5 = A665D0F71544A515009A0BD5 /* PBXTextBookmark */;
+			A667D2E61542562700B14339 = A667D2E61542562700B14339 /* PBXTextBookmark */;
+			A667D2E71542562700B14339 = A667D2E71542562700B14339 /* PBXTextBookmark */;
+			A66C216B152948D300E506D2 = A66C216B152948D300E506D2 /* PBXTextBookmark */;
+			A66E57D215506E1100079EC9 = A66E57D215506E1100079EC9 /* PBXTextBookmark */;
+			A66E57D715506E1100079EC9 = A66E57D715506E1100079EC9 /* PBXTextBookmark */;
+			A66FD81A1547965700C210AA = A66FD81A1547965700C210AA /* PBXTextBookmark */;
+			A66FD8B71547A03500C210AA = A66FD8B71547A03500C210AA /* PBXTextBookmark */;
+			A66FD9691548E79300C210AA = A66FD9691548E79300C210AA /* PBXTextBookmark */;
+			A66FD9921548E91B00C210AA = A66FD9921548E91B00C210AA /* PBXTextBookmark */;
+			A66FD9931548E91B00C210AA = A66FD9931548E91B00C210AA /* PBXTextBookmark */;
+			A66FD9941548E91B00C210AA = A66FD9941548E91B00C210AA /* PBXTextBookmark */;
+			A66FD9961548E91B00C210AA = A66FD9961548E91B00C210AA /* PBXTextBookmark */;
+			A66FD9971548E91B00C210AA = A66FD9971548E91B00C210AA /* PBXTextBookmark */;
+			A67F6BC715393C64000451CD = A67F6BC715393C64000451CD /* PBXTextBookmark */;
+			A6890CE31543D406004C0994 = A6890CE31543D406004C0994 /* PBXTextBookmark */;
+			A68DB90015522A8800725D2B = A68DB90015522A8800725D2B /* PBXTextBookmark */;
+			A68DB90115522A8800725D2B = A68DB90115522A8800725D2B /* PBXTextBookmark */;
+			A68DB90215522A8800725D2B = A68DB90215522A8800725D2B /* PBXTextBookmark */;
+			A6907330154B8A1C002DD635 = A6907330154B8A1C002DD635 /* PBXTextBookmark */;
+			A6907331154B8A1C002DD635 = A6907331154B8A1C002DD635 /* PBXTextBookmark */;
+			A6907332154B8A1C002DD635 = A6907332154B8A1C002DD635 /* PBXTextBookmark */;
+			A6907346154B9941002DD635 = A6907346154B9941002DD635 /* PBXTextBookmark */;
+			A6907347154B9941002DD635 = A6907347154B9941002DD635 /* PBXTextBookmark */;
+			A6907348154B9941002DD635 = A6907348154B9941002DD635 /* PBXTextBookmark */;
+			A690734B154B9941002DD635 = A690734B154B9941002DD635 /* PBXTextBookmark */;
+			A690735C154BAE51002DD635 = A690735C154BAE51002DD635 /* PBXTextBookmark */;
+			A698217F14D0F8CA00B58CCA = A698217F14D0F8CA00B58CCA /* PBXTextBookmark */;
+			A6A08F131537AE17009C1A6C = A6A08F131537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F141537AE17009C1A6C = A6A08F141537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F2A1537AE17009C1A6C = A6A08F2A1537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F2B1537AE17009C1A6C = A6A08F2B1537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F2C1537AE17009C1A6C = A6A08F2C1537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F2D1537AE17009C1A6C = A6A08F2D1537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F321537AE17009C1A6C = A6A08F321537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F331537AE17009C1A6C = A6A08F331537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F361537AE17009C1A6C = A6A08F361537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F381537AE17009C1A6C = A6A08F381537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F3C1537AE17009C1A6C = A6A08F3C1537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F3D1537AE17009C1A6C = A6A08F3D1537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F421537AE17009C1A6C = A6A08F421537AE17009C1A6C /* PBXTextBookmark */;
+			A6A08F551537B5A7009C1A6C = A6A08F551537B5A7009C1A6C /* PBXTextBookmark */;
+			A6C5EF371556D32300FDA394 /* PBXTextBookmark */ = A6C5EF371556D32300FDA394 /* PBXTextBookmark */;
+			A6C5EF3A1556D32300FDA394 /* PBXTextBookmark */ = A6C5EF3A1556D32300FDA394 /* PBXTextBookmark */;
+			A6C5EFAE1556F44700FDA394 /* XCBuildMessageTextBookmark */ = A6C5EFAE1556F44700FDA394 /* XCBuildMessageTextBookmark */;
+			A6C5EFAF1556F44700FDA394 /* PBXTextBookmark */ = A6C5EFAF1556F44700FDA394 /* PBXTextBookmark */;
+			A6C5F03E1556FE7A00FDA394 /* PBXTextBookmark */ = A6C5F03E1556FE7A00FDA394 /* PBXTextBookmark */;
+			A6C5F03F1556FE7A00FDA394 /* XCBuildMessageTextBookmark */ = A6C5F03F1556FE7A00FDA394 /* XCBuildMessageTextBookmark */;
+			A6C5F0401556FE7A00FDA394 /* PBXTextBookmark */ = A6C5F0401556FE7A00FDA394 /* PBXTextBookmark */;
+			A6C5F0411556FE7A00FDA394 /* PBXTextBookmark */ = A6C5F0411556FE7A00FDA394 /* PBXTextBookmark */;
+			A6C7199E154B742C00593400 = A6C7199E154B742C00593400 /* PBXTextBookmark */;
+			A6C719C6154B876600593400 = A6C719C6154B876600593400 /* PBXTextBookmark */;
+			A6EC886D14D8BF9F00976E50 = A6EC886D14D8BF9F00976E50 /* PBXTextBookmark */;
+			A6FA74561548F20200638A86 = A6FA74561548F20200638A86 /* PBXTextBookmark */;
+			A6FA746E1548F29000638A86 = A6FA746E1548F29000638A86 /* PBXTextBookmark */;
+			A6FA746F1548F29000638A86 = A6FA746F1548F29000638A86 /* PBXTextBookmark */;
+			A6FA74B41548F75C00638A86 = A6FA74B41548F75C00638A86 /* PBXTextBookmark */;
+			A6FA74B91548F75C00638A86 = A6FA74B91548F75C00638A86 /* PBXTextBookmark */;
+			A6FA74BA1548F75C00638A86 = A6FA74BA1548F75C00638A86 /* PBXTextBookmark */;
+			A6FEB67715353CD200FB7787 = A6FEB67715353CD200FB7787 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A65AB8FD14CA48760077C880 /* Source Control */;
+		userBookmarkGroup = A69820BF14D0CFA500B58CCA /* PBXBookmarkGroup */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1265, 6864}}";
+			sepNavSelRange = "{12482, 0}";
+			sepNavVisRange = "{11840, 697}";
+			sepNavWindowFrame = "{{52, -84}, {705, 821}}";
+		};
+	};
+	8DD76F620486A84900D96B5E /* ChessEngine */ = {
+		activeExec = 0;
+		executables = (
+			A65AB8F714CA48580077C880 /* ChessEngine */,
+		);
+	};
+	A601863C1536527C0078E54A /* King.cpp:165 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC32914D7884B00FA3031 /* King.cpp */;
+		functionName = "King::GetLegalMoves(std::vector<Move>& PotMoves)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 165;
+		location = ChessEngine;
+		modificationTime = 358022772.847103;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A601863E1536527D0078E54A /* King.cpp:176 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC32914D7884B00FA3031 /* King.cpp */;
+		functionName = "King::GetLegalMoves(std::vector<Move>& PotMoves)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 176;
+		location = ChessEngine;
+		modificationTime = 358022772.847134;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A601873B153707D50078E54A /* ChessPiece.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = ChessPiece.cpp;
+		path = "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/ChessPiece.cpp";
+		sourceTree = "<absolute>";
+	};
+	A603515D154A0FF0003D01B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A60A59B714D221B60022472A /* ChessPiece.h */;
+		name = "ChessPiece.h: 35";
+		rLen = 0;
+		rLoc = 697;
+		rType = 0;
+		vrLen = 1181;
+		vrLoc = 326;
+	};
+	A603515E154A0FF0003D01B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6FAC36D14E82D430028A7AF /* MoveTree.h */;
+		name = "MoveTree.h: 68";
+		rLen = 0;
+		rLoc = 1700;
+		rType = 0;
+		vrLen = 1199;
+		vrLoc = 915;
+	};
+	A603517C154A4004003D01B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A68DC30A14D7847E00FA3031 /* Pawn.cpp */;
+		name = "Pawn.cpp: 372";
+		rLen = 0;
+		rLoc = 9059;
+		rType = 0;
+		vrLen = 794;
+		vrLoc = 8738;
+	};
+	A6035181154A4004003D01B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6AAE8571523FD9900BEF54C /* Constants.cpp */;
+		name = "Constants.cpp: 17";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 0;
+	};
+	A60351AA154A44F9003D01B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A68DC33914D78BE800FA3031 /* Queen.cpp */;
+		name = "Queen.cpp: 412";
+		rLen = 0;
+		rLoc = 9933;
+		rType = 0;
+		vrLen = 596;
+		vrLoc = 0;
+	};
+	A60351B4154A4570003D01B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A601873B153707D50078E54A /* ChessPiece.cpp */;
+		name = "ChessPiece.cpp: 46";
+		rLen = 0;
+		rLoc = 570;
+		rType = 0;
+		vrLen = 838;
+		vrLoc = 326;
+	};
+	A60A59B714D221B60022472A /* ChessPiece.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 1352}}";
+			sepNavSelRange = "{697, 0}";
+			sepNavVisRange = "{326, 1181}";
+			sepNavWindowFrame = "{{1571, -40}, {705, 821}}";
+		};
+	};
+	A60A59B814D221B60022472A /* ChessPiece.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 4927}}";
+			sepNavSelRange = "{6073, 0}";
+			sepNavVisRange = "{5342, 1145}";
+			sepNavWindowFrame = "{{1612, 12}, {705, 821}}";
+		};
+	};
+	A60A59BA14D223C10022472A /* Knight.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 1222}}";
+			sepNavSelRange = "{1806, 0}";
+			sepNavVisRange = "{1326, 1050}";
+			sepNavWindowFrame = "{{575, 55}, {705, 821}}";
+		};
+	};
+	A60A59BB14D223C10022472A /* Knight.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 4836}}";
+			sepNavSelRange = "{7290, 0}";
+			sepNavVisRange = "{6576, 1549}";
+			sepNavWindowFrame = "{{15, 50}, {705, 821}}";
+		};
+	};
+	A60A59C114D24ABF0022472A /* Bishop.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 1014}}";
+			sepNavSelRange = "{1352, 0}";
+			sepNavVisRange = "{495, 1290}";
+			sepNavWindowFrame = "{{1707, -112}, {705, 821}}";
+		};
+	};
+	A60A59C214D24ABF0022472A /* Bishop.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 5369}}";
+			sepNavSelRange = "{10635, 0}";
+			sepNavVisRange = "{9459, 1206}";
+			sepNavWindowFrame = "{{1645, 79}, {705, 821}}";
+		};
+	};
+	A60A59E214D2547C0022472A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A69821BC14D0FA8A00B58CCA /* DownloadsOrganizer.sh */;
+		name = "DownloadsOrganizer.sh: 14";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 825;
+		vrLoc = 0;
+	};
+	A61749B7152EAAA5003190BB /* ChessBoard.cpp:827 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		functionName = "ChessBoard::AddPiece(ChessPiece* piece)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 827;
+		location = ChessEngine;
+		modificationTime = 358022772.84701;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A61749CA152EAB4D003190BB /* ChessBoard.cpp:808 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		functionName = "ChessBoard::AddPieceNoLineOfSight(ChessPiece* piece)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 808;
+		location = ChessEngine;
+		modificationTime = 358022772.84704;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6174A05152F652A003190BB /* Pawn.cpp:594 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC30A14D7847E00FA3031 /* Pawn.cpp */;
+		functionName = "Pawn::GetLegalMoves(std::vector<Move*>& PotMoves)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 594;
+		location = ChessEngine;
+		modificationTime = 358022772.847073;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A62B98AB150D145100A34CAF /* King.cpp:212 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		condition = A62B98AF150D14A800A34CAF /* XCGDBBreakpointCondition */;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC32914D7884B00FA3031 /* King.cpp */;
+		functionName = "King::GetLegalMoves(std::vector<Move*>& PotMoves)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 212;
+		location = ChessEngine;
+		modificationTime = 358022772.845813;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A62B98AF150D14A800A34CAF /* XCGDBBreakpointCondition */ = {
+		isa = XCGDBBreakpointCondition;
+		conditionString = "col==2";
+	};
+	A62B98E8150D2F4700A34CAF /* main.cpp:149 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		functionName = "main (int argc, char * const argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 149;
+		modificationTime = 358022777.332881;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A62B98F3150D2FC000A34CAF /* main.cpp:149 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 149;
+		modificationTime = 358022777.332399;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A62B98F7150D300900A34CAF /* Pawn.cpp:21 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC30A14D7847E00FA3031 /* Pawn.cpp */;
+		functionName = "Pawn::MakeMove(const Move& Move2)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 21;
+		location = ChessEngine;
+		modificationTime = 358022772.84602;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A62B98FC150D303900A34CAF /* Pawn.cpp:195 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC30A14D7847E00FA3031 /* Pawn.cpp */;
+		functionName = "Pawn::CheckForEnPassant(const Move& MoveTo, ChessPiece* &_captPiece)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 195;
+		location = ChessEngine;
+		modificationTime = 358022772.84605;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A62B990F150D323000A34CAF /* Pawn.cpp:392 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC30A14D7847E00FA3031 /* Pawn.cpp */;
+		functionName = "Pawn::GetLegalMoves(std::vector<Move*>& PotMoves)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 392;
+		location = ChessEngine;
+		modificationTime = 358022772.846081;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A62B9931150D398700A34CAF /* Pawn.cpp:314 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC30A14D7847E00FA3031 /* Pawn.cpp */;
+		functionName = "Pawn::IsAttackingSquare(const Move& Square)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 314;
+		location = ChessEngine;
+		modificationTime = 358022772.846116;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A631860C1541093800212DCB /* Tournament.cpp:85 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6B1C34614FC734A008EAA67 /* Tournament.cpp */;
+		functionName = "Match::PlayMatch()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 85;
+		location = ChessEngine;
+		modificationTime = 358022772.847249;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A631861A15410A6200212DCB /* Tournament.cpp:129 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6B1C34614FC734A008EAA67 /* Tournament.cpp */;
+		functionName = "Match::PlayMatch()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 129;
+		location = ChessEngine;
+		modificationTime = 358022772.847277;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A631862015410AD800212DCB /* Tournament.cpp:87 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6B1C34614FC734A008EAA67 /* Tournament.cpp */;
+		functionName = "Match::PlayMatch()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 87;
+		location = ChessEngine;
+		modificationTime = 358022772.847303;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A631862215410B0700212DCB /* Tournament.cpp:89 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6B1C34614FC734A008EAA67 /* Tournament.cpp */;
+		functionName = "Match::PlayMatch()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 89;
+		location = ChessEngine;
+		modificationTime = 358022772.84733;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A631862915410CB600212DCB /* Tournament.cpp:185 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6B1C34614FC734A008EAA67 /* Tournament.cpp */;
+		functionName = "Match::PlayMatch()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 185;
+		location = ChessEngine;
+		modificationTime = 358022772.84736;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A63186381541120E00212DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66C1E9815254BD300E506D2 /* NeuralNode.cpp */;
+		name = "NeuralNode.cpp: 36";
+		rLen = 0;
+		rLoc = 606;
+		rType = 0;
+		vrLen = 606;
+		vrLoc = 0;
+	};
+	A65AB8F714CA48580077C880 /* ChessEngine */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ChessEngine;
+		savedGlobals = {
+		};
+		showTypeColumn = 1;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eflags = 1;
+			$es = 1;
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fs = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$gs = 1;
+			$mxcsr = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r13 = 1;
+			$r14 = 1;
+			$r15 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$rax = 1;
+			$rbp = 1;
+			$rbx = 1;
+			$rcx = 1;
+			$rdi = 1;
+			$rdx = 1;
+			$rip = 1;
+			$rsi = 1;
+			$rsp = 1;
+			$ss = 1;
+		};
+	};
+	A65AB8FD14CA48760077C880 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A65AB8FE14CA48760077C880 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A65AB8FF14CA489A0077C880 /* ChessBoard.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 1768}}";
+			sepNavSelRange = "{2665, 0}";
+			sepNavVisRange = "{146, 645}";
+			sepNavWindowFrame = "{{1716, 55}, {711, 820}}";
+		};
+	};
+	A65AB90014CA489A0077C880 /* ChessBoard.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {739, 23244}}";
+			sepNavSelRange = "{480, 0}";
+			sepNavVisRange = "{152, 556}";
+			sepNavWindowFrame = "{{1529, 8}, {705, 821}}";
+		};
+	};
+	A65AB90214CA4A540077C880 /* ChessPlayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 4121}}";
+			sepNavSelRange = "{6517, 0}";
+			sepNavVisRange = "{1157, 1221}";
+			sepNavWindowFrame = "{{422, 57}, {705, 821}}";
+		};
+	};
+	A65AB90314CA4A540077C880 /* ChessPlayer.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {739, 11089}}";
+			sepNavSelRange = "{3029, 0}";
+			sepNavVisRange = "{2557, 749}";
+			sepNavWindowFrame = "{{690, 286}, {750, 502}}";
+		};
+	};
+	A665D03A154469D5009A0BD5 /* ChessBoard.cpp:278 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		functionName = "ChessBoard::MovePiece(ChessPiece* piece, int row, int col)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 278;
+		location = ChessEngine;
+		modificationTime = 358022772.847691;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A665D076154478B9009A0BD5 /* MoveTree.cpp:530 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite, WhitePlayer* _WhitePlayer, BlackPlayer* _BlackPlayer, ChessBoard* _ChessBoardInstance)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 530;
+		location = ChessEngine;
+		modificationTime = 358022772.847719;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A665D07C15447965009A0BD5 /* MoveTree.cpp:667 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite, WhitePlayer* _WhitePlayer, BlackPlayer* _BlackPlayer, ChessBoard* _ChessBoardInstance)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 667;
+		location = ChessEngine;
+		modificationTime = 358022772.847749;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A665D0C615449D6C009A0BD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A665D0C715449D6C009A0BD5 /* ChessBoard.cpp */;
+		name = "ChessBoard.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 930;
+		vrLoc = 22228;
+	};
+	A665D0C715449D6C009A0BD5 /* ChessBoard.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = ChessBoard.cpp;
+		path = "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/Fri20AprChessEngine/ChessBoard.cpp";
+		sourceTree = "<absolute>";
+	};
+	A665D0F71544A515009A0BD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A68DC32914D7884B00FA3031 /* King.cpp */;
+		name = "King.cpp: 180";
+		rLen = 0;
+		rLoc = 4404;
+		rType = 0;
+		vrLen = 1080;
+		vrLoc = 3746;
+	};
+	A665D1081544A708009A0BD5 /* new_allocator.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = new_allocator.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ext/new_allocator.h";
+		sourceTree = "<absolute>";
+	};
+	A665D11B1544AB4A009A0BD5 /* MoveTree.cpp:671 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite, WhitePlayer* _WhitePlayer, BlackPlayer* _BlackPlayer, ChessBoard* _ChessBoardInstance)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 671;
+		location = ChessEngine;
+		modificationTime = 358022772.847782;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A665D1421544B2E0009A0BD5 /* MoveTree.cpp:477 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite, WhitePlayer* _WhitePlayer, BlackPlayer* _BlackPlayer, ChessBoard* _ChessBoardInstance)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 477;
+		location = ChessEngine;
+		modificationTime = 358022772.847816;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A665D1571544B512009A0BD5 /* MoveTree.cpp:504 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite, WhitePlayer* _WhitePlayer, BlackPlayer* _BlackPlayer, ChessBoard* _ChessBoardInstance)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 504;
+		location = ChessEngine;
+		modificationTime = 358022772.847844;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A667D2E61542562700B14339 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A60A59C214D24ABF0022472A /* Bishop.cpp */;
+		name = "Bishop.cpp: 106";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 848;
+		vrLoc = 1867;
+	};
+	A667D2E71542562700B14339 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A68DC27414D63E2600FA3031 /* Rook.cpp */;
+		name = "Rook.cpp: 159";
+		rLen = 0;
+		rLoc = 3509;
+		rType = 0;
+		vrLen = 802;
+		vrLoc = 3271;
+	};
+	A667D38A1542608300B14339 /* main.cpp:19 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		functionName = "main (int argc, char * const argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 19;
+		location = ChessEngine;
+		modificationTime = 358022772.847391;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66C1E9715254BD300E506D2 /* NeuralNode.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {739, 884}}";
+			sepNavSelRange = "{405, 0}";
+			sepNavVisRange = "{20, 777}";
+		};
+	};
+	A66C1E9815254BD300E506D2 /* NeuralNode.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {700, 578}}";
+			sepNavSelRange = "{606, 0}";
+			sepNavVisRange = "{0, 606}";
+			sepNavWindowFrame = "{{916, 84}, {524, 794}}";
+		};
+	};
+	A66C1EB01525597E00E506D2 /* NeuralInput.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {664, 1326}}";
+			sepNavSelRange = "{1846, 0}";
+			sepNavVisRange = "{834, 743}";
+		};
+	};
+	A66C1EB11525597E00E506D2 /* NeuralInput.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {664, 507}}";
+			sepNavSelRange = "{180, 0}";
+			sepNavVisRange = "{0, 180}";
+		};
+	};
+	A66C208915291AB800E506D2 /* MoveTree.cpp:192 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::GenerateTree()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 192;
+		location = ChessEngine;
+		modificationTime = 358022772.846498;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66C20A31529206F00E506D2 /* main.cpp:456 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		functionName = "main (int argc, char * const argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 456;
+		location = ChessEngine;
+		modificationTime = 358022772.84653;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66C20A9152922C500E506D2 /* ChessBoard.cpp:833 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		functionName = "ChessBoard::PromotePawn(Pawn* pawn, const Move* MoveTo, char PromotionPiece)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 833;
+		location = ChessEngine;
+		modificationTime = 358022772.846611;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66C20B5152924F500E506D2 /* MoveTree.cpp:118 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::GenerateTree()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 118;
+		location = ChessEngine;
+		modificationTime = 358022772.846642;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66C216B152948D300E506D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6EC88B714D8C1AC00976E50 /* basic_string.h */;
+		name = "basic_string.h: 2178";
+		rLen = 0;
+		rLoc = 81923;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 81209;
+	};
+	A66C21B715294D7A00E506D2 /* Knight.h:65 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A60A59BA14D223C10022472A /* Knight.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 65;
+		location = ChessEngine;
+		modificationTime = 358022772.846677;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66C21BB15294D8B00E506D2 /* Knight.h:50 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A60A59BA14D223C10022472A /* Knight.h */;
+		functionName = "HasLineToKing(Move& KingLoc)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 50;
+		location = ChessEngine;
+		modificationTime = 358022772.846712;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66C21BD15294D8C00E506D2 /* Knight.h:44 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A60A59BA14D223C10022472A /* Knight.h */;
+		functionName = "HasLineToKing(Move& KingLoc)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 44;
+		location = ChessEngine;
+		modificationTime = 358022772.846748;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66E57D215506E1100079EC9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 536";
+		rLen = 0;
+		rLoc = 12455;
+		rType = 0;
+		vrLen = 716;
+		vrLoc = 0;
+	};
+	A66E57D715506E1100079EC9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6FAC36D14E82D430028A7AF /* MoveTree.h */;
+		name = "MoveTree.h: 55";
+		rLen = 0;
+		rLoc = 1141;
+		rType = 0;
+		vrLen = 1557;
+		vrLoc = 597;
+	};
+	A66FD81A1547965700C210AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6B1C34514FC734A008EAA67 /* Tournament.h */;
+		name = "Tournament.h: 19";
+		rLen = 0;
+		rLoc = 466;
+		rType = 0;
+		vrLen = 885;
+		vrLoc = 945;
+	};
+	A66FD88A15479CA100C210AA /* MoveTree.cpp:21 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "ThreadStartFunction(void* _pThreadData)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 21;
+		location = ChessEngine;
+		modificationTime = 358022772.847876;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66FD8B71547A03500C210AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66C1E9715254BD300E506D2 /* NeuralNode.h */;
+		name = "NeuralNode.h: 21";
+		rLen = 0;
+		rLoc = 405;
+		rType = 0;
+		vrLen = 777;
+		vrLoc = 20;
+	};
+	A66FD8CC1547A0D000C210AA /* MoveTree.cpp:52 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "ThreadStartFunction(void* _pThreadData)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 52;
+		location = ChessEngine;
+		modificationTime = 358022772.84791;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66FD9691548E79300C210AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A69820C914D0D21A00B58CCA /* ChessMove.h */;
+		name = "ChessMove.h: 55";
+		rLen = 0;
+		rLoc = 1445;
+		rType = 0;
+		vrLen = 1231;
+		vrLoc = 1263;
+	};
+	A66FD9921548E91B00C210AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A60A59BA14D223C10022472A /* Knight.h */;
+		name = "Knight.h: 59";
+		rLen = 0;
+		rLoc = 1438;
+		rType = 0;
+		vrLen = 1076;
+		vrLoc = 767;
+	};
+	A66FD9931548E91B00C210AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A60A59C114D24ABF0022472A /* Bishop.h */;
+		name = "Bishop.h: 51";
+		rLen = 0;
+		rLoc = 1352;
+		rType = 0;
+		vrLen = 1290;
+		vrLoc = 495;
+	};
+	A66FD9941548E91B00C210AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A68DC27314D63E2600FA3031 /* Rook.h */;
+		name = "Rook.h: 35";
+		rLen = 0;
+		rLoc = 838;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 137;
+	};
+	A66FD9961548E91B00C210AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A68DC32814D7884B00FA3031 /* King.h */;
+		name = "King.h: 36";
+		rLen = 0;
+		rLoc = 841;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 225;
+	};
+	A66FD9971548E91B00C210AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A68DC33814D78BE800FA3031 /* Queen.h */;
+		name = "Queen.h: 39";
+		rLen = 0;
+		rLoc = 854;
+		rType = 0;
+		vrLen = 1005;
+		vrLoc = 203;
+	};
+	A66FD9EC1548ED7100C210AA /* MoveTree.cpp:51 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "ThreadStartFunction(void* _pThreadData)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 51;
+		location = ChessEngine;
+		modificationTime = 358022772.84794;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A670A91F153F865E0065C8DA /* Tournament.cpp:431 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6B1C34614FC734A008EAA67 /* Tournament.cpp */;
+		functionName = "Tournament::PlayTournament()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 431;
+		location = ChessEngine;
+		modificationTime = 358022772.847192;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A670A924153F86C70065C8DA /* Tournament.cpp:382 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6B1C34614FC734A008EAA67 /* Tournament.cpp */;
+		functionName = "Tournament::PlayTournament()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 382;
+		location = ChessEngine;
+		modificationTime = 358022772.847222;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6788329152E926500951175 /* MinorPieceNodes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 4628}}";
+			sepNavSelRange = "{5430, 0}";
+			sepNavVisRange = "{5010, 526}";
+		};
+	};
+	A678832A152E926500951175 /* MinorPieceNodes.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {664, 884}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 876}";
+		};
+	};
+	A678832F152E93B700951175 /* MajorPieceNodes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 5954}}";
+			sepNavSelRange = "{8108, 0}";
+			sepNavVisRange = "{7679, 585}";
+		};
+	};
+	A6788330152E93B700951175 /* MajorPieceNodes.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {664, 936}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 860}";
+		};
+	};
+	A6788332152E947300951175 /* BoardNodes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {664, 1235}}";
+			sepNavSelRange = "{174, 0}";
+			sepNavVisRange = "{0, 828}";
+		};
+	};
+	A6788333152E947300951175 /* BoardNodes.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 364}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 404}";
+		};
+	};
+	A6788335152E94F700951175 /* PawnNodes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {664, 1534}}";
+			sepNavSelRange = "{173, 0}";
+			sepNavVisRange = "{0, 841}";
+		};
+	};
+	A6788336152E94F700951175 /* PawnNodes.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {664, 507}}";
+			sepNavSelRange = "{210, 0}";
+			sepNavVisRange = "{0, 692}";
+		};
+	};
+	A67990E314F98B4000FFE615 /* main.cpp:395 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		functionName = "main (int argc, char * const argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 395;
+		modificationTime = 358022777.333129;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A67990E514F98B4300FFE615 /* main.cpp:383 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		functionName = "main (int argc, char * const argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 383;
+		modificationTime = 358022777.332741;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A67F6BC715393C64000451CD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A67F6BC815393C64000451CD /* CheckerBoard.java */;
+		name = "CheckerBoard.java: 134";
+		rLen = 0;
+		rLoc = 4236;
+		rType = 0;
+		vrLen = 1642;
+		vrLoc = 3250;
+	};
+	A67F6BC815393C64000451CD /* CheckerBoard.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = CheckerBoard.java;
+		path = /Users/Mikey/Documents/workspace/Checkers/src/CheckerBoard/CheckerBoard.java;
+		sourceTree = "<absolute>";
+	};
+	A67F6FF7153BAF70000451CD /* ChessPlayer.cpp:225 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90314CA4A540077C880 /* ChessPlayer.cpp */;
+		functionName = "BlackPlayer::PawnPromotion( ChessPiece* pawn, ChessPiece* newPiece)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 225;
+		location = ChessEngine;
+		modificationTime = 358022772.847165;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6890CA81543D114004C0994 /* ChessPlayer.cpp:809 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90314CA4A540077C880 /* ChessPlayer.cpp */;
+		functionName = "BlackPlayer::Copy()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 809;
+		location = ChessEngine;
+		modificationTime = 358022772.847592;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6890CAA1543D116004C0994 /* ChessPlayer.cpp:784 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90314CA4A540077C880 /* ChessPlayer.cpp */;
+		functionName = "WhitePlayer::Copy()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 784;
+		location = ChessEngine;
+		modificationTime = 358022772.847628;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6890CDC1543D3CF004C0994 /* ChessPlayer.h:142 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90214CA4A540077C880 /* ChessPlayer.h */;
+		functionName = "SetPieceBoardPointer(ChessBoard* _BoardPtr)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 142;
+		location = ChessEngine;
+		modificationTime = 358022772.847663;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6890CE31543D406004C0994 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A60A59BB14D223C10022472A /* Knight.cpp */;
+		name = "Knight.cpp: 279";
+		rLen = 0;
+		rLoc = 7215;
+		rType = 0;
+		vrLen = 1427;
+		vrLoc = 6481;
+	};
+	A68DB90015522A8800725D2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		name = "MoveTree.cpp: 77";
+		rLen = 0;
+		rLoc = 1993;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 0;
+	};
+	A68DB90115522A8800725D2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6B1C34214FC6CE7008EAA67 /* ChessChromosome.cpp */;
+		name = "ChessChromosome.cpp: 98";
+		rLen = 4526;
+		rLoc = 1775;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 1448;
+	};
+	A68DB90215522A8800725D2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6FAC36D14E82D430028A7AF /* MoveTree.h */;
+		name = "MoveTree.h: 55";
+		rLen = 0;
+		rLoc = 1141;
+		rType = 0;
+		vrLen = 1557;
+		vrLoc = 597;
+	};
+	A68DC27314D63E2600FA3031 /* Rook.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 1157}}";
+			sepNavSelRange = "{2221, 0}";
+			sepNavVisRange = "{1228, 1173}";
+			sepNavWindowFrame = "{{1775, 0}, {711, 820}}";
+		};
+	};
+	A68DC27414D63E2600FA3031 /* Rook.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 5603}}";
+			sepNavSelRange = "{8451, 0}";
+			sepNavVisRange = "{4418, 859}";
+			sepNavWindowFrame = "{{1626, 64}, {1000, 832}}";
+		};
+	};
+	A68DC30914D7847E00FA3031 /* Pawn.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 1209}}";
+			sepNavSelRange = "{2080, 17}";
+			sepNavVisRange = "{1579, 876}";
+		};
+	};
+	A68DC30A14D7847E00FA3031 /* Pawn.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 7579}}";
+			sepNavSelRange = "{9059, 0}";
+			sepNavVisRange = "{8738, 794}";
+			sepNavWindowFrame = "{{0, 52}, {711, 820}}";
+		};
+	};
+	A68DC32814D7884B00FA3031 /* King.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 1261}}";
+			sepNavSelRange = "{2329, 0}";
+			sepNavVisRange = "{1631, 845}";
+		};
+	};
+	A68DC32914D7884B00FA3031 /* King.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 4381}}";
+			sepNavSelRange = "{3733, 0}";
+			sepNavVisRange = "{3522, 1020}";
+			sepNavWindowFrame = "{{1559, 254}, {750, 502}}";
+		};
+	};
+	A68DC33814D78BE800FA3031 /* Queen.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {754, 1157}}";
+			sepNavSelRange = "{2172, 0}";
+			sepNavVisRange = "{1208, 1111}";
+		};
+	};
+	A68DC33914D78BE800FA3031 /* Queen.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 7709}}";
+			sepNavSelRange = "{9933, 0}";
+			sepNavVisRange = "{0, 596}";
+			sepNavWindowFrame = "{{1680, -3}, {711, 820}}";
+		};
+	};
+	A6907330154B8A1C002DD635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6B032EE14FA02D60094D7FA /* stl_vector.h */;
+		name = "stl_vector.h: 604";
+		rLen = 0;
+		rLoc = 20837;
+		rType = 0;
+		vrLen = 968;
+		vrLoc = 20348;
+	};
+	A6907331154B8A1C002DD635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A665D1081544A708009A0BD5 /* new_allocator.h */;
+		name = "new_allocator.h: 107";
+		rLen = 0;
+		rLoc = 3524;
+		rType = 0;
+		vrLen = 808;
+		vrLoc = 2973;
+	};
+	A6907332154B8A1C002DD635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6FAC36A14E828EA0028A7AF /* MoveNode.h */;
+		name = "MoveNode.h: 43";
+		rLen = 0;
+		rLoc = 908;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 486;
+	};
+	A6907346154B9941002DD635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6B1C34214FC6CE7008EAA67 /* ChessChromosome.cpp */;
+		name = "ChessChromosome.cpp: 101";
+		rLen = 3;
+		rLoc = 1945;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 1448;
+	};
+	A6907347154B9941002DD635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6B1C34114FC6CE7008EAA67 /* ChessChromosome.h */;
+		name = "ChessChromosome.h: 71";
+		rLen = 0;
+		rLoc = 1206;
+		rType = 0;
+		vrLen = 630;
+		vrLoc = 1792;
+	};
+	A6907348154B9941002DD635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A69820D714D0F08000B58CCA /* Constants.h */;
+		name = "Constants.h: 158";
+		rLen = 0;
+		rLoc = 3296;
+		rType = 0;
+		vrLen = 629;
+		vrLoc = 2957;
+	};
+	A690734B154B9941002DD635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A65AB8FF14CA489A0077C880 /* ChessBoard.h */;
+		name = "ChessBoard.h: 87";
+		rLen = 0;
+		rLoc = 2665;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 146;
+	};
+	A690735C154BAE51002DD635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		name = "ChessBoard.cpp: 31";
+		rLen = 0;
+		rLoc = 480;
+		rType = 0;
+		vrLen = 556;
+		vrLoc = 152;
+	};
+	A69820BF14D0CFA500B58CCA /* PBXBookmarkGroup */ = {
+		isa = PBXBookmarkGroup;
+		children = (
+			A69820D214D0EF5200B58CCA /* PBXBookmark */,
+		);
+		name = Root;
+	};
+	A69820C914D0D21A00B58CCA /* ChessMove.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1419, 2002}}";
+			sepNavSelRange = "{3405, 17}";
+			sepNavVisRange = "{3086, 566}";
+			sepNavWindowFrame = "{{2649, -27}, {711, 820}}";
+		};
+	};
+	A69820CA14D0D25900B58CCA /* ChessMove.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1447, 2587}}";
+			sepNavSelRange = "{1774, 0}";
+			sepNavVisRange = "{1481, 663}";
+			sepNavWindowFrame = "{{179, 58}, {711, 820}}";
+		};
+	};
+	A69820CC14D0D2C200B58CCA /* ChessLog.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {739, 780}}";
+			sepNavSelRange = "{713, 0}";
+			sepNavVisRange = "{393, 696}";
+			sepNavWindowFrame = "{{449, 57}, {705, 821}}";
+		};
+	};
+	A69820CD14D0D2C200B58CCA /* ChessLog.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 1651}}";
+			sepNavSelRange = "{1556, 0}";
+			sepNavVisRange = "{1453, 662}";
+			sepNavWindowFrame = "{{1659, -1}, {705, 821}}";
+		};
+	};
+	A69820D214D0EF5200B58CCA /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+	};
+	A69820D714D0F08000B58CCA /* Constants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {739, 2834}}";
+			sepNavSelRange = "{3296, 0}";
+			sepNavVisRange = "{2957, 629}";
+			sepNavWindowFrame = "{{2649, -27}, {711, 820}}";
+		};
+	};
+	A698217F14D0F8CA00B58CCA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A698218014D0F8CA00B58CCA /* stddef.h */;
+		name = "stddef.h: 400";
+		rLen = 6;
+		rLoc = 12175;
+		rType = 0;
+		vrLen = 1092;
+		vrLoc = 11090;
+	};
+	A698218014D0F8CA00B58CCA /* stddef.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stddef.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h";
+		sourceTree = "<absolute>";
+	};
+	A69821BC14D0FA8A00B58CCA /* DownloadsOrganizer.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = DownloadsOrganizer.sh;
+		path = "/Users/Mikey/Desktop/Programming:Hacking/BASH/DownloadsOrganizer.sh";
+		sourceTree = "<absolute>";
+	};
+	A6A08F131537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6788333152E947300951175 /* BoardNodes.cpp */;
+		name = "BoardNodes.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 573;
+		vrLoc = 0;
+	};
+	A6A08F141537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6788332152E947300951175 /* BoardNodes.h */;
+		name = "BoardNodes.h: 11";
+		rLen = 0;
+		rLoc = 174;
+		rType = 0;
+		vrLen = 828;
+		vrLoc = 0;
+	};
+	A6A08F221537AE17009C1A6C /* Compile.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = Compile.sh;
+		path = "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Compile.sh";
+		sourceTree = "<absolute>";
+	};
+	A6A08F2A1537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6788330152E93B700951175 /* MajorPieceNodes.cpp */;
+		name = "MajorPieceNodes.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 860;
+		vrLoc = 0;
+	};
+	A6A08F2B1537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A678832F152E93B700951175 /* MajorPieceNodes.h */;
+		name = "MajorPieceNodes.h: 32";
+		rLen = 0;
+		rLoc = 555;
+		rType = 0;
+		vrLen = 830;
+		vrLoc = 0;
+	};
+	A6A08F2C1537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A678832A152E926500951175 /* MinorPieceNodes.cpp */;
+		name = "MinorPieceNodes.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 0;
+	};
+	A6A08F2D1537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6788329152E926500951175 /* MinorPieceNodes.h */;
+		name = "MinorPieceNodes.h: 33";
+		rLen = 0;
+		rLoc = 581;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+	A6A08F321537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66C1EB11525597E00E506D2 /* NeuralInput.cpp */;
+		name = "NeuralInput.cpp: 12";
+		rLen = 0;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 180;
+		vrLoc = 0;
+	};
+	A6A08F331537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66C1EB01525597E00E506D2 /* NeuralInput.h */;
+		name = "NeuralInput.h: 100";
+		rLen = 0;
+		rLoc = 1846;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 834;
+	};
+	A6A08F361537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6A08F371537AE17009C1A6C /* NeuralRoot.cpp */;
+		name = "NeuralRoot.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 0;
+	};
+	A6A08F371537AE17009C1A6C /* NeuralRoot.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = NeuralRoot.cpp;
+		path = "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/NeuralRoot.cpp";
+		sourceTree = "<absolute>";
+	};
+	A6A08F381537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6A08F391537AE17009C1A6C /* NeuralRoot.h */;
+		name = "NeuralRoot.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 0;
+	};
+	A6A08F391537AE17009C1A6C /* NeuralRoot.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NeuralRoot.h;
+		path = "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/NeuralRoot.h";
+		sourceTree = "<absolute>";
+	};
+	A6A08F3C1537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6788336152E94F700951175 /* PawnNodes.cpp */;
+		name = "PawnNodes.cpp: 14";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 0;
+	};
+	A6A08F3D1537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6788335152E94F700951175 /* PawnNodes.h */;
+		name = "PawnNodes.h: 11";
+		rLen = 0;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 841;
+		vrLoc = 0;
+	};
+	A6A08F421537AE17009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6A08F431537AE17009C1A6C /* Stats.sh */;
+		name = "Stats.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 53;
+		vrLoc = 0;
+	};
+	A6A08F431537AE17009C1A6C /* Stats.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = Stats.sh;
+		path = "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/ChessEngine/Stats.sh";
+		sourceTree = "<absolute>";
+	};
+	A6A08F551537B5A7009C1A6C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6A08F221537AE17009C1A6C /* Compile.sh */;
+		name = "Compile.sh: 1";
+		rLen = 0;
+		rLoc = 137;
+		rType = 0;
+		vrLen = 236;
+		vrLoc = 0;
+	};
+	A6AAE8571523FD9900BEF54C /* Constants.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {739, 410}}";
+			sepNavSelRange = "{264, 0}";
+			sepNavVisRange = "{0, 572}";
+		};
+	};
+	A6AAE88C1524002000BEF54C /* Pawn.cpp:81 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC30A14D7847E00FA3031 /* Pawn.cpp */;
+		functionName = "Pawn::MakeMove(const Move& Move2)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 81;
+		modificationTime = 358022777.332332;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6AAE88E1524002700BEF54C /* Pawn.cpp:103 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC30A14D7847E00FA3031 /* Pawn.cpp */;
+		functionName = "Pawn::MakeMove(const Move& Move2)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 103;
+		modificationTime = 358022777.333265;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6AAE8901524003400BEF54C /* Pawn.cpp:143 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC30A14D7847E00FA3031 /* Pawn.cpp */;
+		functionName = "Pawn::CheckForCapture(const Move& MoveTo)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 143;
+		modificationTime = 358022777.333099;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6AAE8921524003E00BEF54C /* Pawn.cpp:164 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC30A14D7847E00FA3031 /* Pawn.cpp */;
+		functionName = "Pawn::CheckForCapture(const Move& MoveTo)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 164;
+		modificationTime = 358022777.332816;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6AAE8941524004300BEF54C /* Pawn.cpp:180 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A68DC30A14D7847E00FA3031 /* Pawn.cpp */;
+		functionName = "Pawn::CheckForCapture(const Move& MoveTo)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 180;
+		modificationTime = 358022777.333065;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6AAE91E152490F000BEF54C /* MoveTree.cpp:656 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 656;
+		location = ChessEngine;
+		modificationTime = 358022772.846466;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6B032EE14FA02D60094D7FA /* stl_vector.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_vector.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_vector.h";
+		sourceTree = "<absolute>";
+	};
+	A6B1C34114FC6CE7008EAA67 /* ChessChromosome.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {739, 2652}}";
+			sepNavSelRange = "{1206, 0}";
+			sepNavVisRange = "{1792, 630}";
+			sepNavWindowFrame = "{{295, 52}, {999, 826}}";
+		};
+	};
+	A6B1C34214FC6CE7008EAA67 /* ChessChromosome.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 3471}}";
+			sepNavSelRange = "{1775, 4526}";
+			sepNavVisRange = "{1465, 790}";
+		};
+	};
+	A6B1C34514FC734A008EAA67 /* Tournament.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 1079}}";
+			sepNavSelRange = "{466, 0}";
+			sepNavVisRange = "{0, 1425}";
+			sepNavWindowFrame = "{{296, 52}, {999, 826}}";
+		};
+	};
+	A6B1C34614FC734A008EAA67 /* Tournament.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 7423}}";
+			sepNavSelRange = "{2732, 0}";
+			sepNavVisRange = "{2319, 666}";
+			sepNavWindowFrame = "{{780, 57}, {705, 821}}";
+		};
+	};
+	A6C3C76715435D4F007C86DE /* ChessBoard.cpp:84 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		functionName = "ChessBoard::Copy()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 84;
+		location = ChessEngine;
+		modificationTime = 358022772.847499;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6C3C76B15435D5F007C86DE /* ChessBoard.cpp:67 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		functionName = "ChessBoard::Copy()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 67;
+		location = ChessEngine;
+		modificationTime = 358022772.84753;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6C3C7B61543860D007C86DE /* MoveTree.cpp:195 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::GenerateTree()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 195;
+		location = ChessEngine;
+		modificationTime = 358022772.847561;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6C5EF371556D32300FDA394 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6B1C34214FC6CE7008EAA67 /* ChessChromosome.cpp */;
+		name = "ChessChromosome.cpp: 98";
+		rLen = 4526;
+		rLoc = 1775;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 1465;
+	};
+	A6C5EF3A1556D32300FDA394 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6FAC36D14E82D430028A7AF /* MoveTree.h */;
+		name = "MoveTree.h: 55";
+		rLen = 0;
+		rLoc = 1141;
+		rType = 0;
+		vrLen = 1557;
+		vrLoc = 597;
+	};
+	A6C5EFAE1556F44700FDA394 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected `;' before 'ChessBoard'";
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 537;
+		rType = 1;
+	};
+	A6C5EFAF1556F44700FDA394 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 537";
+		rLen = 0;
+		rLoc = 12481;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 11602;
+	};
+	A6C5F03E1556FE7A00FDA394 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6B1C34214FC6CE7008EAA67 /* ChessChromosome.cpp */;
+		name = "ChessChromosome.cpp: 98";
+		rLen = 4526;
+		rLoc = 1775;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 1465;
+	};
+	A6C5F03F1556FE7A00FDA394 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected `;' before 'ChessBoard'";
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 537;
+		rType = 1;
+	};
+	A6C5F0401556FE7A00FDA394 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 538";
+		rLen = 0;
+		rLoc = 12482;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 11840;
+	};
+	A6C5F0411556FE7A00FDA394 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6FAC36D14E82D430028A7AF /* MoveTree.h */;
+		name = "MoveTree.h: 55";
+		rLen = 0;
+		rLoc = 1141;
+		rType = 0;
+		vrLen = 1557;
+		vrLoc = 597;
+	};
+	A6C7199E154B742C00593400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6B1C34614FC734A008EAA67 /* Tournament.cpp */;
+		name = "Tournament.cpp: 26";
+		rLen = 0;
+		rLoc = 584;
+		rType = 0;
+		vrLen = 621;
+		vrLoc = 5434;
+	};
+	A6C719C6154B876600593400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6FAC36B14E828EA0028A7AF /* MoveNode.cpp */;
+		name = "MoveNode.cpp: 38";
+		rLen = 0;
+		rLoc = 842;
+		rType = 0;
+		vrLen = 596;
+		vrLoc = 536;
+	};
+	A6DCE15D152A8DAC00C61F4D /* Tournament.cpp:187 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6B1C34614FC734A008EAA67 /* Tournament.cpp */;
+		functionName = "Match::PlayMatch()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 187;
+		location = ChessEngine;
+		modificationTime = 358022772.846782;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6DCE257152D1BDE00C61F4D /* MoveNode.cpp:36 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36B14E828EA0028A7AF /* MoveNode.cpp */;
+		functionName = "MoveNode::DeleteAllMemory()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 36;
+		location = ChessEngine;
+		modificationTime = 358022772.846811;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6DCE28D152D237B00C61F4D /* ChessPlayer.cpp:682 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90314CA4A540077C880 /* ChessPlayer.cpp */;
+		functionName = "BlackPlayer::ResetPlayer()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 682;
+		location = ChessEngine;
+		modificationTime = 358022772.84684;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6DCE28F152D237B00C61F4D /* ChessPlayer.cpp:654 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90314CA4A540077C880 /* ChessPlayer.cpp */;
+		functionName = "WhitePlayer::ResetPlayer()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 654;
+		location = ChessEngine;
+		modificationTime = 358022772.846867;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6DCE2C0152D383400C61F4D /* MoveTree.cpp:658 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 658;
+		location = ChessEngine;
+		modificationTime = 358022772.846896;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6DCE2C2152D383900C61F4D /* MoveTree.cpp:660 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 660;
+		location = ChessEngine;
+		modificationTime = 358022772.846925;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6DCE2C4152D383900C61F4D /* MoveTree.cpp:663 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 663;
+		location = ChessEngine;
+		modificationTime = 358022772.846952;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6DCE2C6152D383A00C61F4D /* MoveTree.cpp:659 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6FAC36E14E82D430028A7AF /* MoveTree.cpp */;
+		functionName = "MoveTree::FillAlphaBetaNode(int Ply, MoveNode* Parent, bool bIsWhite)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 659;
+		location = ChessEngine;
+		modificationTime = 358022772.84698;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6DD362D14F49AE500647901 /* main.cpp:469 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		functionName = "main (int argc, char * const argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 469;
+		modificationTime = 358022777.332558;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6EC884E14D8BDF600976E50 /* typeinfo */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = typeinfo;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/typeinfo";
+		sourceTree = "<absolute>";
+	};
+	A6EC886D14D8BF9F00976E50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6EC884E14D8BDF600976E50 /* typeinfo */;
+		name = "typeinfo: 80";
+		rLen = 0;
+		rLoc = 2661;
+		rType = 0;
+		vrLen = 1504;
+		vrLoc = 2037;
+	};
+	A6EC88B714D8C1AC00976E50 /* basic_string.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = basic_string.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/basic_string.h";
+		sourceTree = "<absolute>";
+	};
+	A6F3E44114F34423003E2C00 /* Constants.h:191 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A69820D714D0F08000B58CCA /* Constants.h */;
+		functionName = "getPromotionPiece()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 191;
+		modificationTime = 358022777.332956;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6FA74561548F20200638A86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A65AB90314CA4A540077C880 /* ChessPlayer.cpp */;
+		name = "ChessPlayer.cpp: 155";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 2557;
+	};
+	A6FA74681548F28700638A86 /* ChessPlayer.h:309 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90214CA4A540077C880 /* ChessPlayer.h */;
+		functionName = "Erase()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 309;
+		modificationTime = 358022777.333206;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6FA746E1548F29000638A86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A68DC30914D7847E00FA3031 /* Pawn.h */;
+		name = "Pawn.h: 74";
+		rLen = 17;
+		rLoc = 2080;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 1579;
+	};
+	A6FA746F1548F29000638A86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A69820CA14D0D25900B58CCA /* ChessMove.cpp */;
+		name = "ChessMove.cpp: 16";
+		rLen = 0;
+		rLoc = 436;
+		rType = 0;
+		vrLen = 538;
+		vrLoc = 1477;
+	};
+	A6FA74931548F55900638A86 /* ChessBoard.cpp:209 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		functionName = "ChessBoard::Castle(ChessPiece* _King, ChessPiece* _Rook, bool bKingSide, int col)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 209;
+		location = ChessEngine;
+		modificationTime = 358022772.847996;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6FA74951548F55C00638A86 /* ChessBoard.cpp:302 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		functionName = "ChessBoard::MovePiece(ChessPiece* piece, int row, int col)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 302;
+		location = ChessEngine;
+		modificationTime = 358022772.848022;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6FA74971548F55F00638A86 /* ChessBoard.cpp:665 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		functionName = "ChessBoard::MakeCapture(ChessPiece* piece, const Move& MoveTo)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 665;
+		location = ChessEngine;
+		modificationTime = 358022772.848051;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6FA74991548F56100638A86 /* ChessBoard.cpp:734 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		functionName = "ChessBoard::EnPassantCapture(ChessPiece* piece, const Move& MoveTo, const Move& CaptPieceLoc)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 734;
+		modificationTime = 358022777.332711;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6FA749B1548F56300638A86 /* ChessBoard.cpp:851 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		functionName = "ChessBoard::PromotePawn(Pawn* pawn, const Move* MoveTo, char PromotionPiece)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 851;
+		modificationTime = 358022777.332853;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6FA749D1548F56600638A86 /* ChessBoard.cpp:863 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A65AB90014CA489A0077C880 /* ChessBoard.cpp */;
+		functionName = "ChessBoard::PromotePawn(Pawn* pawn, const Move* MoveTo, char PromotionPiece)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 863;
+		modificationTime = 358022777.332638;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6FA749F1548F57200638A86 /* ChessMove.h:122 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A69820C914D0D21A00B58CCA /* ChessMove.h */;
+		functionName = "Copy()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 122;
+		modificationTime = 358022777.333237;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6FA74B41548F75C00638A86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A69820CD14D0D2C200B58CCA /* ChessLog.cpp */;
+		name = "ChessLog.cpp: 106";
+		rLen = 0;
+		rLoc = 1900;
+		rType = 0;
+		vrLen = 655;
+		vrLoc = 1458;
+	};
+	A6FA74B91548F75C00638A86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A69820CC14D0D2C200B58CCA /* ChessLog.h */;
+		name = "ChessLog.h: 41";
+		rLen = 0;
+		rLoc = 713;
+		rType = 0;
+		vrLen = 696;
+		vrLoc = 393;
+	};
+	A6FA74BA1548F75C00638A86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A65AB90214CA4A540077C880 /* ChessPlayer.h */;
+		name = "ChessPlayer.h: 214";
+		rLen = 0;
+		rLoc = 6517;
+		rType = 0;
+		vrLen = 1221;
+		vrLoc = 1157;
+	};
+	A6FAC36A14E828EA0028A7AF /* MoveNode.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {747, 1742}}";
+			sepNavSelRange = "{908, 0}";
+			sepNavVisRange = "{187, 1442}";
+			sepNavWindowFrame = "{{1759, -25}, {711, 820}}";
+		};
+	};
+	A6FAC36B14E828EA0028A7AF /* MoveNode.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 1742}}";
+			sepNavSelRange = "{842, 0}";
+			sepNavVisRange = "{536, 596}";
+			sepNavWindowFrame = "{{2541, 33}, {705, 821}}";
+		};
+	};
+	A6FAC36D14E82D430028A7AF /* MoveTree.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 1105}}";
+			sepNavSelRange = "{1141, 0}";
+			sepNavVisRange = "{597, 1557}";
+			sepNavWindowFrame = "{{98, 55}, {711, 820}}";
+		};
+	};
+	A6FAC36E14E82D430028A7AF /* MoveTree.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 11726}}";
+			sepNavSelRange = "{1993, 0}";
+			sepNavVisRange = "{0, 747}";
+			sepNavWindowFrame = "{{1571, -40}, {705, 821}}";
+		};
+	};
+	A6FB0B1C1520063500F1E4FA /* ChessChromosome.h:125 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6B1C34114FC6CE7008EAA67 /* ChessChromosome.h */;
+		functionName = "Mutate(EMutateType mutator, int mutatorIndex)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 125;
+		location = ChessEngine;
+		modificationTime = 358022772.846148;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6FB0B2C1520072D00F1E4FA /* main.cpp:173 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		functionName = "main (int argc, char * const argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 173;
+		location = ChessEngine;
+		modificationTime = 358022772.846177;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6FB0B6F15200B1500F1E4FA /* main.cpp:171 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		functionName = "main (int argc, char * const argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 171;
+		location = ChessEngine;
+		modificationTime = 358022772.846249;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6FEB63A15352F4B00FB7787 /* Compile.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = Compile.sh;
+		path = "/Users/Mikey/Desktop/Programming:Hacking/Obj-C/Sat7AprChessEngine/Compile.sh";
+		sourceTree = "<absolute>";
+	};
+	A6FEB67715353CD200FB7787 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6FEB63A15352F4B00FB7787 /* Compile.sh */;
+		name = "Compile.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 187;
+		vrLoc = 0;
+	};
+}
