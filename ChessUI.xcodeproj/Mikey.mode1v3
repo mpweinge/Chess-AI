@@ -202,6 +202,46 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
+				<string>A64297EF155AED8C00BCA562</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>ChessEngineWrapper.h</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>A64297F0155AED8C00BCA562</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>ChessEngineWrapper.h</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>A6FA0CA81562AC100055E27A</string>
+						<key>history</key>
+						<array>
+							<string>A60480CC156202A400CE81B9</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {739, 785}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>446 52 739 826 0 0 1440 878 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
 				<string>A642975F155AB3AB00BCA562</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>Tournament.cpp</string>
@@ -216,7 +256,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>A6FA0C941562ABAE0055E27A</string>
+						<string>A6FA0CA91562AC100055E27A</string>
 						<key>history</key>
 						<array>
 							<string>A60480C8156202A400CE81B9</string>
@@ -256,7 +296,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>A6FA0C951562ABAE0055E27A</string>
+						<string>A6FA0CAA1562AC100055E27A</string>
 						<key>history</key>
 						<array>
 							<string>A60480C9156202A400CE81B9</string>
@@ -296,7 +336,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>A6FA0C961562ABAE0055E27A</string>
+						<string>A6FA0CAB1562AC100055E27A</string>
 						<key>history</key>
 						<array>
 							<string>A60480CA156202A400CE81B9</string>
@@ -336,7 +376,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>A6FA0C971562ABAE0055E27A</string>
+						<string>A6FA0CAC1562AC100055E27A</string>
 						<key>history</key>
 						<array>
 							<string>A60480CB156202A400CE81B9</string>
@@ -362,46 +402,6 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>A64297EF155AED8C00BCA562</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>ChessEngineWrapper.h</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>A64297F0155AED8C00BCA562</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>ChessEngineWrapper.h</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>A6FA0C981562ABAE0055E27A</string>
-						<key>history</key>
-						<array>
-							<string>A60480CC156202A400CE81B9</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {739, 785}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>446 52 739 826 0 0 1440 878 </string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
 				<string>A64298B2155AFB1600BCA562</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>CommonInclude.h</string>
@@ -416,7 +416,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>A6FA0C991562ABAE0055E27A</string>
+						<string>A6FA0CAD1562AC100055E27A</string>
 						<key>history</key>
 						<array>
 							<string>A60480CD156202A400CE81B9</string>
@@ -456,7 +456,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>A6FA0C9A1562ABAE0055E27A</string>
+						<string>A6FA0CAE1562AC100055E27A</string>
 						<key>history</key>
 						<array>
 							<string>A60480CE156202A400CE81B9</string>
@@ -609,7 +609,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A6FA0C911562ABAE0055E27A</string>
+										<string>A6FA0CA71562AC100055E27A</string>
 										<key>history</key>
 										<array>
 											<string>A6FB093C151ECB5000F1E4FA</string>
@@ -867,6 +867,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>A6FA0CAF1562AC100055E27A</string>
 		<string>A6FA0CA31562ABAE0055E27A</string>
 		<string>A6FA0CA41562ABAE0055E27A</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -874,11 +875,12 @@
 		<string>A666871B14CB194A00EAC594</string>
 		<string>A69A9C4A155A01EA00D6A93E</string>
 		<string>A64298B2155AFB1600BCA562</string>
-		<string>A64297EF155AED8C00BCA562</string>
 		<string>A6429762155AB3AB00BCA562</string>
 		<string>A633E95C155CA79000D574DC</string>
 		<string>A633E93F155CA6BE00D574DC</string>
 		<string>A642975F155AB3AB00BCA562</string>
+		<string>A64297EF155AED8C00BCA562</string>
+		<string>/Users/Mikey/Desktop/ChessUI/ChessUI.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>409 159 1004 713 0 0 1440 878 </string>

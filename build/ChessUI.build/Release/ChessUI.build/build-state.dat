@@ -1,7 +1,7 @@
 TChessUI
 v7
 r0
-t358723683.907900
+t358788110.720398
 cCheck dependencies
 cProcessInfoPlistFile /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/Info.plist ChessUI-Info.plist
 cCopyStringsFile /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -59,7 +59,6 @@ cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/3DPieces
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/Collision.o /Users/Mikey/Desktop/ChessUI/Collision.c normal i386 c com.apple.compilers.gcc.4_2
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessEngineWrapper.o /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/Bishop.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Bishop.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cLd /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI normal x86_64
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/BoardNodes.o /Users/Mikey/Desktop/ChessUI/ChessEngine/BoardNodes.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessBoard.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessBoard.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessChromosome.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -83,6 +82,8 @@ cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/Queen.o 
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/Rook.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Rook.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/Tournament.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Tournament.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/DrawingQueues.o /Users/Mikey/Desktop/ChessUI/DrawingQueues.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI normal i386
+cLd /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI normal x86_64
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/main.o /Users/Mikey/Desktop/ChessUI/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUIAppDelegate.o /Users/Mikey/Desktop/ChessUI/ChessUIAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/MyOpenGLView.o /Users/Mikey/Desktop/ChessUI/MyOpenGLView.m normal ppc objective-c com.apple.compilers.gcc.4_2
@@ -92,7 +93,6 @@ cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/3DPieces.
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/Collision.o /Users/Mikey/Desktop/ChessUI/Collision.c normal ppc c com.apple.compilers.gcc.4_2
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessEngineWrapper.o /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm normal ppc objective-c++ com.apple.compilers.gcc.4_2
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/Bishop.o /Users/Mikey/Desktop/ChessUI/ChessEngine/Bishop.cpp normal ppc c++ com.apple.compilers.gcc.4_2
-cLd /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI normal i386
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/BoardNodes.o /Users/Mikey/Desktop/ChessUI/ChessEngine/BoardNodes.cpp normal ppc c++ com.apple.compilers.gcc.4_2
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessBoard.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessBoard.cpp normal ppc c++ com.apple.compilers.gcc.4_2
 cCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessChromosome.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp normal ppc c++ com.apple.compilers.gcc.4_2
@@ -565,9 +565,9 @@ i"ObjectiveCWrapper.h"
 i"MyOpenGLView.h"
 
 N/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm
-c000000004FB178BA00000000000041D3
-t1337030842
-s16851
+c000000004FB1CABF00000000000041DC
+t1337051839
+s16860
 i"ChessEngineWrapper.h"
 i"./ChessEngine/ChessBoard.h"
 i"./ChessEngine/MoveTree.h"
@@ -706,8 +706,8 @@ t1337030869
 s98948
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessEngineWrapper.o
-t1337030868
-s163956
+t1337095306
+s163524
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessLog.o
 t1337030869
@@ -726,7 +726,7 @@ t1337030871
 s149408
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI
-t1337030874
+t1337095307
 s315228
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI.LinkFileList
@@ -843,8 +843,8 @@ t1337030875
 s103024
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessEngineWrapper.o
-t1337030874
-s167068
+t1337095309
+s166636
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessLog.o
 t1337030876
@@ -863,7 +863,7 @@ t1337030878
 s163384
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUI
-t1337030883
+t1337095310
 s319532
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUI.LinkFileList
@@ -980,8 +980,8 @@ t1337030860
 s102600
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessEngineWrapper.o
-t1337030860
-s185072
+t1337095307
+s184740
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessLog.o
 t1337030861
@@ -1000,7 +1000,7 @@ t1337030863
 s164052
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI
-t1337030868
+t1337095308
 s358040
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI.LinkFileList
@@ -1097,11 +1097,11 @@ t1337030187
 s5024
 
 N/Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app
-t1337030883
+t1337095310
 s102
 
 N/Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app.dSYM
-t1337030883
+t1337095310
 s102
 
 N/Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/Info.plist
@@ -1109,7 +1109,7 @@ t1337030177
 s886
 
 N/Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/MacOS/ChessUI
-t1337030883
+t1337095310
 s999468
 
 N/Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/PkgInfo
@@ -1185,7 +1185,7 @@ s1002
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies358723658#358723658#0(0"0(0#1#0"8635380320#0"0#
+lSLF07#2@18"Check dependencies358788104#358788104#0(0"0(0#1#0"3343187568374212096#0"0#
 
 CCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/3DPieces.o /Users/Mikey/Desktop/ChessUI/3DPieces.c normal i386 c com.apple.compilers.gcc.4_2
 s358722999.244839
@@ -1253,8 +1253,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@68"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp358723668#358723669#0(0"0(0#0#60"/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp8635259904#1415"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Release -I/Users/Mikey/Desktop/ChessUI/build/Release/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources/i386 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-btgdlpwewdvzxqfxfiyakxomjjhr/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessChromosome.o0#
 
 CCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessEngineWrapper.o /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s358723667.128101
-e358723668.044404
+s358788104.988155
+e358788106.974185
 r1
 xCompileC
 xbuild/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessEngineWrapper.o
@@ -1275,7 +1275,7 @@ o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: no return stat
 o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: control reaches end of non-void function
 o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':
 o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: control reaches end of non-void function
-lSLF07#2@58"Compile /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723667#358723668#0(1288"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In member function 'void CImplement::PlayMatch()':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:396: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:452: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: no return statement in function returning non-void/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void -[ChessEngineWrapper GenerateTree](ChessEngineWrapper*, objc_selector*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:607: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine2(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: no return statement in function returning non-void/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: control reaches end of non-void function/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: control reaches end of non-void function7(22@29"Unused variable 'threadError'358723667#103#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#396#0#396#0#19"unused variable '*'0(22@29"Unused variable 'threadError'358723667#198#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#452#0#452#0#19"unused variable '*'0(22@50"No return statement in function returning non-void358723667#397#116#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#597#0#597#0#50"no return statement in function returning non-void0(22@29"Unused variable 'threadError'358723667#657#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#607#0#607#0#19"unused variable '*'0(22@50"No return statement in function returning non-void358723667#856#116#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#638#0#638#0#50"no return statement in function returning non-void0(22@40"Control reaches end of non-void function358723667#972#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#638#0#638#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function358723667#1182#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#597#0#597#0#40"control reaches end of non-void function0(0#0#50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm8626162112#1418"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Release -I/Users/Mikey/Desktop/ChessUI/build/Release/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources/i386 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-guaajepqrhnvgcerhdexehhodsmb/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessEngineWrapper.o0#
+lSLF07#2@58"Compile /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358788104#358788106#0(1288"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In member function 'void CImplement::PlayMatch()':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:396: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:452: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: no return statement in function returning non-void/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void -[ChessEngineWrapper GenerateTree](ChessEngineWrapper*, objc_selector*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:607: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine2(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: no return statement in function returning non-void/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: control reaches end of non-void function/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: control reaches end of non-void function7(22@29"Unused variable 'threadError'358788106#103#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#396#0#396#0#19"unused variable '*'0(22@29"Unused variable 'threadError'358788106#198#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#452#0#452#0#19"unused variable '*'0(22@50"No return statement in function returning non-void358788106#397#116#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#597#0#597#0#50"no return statement in function returning non-void0(22@29"Unused variable 'threadError'358788106#657#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#607#0#607#0#19"unused variable '*'0(22@50"No return statement in function returning non-void358788106#856#116#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#638#0#638#0#50"no return statement in function returning non-void0(22@40"Control reaches end of non-void function358788106#972#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#638#0#638#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function358788106#1182#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#597#0#597#0#40"control reaches end of non-void function0(0#0#50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm8609282464#1418"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Release -I/Users/Mikey/Desktop/ChessUI/build/Release/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources/i386 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-guaajepqrhnvgcerhdexehhodsmb/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessEngineWrapper.o0#
 
 CCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessLog.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessLog.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s358723669.554823
@@ -1681,8 +1681,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@68"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp358723675#358723675#0(0"0(0#0#60"/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp8610799776#1422"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Release -I/Users/Mikey/Desktop/ChessUI/build/Release/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources/ppc -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-hfhgadnhkfiblackcvkhnfwwjulb/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessChromosome.o0#
 
 CCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessEngineWrapper.o /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm normal ppc objective-c++ com.apple.compilers.gcc.4_2
-s358723673.263670
-e358723674.176925
+s358788108.004979
+e358788109.731184
 r1
 xCompileC
 xbuild/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessEngineWrapper.o
@@ -1703,7 +1703,7 @@ o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: no return stat
 o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: control reaches end of non-void function
 o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':
 o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: control reaches end of non-void function
-lSLF07#2@58"Compile /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723673#358723674#0(1288"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In member function 'void CImplement::PlayMatch()':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:396: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:452: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: no return statement in function returning non-void/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void -[ChessEngineWrapper GenerateTree](ChessEngineWrapper*, objc_selector*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:607: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine2(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: no return statement in function returning non-void/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: control reaches end of non-void function/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: control reaches end of non-void function7(22@29"Unused variable 'threadError'358723673#103#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#396#0#396#0#19"unused variable '*'0(22@29"Unused variable 'threadError'358723673#198#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#452#0#452#0#19"unused variable '*'0(22@50"No return statement in function returning non-void358723673#397#116#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#597#0#597#0#50"no return statement in function returning non-void0(22@29"Unused variable 'threadError'358723673#657#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#607#0#607#0#19"unused variable '*'0(22@50"No return statement in function returning non-void358723673#856#116#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#638#0#638#0#50"no return statement in function returning non-void0(22@40"Control reaches end of non-void function358723673#972#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#638#0#638#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function358723673#1182#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#597#0#597#0#40"control reaches end of non-void function0(0#0#50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm8616954880#1425"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Release -I/Users/Mikey/Desktop/ChessUI/build/Release/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources/ppc -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-fgwyfuggjigcaucwhtwzaxzkmlsz/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessEngineWrapper.o0#
+lSLF07#2@58"Compile /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358788108#358788109#0(1288"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In member function 'void CImplement::PlayMatch()':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:396: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:452: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: no return statement in function returning non-void/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void -[ChessEngineWrapper GenerateTree](ChessEngineWrapper*, objc_selector*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:607: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine2(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: no return statement in function returning non-void/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: control reaches end of non-void function/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: control reaches end of non-void function7(22@29"Unused variable 'threadError'358788109#103#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#396#0#396#0#19"unused variable '*'0(22@29"Unused variable 'threadError'358788109#198#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#452#0#452#0#19"unused variable '*'0(22@50"No return statement in function returning non-void358788109#397#116#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#597#0#597#0#50"no return statement in function returning non-void0(22@29"Unused variable 'threadError'358788109#657#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#607#0#607#0#19"unused variable '*'0(22@50"No return statement in function returning non-void358788109#856#116#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#638#0#638#0#50"no return statement in function returning non-void0(22@40"Control reaches end of non-void function358788109#972#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#638#0#638#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function358788109#1182#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#597#0#597#0#40"control reaches end of non-void function0(0#0#50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm8612159456#1425"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Release -I/Users/Mikey/Desktop/ChessUI/build/Release/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources/ppc -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-fgwyfuggjigcaucwhtwzaxzkmlsz/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessEngineWrapper.o0#
 
 CCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessLog.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessLog.cpp normal ppc c++ com.apple.compilers.gcc.4_2
 s358723675.817026
@@ -2109,8 +2109,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@68"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp358723660#358723660#0(0"0(0#0#60"/Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp8636154560#1421"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Release -I/Users/Mikey/Desktop/ChessUI/build/Release/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-cwcqpvbparqdpdezuedoocplvrxs/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessChromosome.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessChromosome.o0#
 
 CCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessEngineWrapper.o /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
-s358723658.393303
-e358723660.018495
+s358788104.962939
+e358788107.066123
 r1
 xCompileC
 xbuild/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessEngineWrapper.o
@@ -2131,7 +2131,7 @@ o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: no return stat
 o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: control reaches end of non-void function
 o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':
 o/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: control reaches end of non-void function
-lSLF07#2@58"Compile /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723658#358723660#0(1288"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In member function 'void CImplement::PlayMatch()':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:396: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:452: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: no return statement in function returning non-void/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void -[ChessEngineWrapper GenerateTree](ChessEngineWrapper*, objc_selector*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:607: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine2(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: no return statement in function returning non-void/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: control reaches end of non-void function/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: control reaches end of non-void function7(22@29"Unused variable 'threadError'358723658#103#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#396#0#396#0#19"unused variable '*'0(22@29"Unused variable 'threadError'358723658#198#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#452#0#452#0#19"unused variable '*'0(22@50"No return statement in function returning non-void358723658#397#116#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#597#0#597#0#50"no return statement in function returning non-void0(22@29"Unused variable 'threadError'358723658#657#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#607#0#607#0#19"unused variable '*'0(22@50"No return statement in function returning non-void358723658#856#116#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#638#0#638#0#50"no return statement in function returning non-void0(22@40"Control reaches end of non-void function358723658#972#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#638#0#638#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function358723658#1182#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358723642#597#0#597#0#40"control reaches end of non-void function0(0#0#50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm8636166368#1424"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Release -I/Users/Mikey/Desktop/ChessUI/build/Release/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-eolrfvqzclzhedbdgerxkrmuepyg/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessEngineWrapper.o0#
+lSLF07#2@58"Compile /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358788104#358788107#0(1288"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In member function 'void CImplement::PlayMatch()':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:396: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:452: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: no return statement in function returning non-void/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void -[ChessEngineWrapper GenerateTree](ChessEngineWrapper*, objc_selector*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:607: warning: unused variable 'threadError'/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine2(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: no return statement in function returning non-void/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:638: warning: control reaches end of non-void function/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm: In function 'void* PosixThreadMainRoutine3(void*)':/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm:597: warning: control reaches end of non-void function7(22@29"Unused variable 'threadError'358788106#103#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#396#0#396#0#19"unused variable '*'0(22@29"Unused variable 'threadError'358788106#198#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#452#0#452#0#19"unused variable '*'0(22@50"No return statement in function returning non-void358788106#397#116#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#597#0#597#0#50"no return statement in function returning non-void0(22@29"Unused variable 'threadError'358788106#657#95#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#607#0#607#0#19"unused variable '*'0(22@50"No return statement in function returning non-void358788106#856#116#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#638#0#638#0#50"no return statement in function returning non-void0(22@40"Control reaches end of non-void function358788106#972#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#638#0#638#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function358788106#1182#106#0(6@50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm358744639#597#0#597#0#40"control reaches end of non-void function0(0#0#50"/Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm3917909816998063104#1424"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Release -I/Users/Mikey/Desktop/ChessUI/build/Release/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-eolrfvqzclzhedbdgerxkrmuepyg/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngineWrapper.mm -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessEngineWrapper.o0#
 
 CCompileC build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessLog.o /Users/Mikey/Desktop/ChessUI/ChessEngine/ChessLog.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 s358723660.695283
@@ -2496,53 +2496,53 @@ xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings358722977#358722977#0(0"0(0#0#60"/Users/Mikey/Desktop/ChessUI/English.lproj/InfoPlist.strings8616682944#347"    cd /Users/Mikey/Desktop/ChessUI    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/Resources/English.lproj0#
 
 CCreateUniversalBinary /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/MacOS/ChessUI normal "x86_64 i386 ppc"
-s358723683.386417
-e358723683.418950
+s358788110.010004
+e358788110.281320
 r1
 xCreateUniversalBinary
 x/Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/MacOS/ChessUI
 xnormal
 xx86_64 i386 ppc
-lSLF07#2@95"CreateUniversalBinary build/Release/ChessUI.app/Contents/MacOS/ChessUI normal "x86_64 i386 ppc"358723683#358723683#0(0"0(0#0#44"/Users/Mikey/Desktop/ChessUI/x86_64 i386 ppc8614668928#446"    cd /Users/Mikey/Desktop/ChessUI    /usr/bin/lipo -create /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUI -output /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/MacOS/ChessUI0#
+lSLF07#2@95"CreateUniversalBinary build/Release/ChessUI.app/Contents/MacOS/ChessUI normal "x86_64 i386 ppc"358788110#358788110#0(0"0(0#0#44"/Users/Mikey/Desktop/ChessUI/x86_64 i386 ppc8611503168#446"    cd /Users/Mikey/Desktop/ChessUI    /usr/bin/lipo -create /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUI -output /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/MacOS/ChessUI0#
 
 CGenerateDSYMFile /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app.dSYM /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/MacOS/ChessUI
-s358723683.419043
-e358723683.905100
+s358788110.281441
+e358788110.713945
 r1
 xGenerateDSYMFile
 x/Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app.dSYM
 x/Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/MacOS/ChessUI
-lSLF07#2@96"GenerateDSYMFile build/Release/ChessUI.app.dSYM build/Release/ChessUI.app/Contents/MacOS/ChessUI358723683#358723683#0(0"0(0#0#77"/Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/MacOS/ChessUI8633953152#209"    cd /Users/Mikey/Desktop/ChessUI    /Developer/usr/bin/dsymutil /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/MacOS/ChessUI -o /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app.dSYM0#
+lSLF07#2@96"GenerateDSYMFile build/Release/ChessUI.app.dSYM build/Release/ChessUI.app/Contents/MacOS/ChessUI358788110#358788110#0(0"0(0#0#77"/Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/MacOS/ChessUI8611292896#209"    cd /Users/Mikey/Desktop/ChessUI    /Developer/usr/bin/dsymutil /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/MacOS/ChessUI -o /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app.dSYM0#
 
 CLd /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI normal i386
-s358723674.386961
-e358723674.509353
+s358788106.975964
+e358788108.004362
 r1
 xLd
 x/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI
 xnormal
 xi386
-lSLF07#2@103"Link /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI358723674#358723674#0(0"0(0#0#0"8635680608#535"    cd /Users/Mikey/Desktop/ChessUI    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/ChessUI/build/Release -F/Users/Mikey/Desktop/ChessUI/build/Release -filelist /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI0#
+lSLF07#2@103"Link /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI358788106#358788108#0(0"0(0#0#0"8612239712#535"    cd /Users/Mikey/Desktop/ChessUI    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/ChessUI/build/Release -F/Users/Mikey/Desktop/ChessUI/build/Release -filelist /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/i386/ChessUI0#
 
 CLd /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUI normal ppc
-s358723683.184562
-e358723683.386322
+s358788109.731338
+e358788110.009907
 r1
 xLd
 x/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUI
 xnormal
 xppc
-lSLF07#2@102"Link /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUI358723683#358723683#0(0"0(0#0#0"8635617440#532"    cd /Users/Mikey/Desktop/ChessUI    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/ChessUI/build/Release -F/Users/Mikey/Desktop/ChessUI/build/Release -filelist /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUI.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUI0#
+lSLF07#2@102"Link /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUI358788109#358788110#0(0"0(0#0#0"8606350048#532"    cd /Users/Mikey/Desktop/ChessUI    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/ChessUI/build/Release -F/Users/Mikey/Desktop/ChessUI/build/Release -filelist /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUI.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/ppc/ChessUI0#
 
 CLd /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI normal x86_64
-s358723668.096624
-e358723668.234558
+s358788107.066221
+e358788108.006220
 r1
 xLd
 x/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI
 xnormal
 xx86_64
-lSLF07#2@105"Link /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI358723668#358723668#0(0"0(0#0#0"8625840096#541"    cd /Users/Mikey/Desktop/ChessUI    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/ChessUI/build/Release -F/Users/Mikey/Desktop/ChessUI/build/Release -filelist /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI0#
+lSLF07#2@105"Link /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI358788107#358788108#0(0"0(0#0#0"8611724576#541"    cd /Users/Mikey/Desktop/ChessUI    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/ChessUI/build/Release -F/Users/Mikey/Desktop/ChessUI/build/Release -filelist /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/Objects-normal/x86_64/ChessUI0#
 
 CProcessInfoPlistFile /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app/Contents/Info.plist ChessUI-Info.plist
 s358722977.672252
@@ -2650,10 +2650,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@29"Precompile ChessUI_Prefix.pch358722982#358722983#0(0"0(0#0#47"/Users/Mikey/Desktop/ChessUI/ChessUI_Prefix.pch8617056448#1303"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Release -I/Users/Mikey/Desktop/ChessUI/build/Release/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources/ppc -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Release/ChessUI.build/DerivedSources -c /Users/Mikey/Desktop/ChessUI/ChessUI_Prefix.pch -o /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-hfhgadnhkfiblackcvkhnfwwjulb/ChessUI_Prefix.pch.gch0#
 
 CTouch /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app
-s358723683.905192
-e358723683.907862
+s358788110.714107
+e358788110.720348
 r1
 xTouch
 x/Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app
-lSLF07#2@60"Touch /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app358723683#358723683#0(0"0(0#0#0"8635503744#113"    cd /Users/Mikey/Desktop/ChessUI    /usr/bin/touch -c /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app0#
+lSLF07#2@60"Touch /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app358788110#358788110#0(0"0(0#0#0"8610638016#113"    cd /Users/Mikey/Desktop/ChessUI    /usr/bin/touch -c /Users/Mikey/Desktop/ChessUI/build/Release/ChessUI.app0#
 

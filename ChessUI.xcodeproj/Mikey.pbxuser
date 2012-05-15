@@ -2,7 +2,7 @@
 {
 	256AC3D80F4B6AC300CF3369 /* ChessUIAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {680, 696}}";
+			sepNavIntBoundsRect = "{{0, 0}, {680, 673}}";
 			sepNavSelRange = "{530, 0}";
 			sepNavVisRange = "{0, 1061}";
 			sepNavWindowFrame = "{{71, 110}, {739, 768}}";
@@ -12,12 +12,12 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {740, 936}}";
 			sepNavSelRange = "{1420, 0}";
-			sepNavVisRange = "{0, 1859}";
+			sepNavVisRange = "{0, 1812}";
 			sepNavWindowFrame = "{{510, 110}, {739, 768}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = A666870B14CB194400EAC594 /* ChessUI */;
 		activeTarget = 8D1107260486CEB800E47090 /* ChessUI */;
 		addToTargets = (
@@ -254,6 +254,14 @@
 			A6FA0C981562ABAE0055E27A /* PBXTextBookmark */ = A6FA0C981562ABAE0055E27A /* PBXTextBookmark */;
 			A6FA0C991562ABAE0055E27A /* PBXTextBookmark */ = A6FA0C991562ABAE0055E27A /* PBXTextBookmark */;
 			A6FA0C9A1562ABAE0055E27A /* PBXTextBookmark */ = A6FA0C9A1562ABAE0055E27A /* PBXTextBookmark */;
+			A6FA0CA71562AC100055E27A /* PBXTextBookmark */ = A6FA0CA71562AC100055E27A /* PBXTextBookmark */;
+			A6FA0CA81562AC100055E27A /* PBXTextBookmark */ = A6FA0CA81562AC100055E27A /* PBXTextBookmark */;
+			A6FA0CA91562AC100055E27A /* PBXTextBookmark */ = A6FA0CA91562AC100055E27A /* PBXTextBookmark */;
+			A6FA0CAA1562AC100055E27A /* PBXTextBookmark */ = A6FA0CAA1562AC100055E27A /* PBXTextBookmark */;
+			A6FA0CAB1562AC100055E27A /* PBXTextBookmark */ = A6FA0CAB1562AC100055E27A /* PBXTextBookmark */;
+			A6FA0CAC1562AC100055E27A /* PBXTextBookmark */ = A6FA0CAC1562AC100055E27A /* PBXTextBookmark */;
+			A6FA0CAD1562AC100055E27A /* PBXTextBookmark */ = A6FA0CAD1562AC100055E27A /* PBXTextBookmark */;
+			A6FA0CAE1562AC100055E27A /* PBXTextBookmark */ = A6FA0CAE1562AC100055E27A /* PBXTextBookmark */;
 			A6FB093C151ECB5000F1E4FA = A6FB093C151ECB5000F1E4FA /* PBXTextBookmark */;
 		};
 		sourceControlManager = A666871D14CB194A00EAC594 /* Source Control */;
@@ -409,7 +417,7 @@
 		ignoreCount = 0;
 		lineNumber = 287;
 		location = ChessUI;
-		modificationTime = 358788001.064663;
+		modificationTime = 358788111.126614;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -427,7 +435,7 @@
 		ignoreCount = 0;
 		lineNumber = 464;
 		location = ChessUI;
-		modificationTime = 358788001.064689;
+		modificationTime = 358788111.126643;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -445,7 +453,7 @@
 		ignoreCount = 0;
 		lineNumber = 115;
 		location = ChessUI;
-		modificationTime = 358788001.064723;
+		modificationTime = 358788111.126668;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -463,7 +471,7 @@
 		ignoreCount = 0;
 		lineNumber = 1051;
 		location = ChessUI;
-		modificationTime = 358788001.064747;
+		modificationTime = 358788111.126689;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -481,7 +489,7 @@
 		ignoreCount = 0;
 		lineNumber = 348;
 		location = ChessUI;
-		modificationTime = 358788001.06477;
+		modificationTime = 358788111.126712;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -499,7 +507,7 @@
 		ignoreCount = 0;
 		lineNumber = 348;
 		location = ChessUI;
-		modificationTime = 358788001.064906;
+		modificationTime = 358788111.126825;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -517,7 +525,7 @@
 		ignoreCount = 0;
 		lineNumber = 342;
 		location = ChessUI;
-		modificationTime = 358788001.064929;
+		modificationTime = 358788111.126846;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -535,7 +543,7 @@
 		ignoreCount = 0;
 		lineNumber = 337;
 		location = ChessUI;
-		modificationTime = 358788001.06495;
+		modificationTime = 358788111.126866;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -579,7 +587,7 @@
 		ignoreCount = 0;
 		lineNumber = 224;
 		location = ChessUI;
-		modificationTime = 358788001.067136;
+		modificationTime = 358788111.128778;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -658,7 +666,7 @@
 		ignoreCount = 0;
 		lineNumber = 270;
 		location = ChessUI;
-		modificationTime = 358788001.067214;
+		modificationTime = 358788111.128833;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -676,7 +684,7 @@
 		ignoreCount = 0;
 		lineNumber = 373;
 		location = ChessUI;
-		modificationTime = 358788001.067272;
+		modificationTime = 358788111.128886;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -694,7 +702,7 @@
 		ignoreCount = 0;
 		lineNumber = 193;
 		location = ChessUI;
-		modificationTime = 358788001.067327;
+		modificationTime = 358788111.128941;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -712,7 +720,7 @@
 		ignoreCount = 0;
 		lineNumber = 460;
 		location = ChessUI;
-		modificationTime = 358788001.067352;
+		modificationTime = 358788111.128978;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -730,7 +738,7 @@
 		ignoreCount = 0;
 		lineNumber = 526;
 		location = ChessUI;
-		modificationTime = 358788001.067374;
+		modificationTime = 358788111.129001;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -758,7 +766,7 @@
 		ignoreCount = 0;
 		lineNumber = 145;
 		location = ChessUI;
-		modificationTime = 358788001.067396;
+		modificationTime = 358788111.129023;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -776,7 +784,7 @@
 		ignoreCount = 0;
 		lineNumber = 995;
 		location = ChessUI;
-		modificationTime = 358788001.067419;
+		modificationTime = 358788111.129044;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -794,7 +802,7 @@
 		ignoreCount = 0;
 		lineNumber = 1190;
 		location = ChessUI;
-		modificationTime = 358788001.06744;
+		modificationTime = 358788111.129065;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -812,7 +820,7 @@
 		ignoreCount = 0;
 		lineNumber = 1402;
 		location = ChessUI;
-		modificationTime = 358788001.067462;
+		modificationTime = 358788111.129087;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -830,7 +838,7 @@
 		ignoreCount = 0;
 		lineNumber = 115;
 		location = ChessUI;
-		modificationTime = 358788001.067484;
+		modificationTime = 358788111.129108;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -888,7 +896,7 @@
 		ignoreCount = 0;
 		lineNumber = 25;
 		location = ChessUI;
-		modificationTime = 358788001.064428;
+		modificationTime = 358788111.126411;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -906,7 +914,7 @@
 		ignoreCount = 0;
 		lineNumber = 42;
 		location = ChessUI;
-		modificationTime = 358788001.064579;
+		modificationTime = 358788111.126547;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -924,7 +932,7 @@
 		ignoreCount = 0;
 		lineNumber = 370;
 		location = ChessUI;
-		modificationTime = 358788001.066537;
+		modificationTime = 358788111.12817;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -942,7 +950,7 @@
 		ignoreCount = 0;
 		lineNumber = 657;
 		location = ChessUI;
-		modificationTime = 358788001.066592;
+		modificationTime = 358788111.128226;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -960,7 +968,7 @@
 		ignoreCount = 0;
 		lineNumber = 48;
 		location = ChessUI;
-		modificationTime = 358788001.066666;
+		modificationTime = 358788111.12828;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -978,7 +986,7 @@
 		ignoreCount = 0;
 		lineNumber = 26;
 		location = ChessUI;
-		modificationTime = 358788001.066737;
+		modificationTime = 358788111.128379;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -996,7 +1004,7 @@
 		ignoreCount = 0;
 		lineNumber = 41;
 		location = ChessUI;
-		modificationTime = 358788001.066797;
+		modificationTime = 358788111.12844;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1013,7 +1021,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 414;
-		modificationTime = 358788001.066856;
+		modificationTime = 358788111.128497;
 		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
@@ -1031,7 +1039,7 @@
 		ignoreCount = 0;
 		lineNumber = 299;
 		location = ChessUI;
-		modificationTime = 358788001.066913;
+		modificationTime = 358788111.128552;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1049,7 +1057,7 @@
 		ignoreCount = 0;
 		lineNumber = 674;
 		location = ChessUI;
-		modificationTime = 358788001.066969;
+		modificationTime = 358788111.128613;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1067,7 +1075,7 @@
 		ignoreCount = 0;
 		lineNumber = 619;
 		location = ChessUI;
-		modificationTime = 358788001.067025;
+		modificationTime = 358788111.128669;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1085,7 +1093,7 @@
 		ignoreCount = 0;
 		lineNumber = 517;
 		location = ChessUI;
-		modificationTime = 358788001.06708;
+		modificationTime = 358788111.128723;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1593,7 +1601,7 @@
 		ignoreCount = 0;
 		lineNumber = 432;
 		location = ChessUI;
-		modificationTime = 358788001.064365;
+		modificationTime = 358788111.12636;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1687,7 +1695,7 @@
 		ignoreCount = 0;
 		lineNumber = 119;
 		location = ChessUI;
-		modificationTime = 358788001.065839;
+		modificationTime = 358788111.127531;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1705,7 +1713,7 @@
 		ignoreCount = 0;
 		lineNumber = 439;
 		location = ChessUI;
-		modificationTime = 358788001.065924;
+		modificationTime = 358788111.127584;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1723,7 +1731,7 @@
 		ignoreCount = 0;
 		lineNumber = 116;
 		location = ChessUI;
-		modificationTime = 358788001.065987;
+		modificationTime = 358788111.127643;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1741,7 +1749,7 @@
 		ignoreCount = 0;
 		lineNumber = 111;
 		location = ChessUI;
-		modificationTime = 358788001.066044;
+		modificationTime = 358788111.127697;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1769,7 +1777,7 @@
 		ignoreCount = 0;
 		lineNumber = 441;
 		location = ChessUI;
-		modificationTime = 358788001.0661;
+		modificationTime = 358788111.127751;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1787,7 +1795,7 @@
 		ignoreCount = 0;
 		lineNumber = 445;
 		location = ChessUI;
-		modificationTime = 358788001.066153;
+		modificationTime = 358788111.127808;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1805,7 +1813,7 @@
 		ignoreCount = 0;
 		lineNumber = 16;
 		location = ChessUI;
-		modificationTime = 358788001.066228;
+		modificationTime = 358788111.127869;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1823,7 +1831,7 @@
 		ignoreCount = 0;
 		lineNumber = 51;
 		location = ChessUI;
-		modificationTime = 358788001.066252;
+		modificationTime = 358788111.127893;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1841,7 +1849,7 @@
 		ignoreCount = 0;
 		lineNumber = 50;
 		location = ChessUI;
-		modificationTime = 358788001.066274;
+		modificationTime = 358788111.127914;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1859,7 +1867,7 @@
 		ignoreCount = 0;
 		lineNumber = 446;
 		location = ChessUI;
-		modificationTime = 358788001.066295;
+		modificationTime = 358788111.127935;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1876,7 +1884,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 120;
-		modificationTime = 358788001.066347;
+		modificationTime = 358788111.127986;
 		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
@@ -1904,7 +1912,7 @@
 		ignoreCount = 0;
 		lineNumber = 28;
 		location = ChessUI;
-		modificationTime = 358788003.040481;
+		modificationTime = 358788111.403553;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -1922,7 +1930,7 @@
 		ignoreCount = 0;
 		lineNumber = 613;
 		location = ChessUI;
-		modificationTime = 358788001.066427;
+		modificationTime = 358788111.128062;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1940,7 +1948,7 @@
 		ignoreCount = 0;
 		lineNumber = 290;
 		location = ChessUI;
-		modificationTime = 358788001.066482;
+		modificationTime = 358788111.128115;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1961,7 +1969,7 @@
 	};
 	A6B0490D151C0E9700A72542 /* CommonInclude.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {680, 449}}";
+			sepNavIntBoundsRect = "{{0, 0}, {680, 426}}";
 			sepNavSelRange = "{380, 0}";
 			sepNavVisRange = "{0, 390}";
 			sepNavWindowFrame = "{{392, 236}, {739, 521}}";
@@ -1979,7 +1987,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {915, 806}}";
 			sepNavSelRange = "{1266, 0}";
-			sepNavVisRange = "{0, 1441}";
+			sepNavVisRange = "{0, 1401}";
 			sepNavWindowFrame = "{{446, 52}, {739, 826}}";
 		};
 	};
@@ -1987,7 +1995,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {640, 9269}}";
 			sepNavSelRange = "{965, 0}";
-			sepNavVisRange = "{361, 1050}";
+			sepNavVisRange = "{361, 970}";
 			sepNavWindowFrame = "{{701, 52}, {739, 826}}";
 		};
 	};
@@ -2004,7 +2012,7 @@
 		ignoreCount = 0;
 		lineNumber = 578;
 		location = ChessUI;
-		modificationTime = 358788001.065084;
+		modificationTime = 358788111.127;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2063,7 +2071,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {859, 2509}}";
 			sepNavSelRange = "{1342, 0}";
-			sepNavVisRange = "{2422, 1343}";
+			sepNavVisRange = "{2422, 1282}";
 			sepNavWindowFrame = "{{9, 110}, {739, 768}}";
 		};
 	};
@@ -2244,7 +2252,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {985, 8021}}";
 			sepNavSelRange = "{14773, 0}";
-			sepNavVisRange = "{0, 1165}";
+			sepNavVisRange = "{0, 1162}";
 			sepNavWindowFrame = "{{173, 52}, {739, 826}}";
 		};
 	};
@@ -2280,7 +2288,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1013, 6292}}";
 			sepNavSelRange = "{8705, 40}";
-			sepNavVisRange = "{11286, 1377}";
+			sepNavVisRange = "{11286, 1362}";
 			sepNavWindowFrame = "{{409, 52}, {739, 826}}";
 		};
 	};
@@ -2313,7 +2321,7 @@
 		ignoreCount = 0;
 		lineNumber = 649;
 		location = ChessUI;
-		modificationTime = 358788001.065163;
+		modificationTime = 358788111.127065;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2331,7 +2339,7 @@
 		ignoreCount = 0;
 		lineNumber = 656;
 		location = ChessUI;
-		modificationTime = 358788001.065352;
+		modificationTime = 358788111.12709;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2349,7 +2357,7 @@
 		ignoreCount = 0;
 		lineNumber = 232;
 		location = ChessUI;
-		modificationTime = 358788001.065378;
+		modificationTime = 358788111.127111;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2383,7 +2391,7 @@
 		ignoreCount = 0;
 		lineNumber = 485;
 		location = ChessUI;
-		modificationTime = 358788001.0654;
+		modificationTime = 358788111.127132;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2401,7 +2409,7 @@
 		ignoreCount = 0;
 		lineNumber = 545;
 		location = ChessUI;
-		modificationTime = 358788001.065422;
+		modificationTime = 358788111.127154;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2419,7 +2427,7 @@
 		ignoreCount = 0;
 		lineNumber = 551;
 		location = ChessUI;
-		modificationTime = 358788001.065484;
+		modificationTime = 358788111.127207;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2437,7 +2445,7 @@
 		ignoreCount = 0;
 		lineNumber = 150;
 		location = ChessUI;
-		modificationTime = 358788001.065541;
+		modificationTime = 358788111.127262;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2455,7 +2463,7 @@
 		ignoreCount = 0;
 		lineNumber = 145;
 		location = ChessUI;
-		modificationTime = 358788001.065614;
+		modificationTime = 358788111.127316;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2473,7 +2481,7 @@
 		ignoreCount = 0;
 		lineNumber = 539;
 		location = ChessUI;
-		modificationTime = 358788001.06567;
+		modificationTime = 358788111.127368;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2491,7 +2499,7 @@
 		ignoreCount = 0;
 		lineNumber = 148;
 		location = ChessUI;
-		modificationTime = 358788001.065728;
+		modificationTime = 358788111.127423;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2509,7 +2517,7 @@
 		ignoreCount = 0;
 		lineNumber = 97;
 		location = ChessUI;
-		modificationTime = 358788001.065783;
+		modificationTime = 358788111.127476;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2527,7 +2535,7 @@
 		ignoreCount = 0;
 		lineNumber = 187;
 		location = ChessUI;
-		modificationTime = 358788001.064815;
+		modificationTime = 358788111.126732;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2545,7 +2553,7 @@
 		ignoreCount = 0;
 		lineNumber = 355;
 		location = ChessUI;
-		modificationTime = 358788001.06484;
+		modificationTime = 358788111.126753;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2563,7 +2571,7 @@
 		ignoreCount = 0;
 		lineNumber = 1094;
 		location = ChessUI;
-		modificationTime = 358788001.064863;
+		modificationTime = 358788111.126779;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2581,7 +2589,7 @@
 		ignoreCount = 0;
 		lineNumber = 423;
 		location = ChessUI;
-		modificationTime = 358788001.064884;
+		modificationTime = 358788111.126803;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2599,7 +2607,7 @@
 		ignoreCount = 0;
 		lineNumber = 92;
 		location = ChessUI;
-		modificationTime = 358788001.064973;
+		modificationTime = 358788111.126887;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2693,6 +2701,86 @@
 		vrLen = 1165;
 		vrLoc = 0;
 	};
+	A6FA0CA71562AC100055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5EF721556D5C000FDA394 /* ChessEngineWrapper.mm */;
+		name = "ChessEngineWrapper.mm: 47";
+		rLen = 0;
+		rLoc = 965;
+		rType = 0;
+		vrLen = 970;
+		vrLoc = 361;
+	};
+	A6FA0CA81562AC100055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5EF711556D5C000FDA394 /* ChessEngineWrapper.h */;
+		name = "ChessEngineWrapper.h: 56";
+		rLen = 0;
+		rLoc = 1266;
+		rType = 0;
+		vrLen = 1401;
+		vrLoc = 0;
+	};
+	A6FA0CA91562AC100055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5F0941557003200FDA394 /* Tournament.cpp */;
+		name = "Tournament.cpp: 394";
+		rLen = 40;
+		rLoc = 8705;
+		rType = 0;
+		vrLen = 1362;
+		vrLoc = 11286;
+	};
+	A6FA0CAA1562AC100055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5F06E1557003200FDA394 /* ChessChromosome.h */;
+		name = "ChessChromosome.h: 78";
+		rLen = 0;
+		rLoc = 1342;
+		rType = 0;
+		vrLen = 1282;
+		vrLoc = 2422;
+	};
+	A6FA0CAB1562AC100055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* ChessUIAppDelegate.h */;
+		name = "ChessUIAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 1061;
+		vrLoc = 0;
+	};
+	A6FA0CAC1562AC100055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* ChessUIAppDelegate.m */;
+		name = "ChessUIAppDelegate.m: 34";
+		rLen = 0;
+		rLoc = 1420;
+		rType = 0;
+		vrLen = 1812;
+		vrLoc = 0;
+	};
+	A6FA0CAD1562AC100055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6B0490D151C0E9700A72542 /* CommonInclude.h */;
+		name = "CommonInclude.h: 22";
+		rLen = 0;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 390;
+		vrLoc = 0;
+	};
+	A6FA0CAE1562AC100055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5F08C1557003200FDA394 /* Pawn.cpp */;
+		name = "Pawn.cpp: 542";
+		rLen = 0;
+		rLoc = 14773;
+		rType = 0;
+		vrLen = 1162;
+		vrLoc = 0;
+	};
 	A6FB093C151ECB5000F1E4FA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = A6FB093D151ECB5000F1E4FA /* EAGLView.m */;
@@ -2724,7 +2812,7 @@
 		ignoreCount = 0;
 		lineNumber = 43;
 		location = ChessUI;
-		modificationTime = 358788001.064994;
+		modificationTime = 358788111.126913;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2742,7 +2830,7 @@
 		ignoreCount = 0;
 		lineNumber = 631;
 		location = ChessUI;
-		modificationTime = 358788001.065016;
+		modificationTime = 358788111.126937;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2760,7 +2848,7 @@
 		ignoreCount = 0;
 		lineNumber = 378;
 		location = ChessUI;
-		modificationTime = 358788001.06504;
+		modificationTime = 358788111.126959;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2778,7 +2866,7 @@
 		ignoreCount = 0;
 		lineNumber = 638;
 		location = ChessUI;
-		modificationTime = 358788001.065062;
+		modificationTime = 358788111.126979;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
