@@ -29,7 +29,7 @@ class CImplement
 private:
 	ChessPiece* HoldingPiece;
 	bool bWhiteMove;
-	Chromosome* treeChromo;
+	//Chromosome* treeChromo;
 	NSTextFieldCell* LocalMoveList;
 	MyOpenGLView* OpenGLView;
 	bool PlayAgainstCPU;
@@ -48,8 +48,8 @@ public:
 		//bWhiteMove = true;
 		PlayAgainstCPU = false;
 		HoldingPiece = NULL;
-		treeChromo = new Chromosome(0);
-		treeChromo->LoadChromosome();
+		//treeChromo = new Chromosome(4909);
+		//treeChromo->LoadChromosome();
 	}
 	
 	void GenerateTree( int PLY)
