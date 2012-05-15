@@ -169,83 +169,92 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 358722683;
-			PBXWorkspaceStateSaveDate = 358722683;
+			PBXPerProjectTemplateStateSaveDate = 358787978;
+			PBXWorkspaceStateSaveDate = 358787978;
 		};
 		perUserProjectItems = {
-			A633E890155BF63800D574DC /* PBXTextBookmark */ = A633E890155BF63800D574DC /* PBXTextBookmark */;
-			A633E907155CA3C800D574DC /* PBXTextBookmark */ = A633E907155CA3C800D574DC /* PBXTextBookmark */;
-			A633E909155CA3C800D574DC /* PBXTextBookmark */ = A633E909155CA3C800D574DC /* PBXTextBookmark */;
-			A633E90B155CA3C800D574DC /* PBXTextBookmark */ = A633E90B155CA3C800D574DC /* PBXTextBookmark */;
-			A633E91D155CA61800D574DC /* PBXTextBookmark */ = A633E91D155CA61800D574DC /* PBXTextBookmark */;
-			A633EA33155CAEE600D574DC /* PBXTextBookmark */ = A633EA33155CAEE600D574DC /* PBXTextBookmark */;
-			A633EB8F155CBC1E00D574DC /* PBXTextBookmark */ = A633EB8F155CBC1E00D574DC /* PBXTextBookmark */;
-			A633EBBD155CC15B00D574DC /* PBXTextBookmark */ = A633EBBD155CC15B00D574DC /* PBXTextBookmark */;
-			A633EBEA155CC40B00D574DC /* PBXTextBookmark */ = A633EBEA155CC40B00D574DC /* PBXTextBookmark */;
-			A633EC0F155CC6D100D574DC /* PBXTextBookmark */ = A633EC0F155CC6D100D574DC /* PBXTextBookmark */;
-			A64EA5A71561A234006342C4 /* PBXTextBookmark */ = A64EA5A71561A234006342C4 /* PBXTextBookmark */;
-			A64EA5A81561A234006342C4 /* PBXTextBookmark */ = A64EA5A81561A234006342C4 /* PBXTextBookmark */;
-			A64EA5A91561A234006342C4 /* PBXTextBookmark */ = A64EA5A91561A234006342C4 /* PBXTextBookmark */;
-			A64EA5AA1561A234006342C4 /* PBXTextBookmark */ = A64EA5AA1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5AC1561A234006342C4 /* PBXTextBookmark */ = A64EA5AC1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5AD1561A234006342C4 /* PBXTextBookmark */ = A64EA5AD1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5AE1561A234006342C4 /* PBXTextBookmark */ = A64EA5AE1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5AF1561A234006342C4 /* PBXTextBookmark */ = A64EA5AF1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5B01561A234006342C4 /* PBXTextBookmark */ = A64EA5B01561A234006342C4 /* PBXTextBookmark */;
-			A64EA5B11561A234006342C4 /* PBXTextBookmark */ = A64EA5B11561A234006342C4 /* PBXTextBookmark */;
-			A64EA5B21561A234006342C4 /* PBXTextBookmark */ = A64EA5B21561A234006342C4 /* PBXTextBookmark */;
-			A64EA5B61561A234006342C4 /* PBXTextBookmark */ = A64EA5B61561A234006342C4 /* PBXTextBookmark */;
-			A64EA5B71561A234006342C4 /* PBXTextBookmark */ = A64EA5B71561A234006342C4 /* PBXTextBookmark */;
-			A64EA5B81561A234006342C4 /* PBXTextBookmark */ = A64EA5B81561A234006342C4 /* PBXTextBookmark */;
-			A64EA5B91561A234006342C4 /* PBXTextBookmark */ = A64EA5B91561A234006342C4 /* PBXTextBookmark */;
-			A64EA5BA1561A234006342C4 /* PBXTextBookmark */ = A64EA5BA1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5BB1561A234006342C4 /* PBXTextBookmark */ = A64EA5BB1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5BC1561A234006342C4 /* PBXTextBookmark */ = A64EA5BC1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5BD1561A234006342C4 /* PBXTextBookmark */ = A64EA5BD1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5BE1561A234006342C4 /* PBXTextBookmark */ = A64EA5BE1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5BF1561A234006342C4 /* PBXTextBookmark */ = A64EA5BF1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5C01561A234006342C4 /* PBXTextBookmark */ = A64EA5C01561A234006342C4 /* PBXTextBookmark */;
-			A64EA5C11561A234006342C4 /* PBXTextBookmark */ = A64EA5C11561A234006342C4 /* PBXTextBookmark */;
-			A64EA5C21561A234006342C4 /* PBXTextBookmark */ = A64EA5C21561A234006342C4 /* PBXTextBookmark */;
-			A64EA5C31561A234006342C4 /* PBXTextBookmark */ = A64EA5C31561A234006342C4 /* PBXTextBookmark */;
-			A64EA5C51561A234006342C4 /* PBXTextBookmark */ = A64EA5C51561A234006342C4 /* PBXTextBookmark */;
-			A64EA5C61561A234006342C4 /* PBXTextBookmark */ = A64EA5C61561A234006342C4 /* PBXTextBookmark */;
-			A64EA5C71561A234006342C4 /* PBXTextBookmark */ = A64EA5C71561A234006342C4 /* PBXTextBookmark */;
-			A64EA5C81561A234006342C4 /* PBXTextBookmark */ = A64EA5C81561A234006342C4 /* PBXTextBookmark */;
-			A64EA5C91561A234006342C4 /* PBXTextBookmark */ = A64EA5C91561A234006342C4 /* PBXTextBookmark */;
-			A64EA5CA1561A234006342C4 /* PBXTextBookmark */ = A64EA5CA1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5CB1561A234006342C4 /* PBXTextBookmark */ = A64EA5CB1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5CC1561A234006342C4 /* PBXTextBookmark */ = A64EA5CC1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5CD1561A234006342C4 /* PBXTextBookmark */ = A64EA5CD1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5CE1561A234006342C4 /* PBXTextBookmark */ = A64EA5CE1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5CF1561A234006342C4 /* PBXTextBookmark */ = A64EA5CF1561A234006342C4 /* PBXTextBookmark */;
-			A64EA5D01561A234006342C4 /* PBXTextBookmark */ = A64EA5D01561A234006342C4 /* PBXTextBookmark */;
-			A64EA5D11561A234006342C4 /* PBXTextBookmark */ = A64EA5D11561A234006342C4 /* PBXTextBookmark */;
-			A64EA5E51561A281006342C4 /* PBXTextBookmark */ = A64EA5E51561A281006342C4 /* PBXTextBookmark */;
-			A64EA5E61561A281006342C4 /* PBXTextBookmark */ = A64EA5E61561A281006342C4 /* PBXTextBookmark */;
-			A64EA5E71561A281006342C4 /* PBXTextBookmark */ = A64EA5E71561A281006342C4 /* PBXTextBookmark */;
-			A64EA5E81561A281006342C4 /* PBXTextBookmark */ = A64EA5E81561A281006342C4 /* PBXTextBookmark */;
-			A64EA5E91561A281006342C4 /* PBXTextBookmark */ = A64EA5E91561A281006342C4 /* PBXTextBookmark */;
-			A64EA5EA1561A281006342C4 /* PBXTextBookmark */ = A64EA5EA1561A281006342C4 /* PBXTextBookmark */;
-			A64EA5EB1561A281006342C4 /* PBXTextBookmark */ = A64EA5EB1561A281006342C4 /* PBXTextBookmark */;
-			A64EA6371561ACAD006342C4 /* PBXTextBookmark */ = A64EA6371561ACAD006342C4 /* PBXTextBookmark */;
-			A64EA6381561ACAD006342C4 /* PBXTextBookmark */ = A64EA6381561ACAD006342C4 /* PBXTextBookmark */;
-			A64EA6511561ADA5006342C4 /* PBXTextBookmark */ = A64EA6511561ADA5006342C4 /* PBXTextBookmark */;
-			A64EA6611561AEC2006342C4 /* PBXTextBookmark */ = A64EA6611561AEC2006342C4 /* PBXTextBookmark */;
-			A64EA6621561AEC2006342C4 /* PBXTextBookmark */ = A64EA6621561AEC2006342C4 /* PBXTextBookmark */;
-			A64EA6631561AEC2006342C4 /* PBXTextBookmark */ = A64EA6631561AEC2006342C4 /* PBXTextBookmark */;
-			A64EA6641561AEC2006342C4 /* PBXTextBookmark */ = A64EA6641561AEC2006342C4 /* PBXTextBookmark */;
-			A64EA6851561B082006342C4 /* PBXTextBookmark */ = A64EA6851561B082006342C4 /* PBXTextBookmark */;
-			A64EA6861561B082006342C4 /* PBXTextBookmark */ = A64EA6861561B082006342C4 /* PBXTextBookmark */;
-			A64EA6871561B082006342C4 /* PBXTextBookmark */ = A64EA6871561B082006342C4 /* PBXTextBookmark */;
-			A64EA6881561B082006342C4 /* PBXTextBookmark */ = A64EA6881561B082006342C4 /* PBXTextBookmark */;
-			A64EA6891561B082006342C4 /* PBXTextBookmark */ = A64EA6891561B082006342C4 /* PBXTextBookmark */;
-			A64EA68A1561B082006342C4 /* PBXTextBookmark */ = A64EA68A1561B082006342C4 /* PBXTextBookmark */;
-			A64EA68B1561B082006342C4 /* PBXTextBookmark */ = A64EA68B1561B082006342C4 /* PBXTextBookmark */;
-			A64EA68C1561B082006342C4 /* PBXTextBookmark */ = A64EA68C1561B082006342C4 /* PBXTextBookmark */;
-			A6942C80155844D50076EF02 /* PBXTextBookmark */ = A6942C80155844D50076EF02 /* PBXTextBookmark */;
-			A6942CC1155849730076EF02 /* PBXTextBookmark */ = A6942CC1155849730076EF02 /* PBXTextBookmark */;
-			A6FB093C151ECB5000F1E4FA /* PBXTextBookmark */ = A6FB093C151ECB5000F1E4FA /* PBXTextBookmark */;
+			A60480B01562024200CE81B9 = A60480B01562024200CE81B9 /* PBXTextBookmark */;
+			A60480B11562024200CE81B9 = A60480B11562024200CE81B9 /* PBXTextBookmark */;
+			A60480B21562024200CE81B9 = A60480B21562024200CE81B9 /* PBXTextBookmark */;
+			A60480C7156202A400CE81B9 = A60480C7156202A400CE81B9 /* PBXTextBookmark */;
+			A60480C8156202A400CE81B9 = A60480C8156202A400CE81B9 /* PBXTextBookmark */;
+			A60480C9156202A400CE81B9 = A60480C9156202A400CE81B9 /* PBXTextBookmark */;
+			A60480CA156202A400CE81B9 = A60480CA156202A400CE81B9 /* PBXTextBookmark */;
+			A60480CB156202A400CE81B9 = A60480CB156202A400CE81B9 /* PBXTextBookmark */;
+			A60480CC156202A400CE81B9 = A60480CC156202A400CE81B9 /* PBXTextBookmark */;
+			A60480CD156202A400CE81B9 = A60480CD156202A400CE81B9 /* PBXTextBookmark */;
+			A60480CE156202A400CE81B9 = A60480CE156202A400CE81B9 /* PBXTextBookmark */;
+			A633E890155BF63800D574DC = A633E890155BF63800D574DC /* PBXTextBookmark */;
+			A633E907155CA3C800D574DC = A633E907155CA3C800D574DC /* PBXTextBookmark */;
+			A633E909155CA3C800D574DC = A633E909155CA3C800D574DC /* PBXTextBookmark */;
+			A633E90B155CA3C800D574DC = A633E90B155CA3C800D574DC /* PBXTextBookmark */;
+			A633E91D155CA61800D574DC = A633E91D155CA61800D574DC /* PBXTextBookmark */;
+			A633EA33155CAEE600D574DC = A633EA33155CAEE600D574DC /* PBXTextBookmark */;
+			A633EB8F155CBC1E00D574DC = A633EB8F155CBC1E00D574DC /* PBXTextBookmark */;
+			A633EBBD155CC15B00D574DC = A633EBBD155CC15B00D574DC /* PBXTextBookmark */;
+			A633EBEA155CC40B00D574DC = A633EBEA155CC40B00D574DC /* PBXTextBookmark */;
+			A633EC0F155CC6D100D574DC = A633EC0F155CC6D100D574DC /* PBXTextBookmark */;
+			A64EA5A71561A234006342C4 = A64EA5A71561A234006342C4 /* PBXTextBookmark */;
+			A64EA5A81561A234006342C4 = A64EA5A81561A234006342C4 /* PBXTextBookmark */;
+			A64EA5A91561A234006342C4 = A64EA5A91561A234006342C4 /* PBXTextBookmark */;
+			A64EA5AA1561A234006342C4 = A64EA5AA1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5AC1561A234006342C4 = A64EA5AC1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5AD1561A234006342C4 = A64EA5AD1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5AE1561A234006342C4 = A64EA5AE1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5AF1561A234006342C4 = A64EA5AF1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5B01561A234006342C4 = A64EA5B01561A234006342C4 /* PBXTextBookmark */;
+			A64EA5B11561A234006342C4 = A64EA5B11561A234006342C4 /* PBXTextBookmark */;
+			A64EA5B21561A234006342C4 = A64EA5B21561A234006342C4 /* PBXTextBookmark */;
+			A64EA5B61561A234006342C4 = A64EA5B61561A234006342C4 /* PBXTextBookmark */;
+			A64EA5B71561A234006342C4 = A64EA5B71561A234006342C4 /* PBXTextBookmark */;
+			A64EA5B81561A234006342C4 = A64EA5B81561A234006342C4 /* PBXTextBookmark */;
+			A64EA5B91561A234006342C4 = A64EA5B91561A234006342C4 /* PBXTextBookmark */;
+			A64EA5BA1561A234006342C4 = A64EA5BA1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5BB1561A234006342C4 = A64EA5BB1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5BC1561A234006342C4 = A64EA5BC1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5BE1561A234006342C4 = A64EA5BE1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5BF1561A234006342C4 = A64EA5BF1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5C01561A234006342C4 = A64EA5C01561A234006342C4 /* PBXTextBookmark */;
+			A64EA5C11561A234006342C4 = A64EA5C11561A234006342C4 /* PBXTextBookmark */;
+			A64EA5C21561A234006342C4 = A64EA5C21561A234006342C4 /* PBXTextBookmark */;
+			A64EA5C31561A234006342C4 = A64EA5C31561A234006342C4 /* PBXTextBookmark */;
+			A64EA5C51561A234006342C4 = A64EA5C51561A234006342C4 /* PBXTextBookmark */;
+			A64EA5C61561A234006342C4 = A64EA5C61561A234006342C4 /* PBXTextBookmark */;
+			A64EA5C71561A234006342C4 = A64EA5C71561A234006342C4 /* PBXTextBookmark */;
+			A64EA5C81561A234006342C4 = A64EA5C81561A234006342C4 /* PBXTextBookmark */;
+			A64EA5C91561A234006342C4 = A64EA5C91561A234006342C4 /* PBXTextBookmark */;
+			A64EA5CA1561A234006342C4 = A64EA5CA1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5CB1561A234006342C4 = A64EA5CB1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5CC1561A234006342C4 = A64EA5CC1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5CD1561A234006342C4 = A64EA5CD1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5CE1561A234006342C4 = A64EA5CE1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5CF1561A234006342C4 = A64EA5CF1561A234006342C4 /* PBXTextBookmark */;
+			A64EA5D01561A234006342C4 = A64EA5D01561A234006342C4 /* PBXTextBookmark */;
+			A64EA5D11561A234006342C4 = A64EA5D11561A234006342C4 /* PBXTextBookmark */;
+			A64EA6371561ACAD006342C4 = A64EA6371561ACAD006342C4 /* PBXTextBookmark */;
+			A64EA6511561ADA5006342C4 = A64EA6511561ADA5006342C4 /* PBXTextBookmark */;
+			A64EA6611561AEC2006342C4 = A64EA6611561AEC2006342C4 /* PBXTextBookmark */;
+			A64EA6621561AEC2006342C4 = A64EA6621561AEC2006342C4 /* PBXTextBookmark */;
+			A64EA6631561AEC2006342C4 = A64EA6631561AEC2006342C4 /* PBXTextBookmark */;
+			A64EA6861561B082006342C4 = A64EA6861561B082006342C4 /* PBXTextBookmark */;
+			A64EA6871561B082006342C4 = A64EA6871561B082006342C4 /* PBXTextBookmark */;
+			A64EA6881561B082006342C4 = A64EA6881561B082006342C4 /* PBXTextBookmark */;
+			A64EA6891561B082006342C4 = A64EA6891561B082006342C4 /* PBXTextBookmark */;
+			A64EA68A1561B082006342C4 = A64EA68A1561B082006342C4 /* PBXTextBookmark */;
+			A64EA68B1561B082006342C4 = A64EA68B1561B082006342C4 /* PBXTextBookmark */;
+			A64EA68C1561B082006342C4 = A64EA68C1561B082006342C4 /* PBXTextBookmark */;
+			A6942C80155844D50076EF02 = A6942C80155844D50076EF02 /* PBXTextBookmark */;
+			A6942CC1155849730076EF02 = A6942CC1155849730076EF02 /* PBXTextBookmark */;
+			A6FA0C901562ABAE0055E27A /* PBXTextBookmark */ = A6FA0C901562ABAE0055E27A /* PBXTextBookmark */;
+			A6FA0C911562ABAE0055E27A /* PBXTextBookmark */ = A6FA0C911562ABAE0055E27A /* PBXTextBookmark */;
+			A6FA0C941562ABAE0055E27A /* PBXTextBookmark */ = A6FA0C941562ABAE0055E27A /* PBXTextBookmark */;
+			A6FA0C951562ABAE0055E27A /* PBXTextBookmark */ = A6FA0C951562ABAE0055E27A /* PBXTextBookmark */;
+			A6FA0C961562ABAE0055E27A /* PBXTextBookmark */ = A6FA0C961562ABAE0055E27A /* PBXTextBookmark */;
+			A6FA0C971562ABAE0055E27A /* PBXTextBookmark */ = A6FA0C971562ABAE0055E27A /* PBXTextBookmark */;
+			A6FA0C981562ABAE0055E27A /* PBXTextBookmark */ = A6FA0C981562ABAE0055E27A /* PBXTextBookmark */;
+			A6FA0C991562ABAE0055E27A /* PBXTextBookmark */ = A6FA0C991562ABAE0055E27A /* PBXTextBookmark */;
+			A6FA0C9A1562ABAE0055E27A /* PBXTextBookmark */ = A6FA0C9A1562ABAE0055E27A /* PBXTextBookmark */;
+			A6FB093C151ECB5000F1E4FA = A6FB093C151ECB5000F1E4FA /* PBXTextBookmark */;
 		};
 		sourceControlManager = A666871D14CB194A00EAC594 /* Source Control */;
 		userBuildSettings = {
@@ -264,6 +273,113 @@
 		executables = (
 			A666870B14CB194400EAC594 /* ChessUI */,
 		);
+	};
+	A60480B01562024200CE81B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5F0771557003200FDA394 /* Constants.cpp */;
+		name = "Constants.cpp: 28";
+		rLen = 0;
+		rLoc = 542;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 0;
+	};
+	A60480B11562024200CE81B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5F06D1557003200FDA394 /* ChessChromosome.cpp */;
+		name = "ChessChromosome.cpp: 32";
+		rLen = 0;
+		rLoc = 551;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 158;
+	};
+	A60480B21562024200CE81B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5EF721556D5C000FDA394 /* ChessEngineWrapper.mm */;
+		rLen = 0;
+		rLoc = 51;
+		rType = 1;
+	};
+	A60480C7156202A400CE81B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5EF721556D5C000FDA394 /* ChessEngineWrapper.mm */;
+		name = "ChessEngineWrapper.mm: 45";
+		rLen = 0;
+		rLoc = 876;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 394;
+	};
+	A60480C8156202A400CE81B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5F0941557003200FDA394 /* Tournament.cpp */;
+		name = "Tournament.cpp: 394";
+		rLen = 40;
+		rLoc = 8705;
+		rType = 0;
+		vrLen = 1377;
+		vrLoc = 11286;
+	};
+	A60480C9156202A400CE81B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5F06E1557003200FDA394 /* ChessChromosome.h */;
+		name = "ChessChromosome.h: 78";
+		rLen = 0;
+		rLoc = 1342;
+		rType = 0;
+		vrLen = 1343;
+		vrLoc = 2422;
+	};
+	A60480CA156202A400CE81B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* ChessUIAppDelegate.h */;
+		name = "ChessUIAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 1061;
+		vrLoc = 0;
+	};
+	A60480CB156202A400CE81B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* ChessUIAppDelegate.m */;
+		name = "ChessUIAppDelegate.m: 34";
+		rLen = 0;
+		rLoc = 1420;
+		rType = 0;
+		vrLen = 1859;
+		vrLoc = 0;
+	};
+	A60480CC156202A400CE81B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5EF711556D5C000FDA394 /* ChessEngineWrapper.h */;
+		name = "ChessEngineWrapper.h: 56";
+		rLen = 0;
+		rLoc = 1266;
+		rType = 0;
+		vrLen = 1441;
+		vrLoc = 0;
+	};
+	A60480CD156202A400CE81B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6B0490D151C0E9700A72542 /* CommonInclude.h */;
+		name = "CommonInclude.h: 22";
+		rLen = 0;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 390;
+		vrLoc = 0;
+	};
+	A60480CE156202A400CE81B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5F08C1557003200FDA394 /* Pawn.cpp */;
+		name = "Pawn.cpp: 542";
+		rLen = 0;
+		rLoc = 14773;
+		rType = 0;
+		vrLen = 1165;
+		vrLoc = 0;
 	};
 	A61C03E715140C4200F7BFBB /* Trackball.h */ = {
 		uiCtxt = {
@@ -293,7 +409,7 @@
 		ignoreCount = 0;
 		lineNumber = 287;
 		location = ChessUI;
-		modificationTime = 358722701.91339;
+		modificationTime = 358788001.064663;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -311,7 +427,7 @@
 		ignoreCount = 0;
 		lineNumber = 464;
 		location = ChessUI;
-		modificationTime = 358722701.913405;
+		modificationTime = 358788001.064689;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -329,7 +445,7 @@
 		ignoreCount = 0;
 		lineNumber = 115;
 		location = ChessUI;
-		modificationTime = 358722701.913419;
+		modificationTime = 358788001.064723;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -347,7 +463,7 @@
 		ignoreCount = 0;
 		lineNumber = 1051;
 		location = ChessUI;
-		modificationTime = 358722701.913432;
+		modificationTime = 358788001.064747;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -365,7 +481,7 @@
 		ignoreCount = 0;
 		lineNumber = 348;
 		location = ChessUI;
-		modificationTime = 358722701.913444;
+		modificationTime = 358788001.06477;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -383,7 +499,7 @@
 		ignoreCount = 0;
 		lineNumber = 348;
 		location = ChessUI;
-		modificationTime = 358722701.913622;
+		modificationTime = 358788001.064906;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -401,7 +517,7 @@
 		ignoreCount = 0;
 		lineNumber = 342;
 		location = ChessUI;
-		modificationTime = 358722701.913682;
+		modificationTime = 358788001.064929;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -419,7 +535,7 @@
 		ignoreCount = 0;
 		lineNumber = 337;
 		location = ChessUI;
-		modificationTime = 358722701.91374;
+		modificationTime = 358788001.06495;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -463,7 +579,7 @@
 		ignoreCount = 0;
 		lineNumber = 224;
 		location = ChessUI;
-		modificationTime = 358722701.914735;
+		modificationTime = 358788001.067136;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -542,7 +658,7 @@
 		ignoreCount = 0;
 		lineNumber = 270;
 		location = ChessUI;
-		modificationTime = 358722701.914756;
+		modificationTime = 358788001.067214;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -560,7 +676,7 @@
 		ignoreCount = 0;
 		lineNumber = 373;
 		location = ChessUI;
-		modificationTime = 358722701.914773;
+		modificationTime = 358788001.067272;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -578,7 +694,7 @@
 		ignoreCount = 0;
 		lineNumber = 193;
 		location = ChessUI;
-		modificationTime = 358722701.914785;
+		modificationTime = 358788001.067327;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -596,7 +712,7 @@
 		ignoreCount = 0;
 		lineNumber = 460;
 		location = ChessUI;
-		modificationTime = 358722701.914817;
+		modificationTime = 358788001.067352;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -614,7 +730,7 @@
 		ignoreCount = 0;
 		lineNumber = 526;
 		location = ChessUI;
-		modificationTime = 358722701.914831;
+		modificationTime = 358788001.067374;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -642,7 +758,7 @@
 		ignoreCount = 0;
 		lineNumber = 145;
 		location = ChessUI;
-		modificationTime = 358722701.914861;
+		modificationTime = 358788001.067396;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -660,7 +776,7 @@
 		ignoreCount = 0;
 		lineNumber = 995;
 		location = ChessUI;
-		modificationTime = 358722701.914877;
+		modificationTime = 358788001.067419;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -678,7 +794,7 @@
 		ignoreCount = 0;
 		lineNumber = 1190;
 		location = ChessUI;
-		modificationTime = 358722701.914899;
+		modificationTime = 358788001.06744;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -696,7 +812,7 @@
 		ignoreCount = 0;
 		lineNumber = 1402;
 		location = ChessUI;
-		modificationTime = 358722701.914913;
+		modificationTime = 358788001.067462;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -714,7 +830,7 @@
 		ignoreCount = 0;
 		lineNumber = 115;
 		location = ChessUI;
-		modificationTime = 358722701.914925;
+		modificationTime = 358788001.067484;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -772,7 +888,7 @@
 		ignoreCount = 0;
 		lineNumber = 25;
 		location = ChessUI;
-		modificationTime = 358722701.913201;
+		modificationTime = 358788001.064428;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -790,7 +906,7 @@
 		ignoreCount = 0;
 		lineNumber = 42;
 		location = ChessUI;
-		modificationTime = 358722701.913338;
+		modificationTime = 358788001.064579;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -808,7 +924,7 @@
 		ignoreCount = 0;
 		lineNumber = 370;
 		location = ChessUI;
-		modificationTime = 358722701.914453;
+		modificationTime = 358788001.066537;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -826,7 +942,7 @@
 		ignoreCount = 0;
 		lineNumber = 657;
 		location = ChessUI;
-		modificationTime = 358722701.914468;
+		modificationTime = 358788001.066592;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -844,7 +960,7 @@
 		ignoreCount = 0;
 		lineNumber = 48;
 		location = ChessUI;
-		modificationTime = 358722701.91449;
+		modificationTime = 358788001.066666;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -862,7 +978,7 @@
 		ignoreCount = 0;
 		lineNumber = 26;
 		location = ChessUI;
-		modificationTime = 358722701.914547;
+		modificationTime = 358788001.066737;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -880,7 +996,7 @@
 		ignoreCount = 0;
 		lineNumber = 41;
 		location = ChessUI;
-		modificationTime = 358722701.914604;
+		modificationTime = 358788001.066797;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -897,7 +1013,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 414;
-		modificationTime = 358722701.914656;
+		modificationTime = 358788001.066856;
 		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
@@ -915,7 +1031,7 @@
 		ignoreCount = 0;
 		lineNumber = 299;
 		location = ChessUI;
-		modificationTime = 358722701.914672;
+		modificationTime = 358788001.066913;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -933,7 +1049,7 @@
 		ignoreCount = 0;
 		lineNumber = 674;
 		location = ChessUI;
-		modificationTime = 358722701.914686;
+		modificationTime = 358788001.066969;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -951,7 +1067,7 @@
 		ignoreCount = 0;
 		lineNumber = 619;
 		location = ChessUI;
-		modificationTime = 358722701.914706;
+		modificationTime = 358788001.067025;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -969,7 +1085,7 @@
 		ignoreCount = 0;
 		lineNumber = 517;
 		location = ChessUI;
-		modificationTime = 358722701.914721;
+		modificationTime = 358788001.06708;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1152,16 +1268,6 @@
 		rType = 0;
 		vrLen = 1703;
 		vrLoc = 282;
-	};
-	A64EA5BD1561A234006342C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A6C5F06D1557003200FDA394 /* ChessChromosome.cpp */;
-		name = "ChessChromosome.cpp: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1098;
-		vrLoc = 5207;
 	};
 	A64EA5BE1561A234006342C4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1353,76 +1459,6 @@
 		vrLen = 957;
 		vrLoc = 11707;
 	};
-	A64EA5E51561A281006342C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A6C5F0941557003200FDA394 /* Tournament.cpp */;
-		name = "Tournament.cpp: 394";
-		rLen = 40;
-		rLoc = 8705;
-		rType = 0;
-		vrLen = 1377;
-		vrLoc = 11286;
-	};
-	A64EA5E61561A281006342C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A6C5F06E1557003200FDA394 /* ChessChromosome.h */;
-		name = "ChessChromosome.h: 78";
-		rLen = 0;
-		rLoc = 1342;
-		rType = 0;
-		vrLen = 1343;
-		vrLoc = 2422;
-	};
-	A64EA5E71561A281006342C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D80F4B6AC300CF3369 /* ChessUIAppDelegate.h */;
-		name = "ChessUIAppDelegate.h: 19";
-		rLen = 0;
-		rLoc = 530;
-		rType = 0;
-		vrLen = 1061;
-		vrLoc = 0;
-	};
-	A64EA5E81561A281006342C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* ChessUIAppDelegate.m */;
-		name = "ChessUIAppDelegate.m: 34";
-		rLen = 0;
-		rLoc = 1420;
-		rType = 0;
-		vrLen = 1859;
-		vrLoc = 0;
-	};
-	A64EA5E91561A281006342C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A6C5EF711556D5C000FDA394 /* ChessEngineWrapper.h */;
-		name = "ChessEngineWrapper.h: 56";
-		rLen = 0;
-		rLoc = 1266;
-		rType = 0;
-		vrLen = 1441;
-		vrLoc = 0;
-	};
-	A64EA5EA1561A281006342C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A6B0490D151C0E9700A72542 /* CommonInclude.h */;
-		name = "CommonInclude.h: 22";
-		rLen = 0;
-		rLoc = 380;
-		rType = 0;
-		vrLen = 390;
-		vrLoc = 0;
-	};
-	A64EA5EB1561A281006342C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A6C5F08C1557003200FDA394 /* Pawn.cpp */;
-		name = "Pawn.cpp: 210";
-		rLen = 0;
-		rLoc = 307;
-		rType = 0;
-		vrLen = 1158;
-		vrLoc = 0;
-	};
 	A64EA6371561ACAD006342C4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = A62F64CA15180B620054F0A7 /* 3DPieces.c */;
@@ -1432,16 +1468,6 @@
 		rType = 0;
 		vrLen = 1934;
 		vrLoc = 17915;
-	};
-	A64EA6381561ACAD006342C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A6C5F0771557003200FDA394 /* Constants.cpp */;
-		name = "Constants.cpp: 28";
-		rLen = 0;
-		rLoc = 542;
-		rType = 0;
-		vrLen = 572;
-		vrLoc = 0;
 	};
 	A64EA6511561ADA5006342C4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1481,26 +1507,6 @@
 		rLoc = 1376;
 		rType = 0;
 		vrLen = 1017;
-		vrLoc = 0;
-	};
-	A64EA6641561AEC2006342C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A6C5EF721556D5C000FDA394 /* ChessEngineWrapper.mm */;
-		name = "ChessEngineWrapper.mm: 290";
-		rLen = 0;
-		rLoc = 6990;
-		rType = 0;
-		vrLen = 988;
-		vrLoc = 15807;
-	};
-	A64EA6851561B082006342C4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A6C5EF721556D5C000FDA394 /* ChessEngineWrapper.mm */;
-		name = "ChessEngineWrapper.mm: 158";
-		rLen = 0;
-		rLoc = 3499;
-		rType = 0;
-		vrLen = 968;
 		vrLoc = 0;
 	};
 	A64EA6861561B082006342C4 /* PBXTextBookmark */ = {
@@ -1587,7 +1593,7 @@
 		ignoreCount = 0;
 		lineNumber = 432;
 		location = ChessUI;
-		modificationTime = 358722701.913144;
+		modificationTime = 358788001.064365;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1681,7 +1687,7 @@
 		ignoreCount = 0;
 		lineNumber = 119;
 		location = ChessUI;
-		modificationTime = 358722701.914072;
+		modificationTime = 358788001.065839;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1699,7 +1705,7 @@
 		ignoreCount = 0;
 		lineNumber = 439;
 		location = ChessUI;
-		modificationTime = 358722701.914095;
+		modificationTime = 358788001.065924;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1717,7 +1723,7 @@
 		ignoreCount = 0;
 		lineNumber = 116;
 		location = ChessUI;
-		modificationTime = 358722701.914151;
+		modificationTime = 358788001.065987;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1735,7 +1741,7 @@
 		ignoreCount = 0;
 		lineNumber = 111;
 		location = ChessUI;
-		modificationTime = 358722701.914167;
+		modificationTime = 358788001.066044;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1763,7 +1769,7 @@
 		ignoreCount = 0;
 		lineNumber = 441;
 		location = ChessUI;
-		modificationTime = 358722701.914188;
+		modificationTime = 358788001.0661;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1781,7 +1787,7 @@
 		ignoreCount = 0;
 		lineNumber = 445;
 		location = ChessUI;
-		modificationTime = 358722701.914233;
+		modificationTime = 358788001.066153;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1799,7 +1805,7 @@
 		ignoreCount = 0;
 		lineNumber = 16;
 		location = ChessUI;
-		modificationTime = 358722701.914276;
+		modificationTime = 358788001.066228;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1817,7 +1823,7 @@
 		ignoreCount = 0;
 		lineNumber = 51;
 		location = ChessUI;
-		modificationTime = 358722701.914297;
+		modificationTime = 358788001.066252;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1835,7 +1841,7 @@
 		ignoreCount = 0;
 		lineNumber = 50;
 		location = ChessUI;
-		modificationTime = 358722701.914315;
+		modificationTime = 358788001.066274;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1853,7 +1859,7 @@
 		ignoreCount = 0;
 		lineNumber = 446;
 		location = ChessUI;
-		modificationTime = 358722701.914328;
+		modificationTime = 358788001.066295;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1870,7 +1876,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 120;
-		modificationTime = 358722701.914369;
+		modificationTime = 358788001.066347;
 		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
@@ -1894,11 +1900,11 @@
 		delayBeforeContinue = 0;
 		fileReference = A6C5F0771557003200FDA394 /* Constants.cpp */;
 		functionName = "ChessAssert()";
-		hitCount = 1;
+		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 28;
 		location = ChessUI;
-		modificationTime = 358722711.897261;
+		modificationTime = 358788003.040481;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -1916,7 +1922,7 @@
 		ignoreCount = 0;
 		lineNumber = 613;
 		location = ChessUI;
-		modificationTime = 358722701.914395;
+		modificationTime = 358788001.066427;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1934,7 +1940,7 @@
 		ignoreCount = 0;
 		lineNumber = 290;
 		location = ChessUI;
-		modificationTime = 358722701.914429;
+		modificationTime = 358788001.066482;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1979,9 +1985,9 @@
 	};
 	A6C5EF721556D5C000FDA394 /* ChessEngineWrapper.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {640, 9230}}";
-			sepNavSelRange = "{3499, 0}";
-			sepNavVisRange = "{0, 968}";
+			sepNavIntBoundsRect = "{{0, 0}, {640, 9269}}";
+			sepNavSelRange = "{965, 0}";
+			sepNavVisRange = "{361, 1050}";
 			sepNavWindowFrame = "{{701, 52}, {739, 826}}";
 		};
 	};
@@ -1998,7 +2004,7 @@
 		ignoreCount = 0;
 		lineNumber = 578;
 		location = ChessUI;
-		modificationTime = 358722701.913885;
+		modificationTime = 358788001.065084;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2048,9 +2054,9 @@
 	};
 	A6C5F06D1557003200FDA394 /* ChessChromosome.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1048, 3549}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{5207, 1098}";
+			sepNavIntBoundsRect = "{{0, 0}, {640, 3705}}";
+			sepNavSelRange = "{551, 0}";
+			sepNavVisRange = "{158, 877}";
 		};
 	};
 	A6C5F06E1557003200FDA394 /* ChessChromosome.h */ = {
@@ -2122,7 +2128,7 @@
 	};
 	A6C5F0771557003200FDA394 /* Constants.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {640, 576}}";
+			sepNavIntBoundsRect = "{{0, 0}, {640, 575}}";
 			sepNavSelRange = "{542, 0}";
 			sepNavVisRange = "{0, 572}";
 		};
@@ -2236,7 +2242,7 @@
 	};
 	A6C5F08C1557003200FDA394 /* Pawn.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {680, 8736}}";
+			sepNavIntBoundsRect = "{{0, 0}, {985, 8021}}";
 			sepNavSelRange = "{14773, 0}";
 			sepNavVisRange = "{0, 1165}";
 			sepNavWindowFrame = "{{173, 52}, {739, 826}}";
@@ -2307,7 +2313,7 @@
 		ignoreCount = 0;
 		lineNumber = 649;
 		location = ChessUI;
-		modificationTime = 358722701.913898;
+		modificationTime = 358788001.065163;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2325,7 +2331,7 @@
 		ignoreCount = 0;
 		lineNumber = 656;
 		location = ChessUI;
-		modificationTime = 358722701.913918;
+		modificationTime = 358788001.065352;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2343,7 +2349,7 @@
 		ignoreCount = 0;
 		lineNumber = 232;
 		location = ChessUI;
-		modificationTime = 358722701.913942;
+		modificationTime = 358788001.065378;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2377,7 +2383,7 @@
 		ignoreCount = 0;
 		lineNumber = 485;
 		location = ChessUI;
-		modificationTime = 358722701.913958;
+		modificationTime = 358788001.0654;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2395,7 +2401,7 @@
 		ignoreCount = 0;
 		lineNumber = 545;
 		location = ChessUI;
-		modificationTime = 358722701.913971;
+		modificationTime = 358788001.065422;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2413,7 +2419,7 @@
 		ignoreCount = 0;
 		lineNumber = 551;
 		location = ChessUI;
-		modificationTime = 358722701.913985;
+		modificationTime = 358788001.065484;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2431,7 +2437,7 @@
 		ignoreCount = 0;
 		lineNumber = 150;
 		location = ChessUI;
-		modificationTime = 358722701.913997;
+		modificationTime = 358788001.065541;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2449,7 +2455,7 @@
 		ignoreCount = 0;
 		lineNumber = 145;
 		location = ChessUI;
-		modificationTime = 358722701.914011;
+		modificationTime = 358788001.065614;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2467,7 +2473,7 @@
 		ignoreCount = 0;
 		lineNumber = 539;
 		location = ChessUI;
-		modificationTime = 358722701.914023;
+		modificationTime = 358788001.06567;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2485,7 +2491,7 @@
 		ignoreCount = 0;
 		lineNumber = 148;
 		location = ChessUI;
-		modificationTime = 358722701.914038;
+		modificationTime = 358788001.065728;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2503,7 +2509,7 @@
 		ignoreCount = 0;
 		lineNumber = 97;
 		location = ChessUI;
-		modificationTime = 358722701.914052;
+		modificationTime = 358788001.065783;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2521,7 +2527,7 @@
 		ignoreCount = 0;
 		lineNumber = 187;
 		location = ChessUI;
-		modificationTime = 358722701.913457;
+		modificationTime = 358788001.064815;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2539,7 +2545,7 @@
 		ignoreCount = 0;
 		lineNumber = 355;
 		location = ChessUI;
-		modificationTime = 358722701.913469;
+		modificationTime = 358788001.06484;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2557,7 +2563,7 @@
 		ignoreCount = 0;
 		lineNumber = 1094;
 		location = ChessUI;
-		modificationTime = 358722701.913526;
+		modificationTime = 358788001.064863;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2575,7 +2581,7 @@
 		ignoreCount = 0;
 		lineNumber = 423;
 		location = ChessUI;
-		modificationTime = 358722701.913545;
+		modificationTime = 358788001.064884;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2593,9 +2599,99 @@
 		ignoreCount = 0;
 		lineNumber = 92;
 		location = ChessUI;
-		modificationTime = 358722701.913805;
+		modificationTime = 358788001.064973;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
+	};
+	A6FA0C901562ABAE0055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5EF721556D5C000FDA394 /* ChessEngineWrapper.mm */;
+		name = "ChessEngineWrapper.mm: 45";
+		rLen = 0;
+		rLoc = 876;
+		rType = 0;
+		vrLen = 1055;
+		vrLoc = 394;
+	};
+	A6FA0C911562ABAE0055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5EF721556D5C000FDA394 /* ChessEngineWrapper.mm */;
+		name = "ChessEngineWrapper.mm: 47";
+		rLen = 0;
+		rLoc = 965;
+		rType = 0;
+		vrLen = 1050;
+		vrLoc = 361;
+	};
+	A6FA0C941562ABAE0055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5F0941557003200FDA394 /* Tournament.cpp */;
+		name = "Tournament.cpp: 394";
+		rLen = 40;
+		rLoc = 8705;
+		rType = 0;
+		vrLen = 1377;
+		vrLoc = 11286;
+	};
+	A6FA0C951562ABAE0055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5F06E1557003200FDA394 /* ChessChromosome.h */;
+		name = "ChessChromosome.h: 78";
+		rLen = 0;
+		rLoc = 1342;
+		rType = 0;
+		vrLen = 1343;
+		vrLoc = 2422;
+	};
+	A6FA0C961562ABAE0055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* ChessUIAppDelegate.h */;
+		name = "ChessUIAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 1061;
+		vrLoc = 0;
+	};
+	A6FA0C971562ABAE0055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* ChessUIAppDelegate.m */;
+		name = "ChessUIAppDelegate.m: 34";
+		rLen = 0;
+		rLoc = 1420;
+		rType = 0;
+		vrLen = 1859;
+		vrLoc = 0;
+	};
+	A6FA0C981562ABAE0055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5EF711556D5C000FDA394 /* ChessEngineWrapper.h */;
+		name = "ChessEngineWrapper.h: 56";
+		rLen = 0;
+		rLoc = 1266;
+		rType = 0;
+		vrLen = 1441;
+		vrLoc = 0;
+	};
+	A6FA0C991562ABAE0055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6B0490D151C0E9700A72542 /* CommonInclude.h */;
+		name = "CommonInclude.h: 22";
+		rLen = 0;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 390;
+		vrLoc = 0;
+	};
+	A6FA0C9A1562ABAE0055E27A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C5F08C1557003200FDA394 /* Pawn.cpp */;
+		name = "Pawn.cpp: 542";
+		rLen = 0;
+		rLoc = 14773;
+		rType = 0;
+		vrLen = 1165;
+		vrLoc = 0;
 	};
 	A6FB093C151ECB5000F1E4FA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2628,7 +2724,7 @@
 		ignoreCount = 0;
 		lineNumber = 43;
 		location = ChessUI;
-		modificationTime = 358722701.91382;
+		modificationTime = 358788001.064994;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2646,7 +2742,7 @@
 		ignoreCount = 0;
 		lineNumber = 631;
 		location = ChessUI;
-		modificationTime = 358722701.913841;
+		modificationTime = 358788001.065016;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2664,7 +2760,7 @@
 		ignoreCount = 0;
 		lineNumber = 378;
 		location = ChessUI;
-		modificationTime = 358722701.913858;
+		modificationTime = 358788001.06504;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2682,7 +2778,7 @@
 		ignoreCount = 0;
 		lineNumber = 638;
 		location = ChessUI;
-		modificationTime = 358722701.913871;
+		modificationTime = 358788001.065062;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
