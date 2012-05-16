@@ -134,7 +134,10 @@ recVec SphereDrawQueue[10];
     
     // ensure strings are created
     //
-	
+	worldRotation[0] = 176.1194;
+	worldRotation[1] = -0.005;
+	worldRotation[2] = 0.92896;
+	worldRotation[3] = 0.37011;
 }
 
 - (BOOL)acceptsFirstResponder
@@ -1023,7 +1026,7 @@ void drawRook(double x, double y)
 }
 - (void) resetCamera
 {
-	camera.aperture = 40;
+	/*camera.aperture = 40;
 	camera.rotPoint = gOrigin;
 	
 	camera.viewPos.x = 0.0;
@@ -1031,6 +1034,20 @@ void drawRook(double x, double y)
 	camera.viewPos.z = -10.0;
 	camera.viewDir.x = -camera.viewPos.x; 
 	camera.viewDir.y = -camera.viewPos.y; 
+	camera.viewDir.z = -camera.viewPos.z;
+	
+	camera.viewUp.x = 0;  
+	camera.viewUp.y = 1; 
+	camera.viewUp.z = 0;*/
+	
+	camera.aperture = 22.3916;
+	camera.rotPoint = gOrigin;
+	
+	camera.viewPos.x = 1.4333;
+	camera.viewPos.y = 0.6222;
+	camera.viewPos.z = -10.0;
+	camera.viewDir.x = 0; 
+	camera.viewDir.y = 0; 
 	camera.viewDir.z = -camera.viewPos.z;
 	
 	camera.viewUp.x = 0;  

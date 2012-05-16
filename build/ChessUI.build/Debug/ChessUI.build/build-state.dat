@@ -1,7 +1,7 @@
 TChessUI
 v7
 r0
-t358788000.484740
+t358868766.786484
 cCheck dependencies
 cProcessInfoPlistFile /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Info.plist ChessUI-Info.plist
 cCopyStringsFile /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -570,9 +570,9 @@ i"ObjectiveCWrapper.h"
 i"DrawingQueues.h"
 
 N/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m
-c000000004FB160610000000000007A1F
-t1337024609
-s31263
+c000000004FB3AF9D0000000000007BC2
+t1337175965
+s31682
 i<Cocoa/Cocoa.h>
 i"MyOpenGLView.h"
 i"Trackball.h"
@@ -695,8 +695,8 @@ t1337030906
 s194292
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o
-t1337029891
-s86564
+t1337175965
+s86628
 
 N/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralInput.o
 t1337030906
@@ -743,7 +743,7 @@ t1337029891
 s4968
 
 N/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app
-t1337051840
+t1337175966
 s102
 
 N/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Info.plist
@@ -751,7 +751,7 @@ t1337029888
 s886
 
 N/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI
-t1337051840
+t1337175966
 s683816
 
 N/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/PkgInfo
@@ -795,7 +795,7 @@ s1002
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies358788000#358788000#0(0"0(0#1#0"3343187568374212096#0"0#
+lSLF07#2@18"Check dependencies358868765#358868765#0(0"0(0#1#0"8624219136#0"0#
 
 CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/3DPieces.o /Users/Mikey/Desktop/ChessUI/3DPieces.c normal x86_64 c com.apple.compilers.gcc.4_2
 s358722691.501026
@@ -1067,8 +1067,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@61"Compile /Users/Mikey/Desktop/ChessUI/ChessEngine/MoveTree.cpp358723706#358723706#0(0"0(0#0#53"/Users/Mikey/Desktop/ChessUI/ChessEngine/MoveTree.cpp8615395872#1371"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-gvtlthalxaldjzfczvvjyelaldku/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/ChessEngine/MoveTree.cpp -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MoveTree.o0#
 
 CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o /Users/Mikey/Desktop/ChessUI/MyOpenGLView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s358722691.101968
-e358722691.500937
+s358868765.424488
+e358868765.855340
 r1
 xCompileC
 xbuild/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o
@@ -1078,8 +1078,8 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m: In function '+[MyOpenGLView basicPixelFormat]':
-o/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m:166: warning: cast from pointer to integer of different size
-lSLF07#2@51"Compile /Users/Mikey/Desktop/ChessUI/MyOpenGLView.m358722691#358722691#0(198"/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m: In function '+[MyOpenGLView basicPixelFormat]':/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m:166: warning: cast from pointer to integer of different size1(22@46"Cast from pointer to integer of different size358722691#93#105#0(6@43"/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m358717409#166#0#166#0#46"cast from pointer to integer of different size0(0#0#43"/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m8616333120#1356"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/MyOpenGLView.m -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o0#
+o/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m:169: warning: cast from pointer to integer of different size
+lSLF07#2@51"Compile /Users/Mikey/Desktop/ChessUI/MyOpenGLView.m358868765#358868765#0(198"/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m: In function '+[MyOpenGLView basicPixelFormat]':/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m:169: warning: cast from pointer to integer of different size1(22@46"Cast from pointer to integer of different size358868765#93#105#0(6@43"/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m358868765#169#0#169#0#46"cast from pointer to integer of different size0(0#0#43"/Users/Mikey/Desktop/ChessUI/MyOpenGLView.m8624216512#1356"    cd /Users/Mikey/Desktop/ChessUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-generated-files.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-own-target-headers.hmap -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-all-target-headers.hmap -iquote /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/ChessUI-project-headers.hmap -F/Users/Mikey/Desktop/ChessUI/build/Debug -I/Users/Mikey/Desktop/ChessUI/build/Debug/include -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources/x86_64 -I/Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/DerivedSources -include /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChessUI_Prefix-bdklohwbybnyxzceqywbohxnzqhs/ChessUI_Prefix.pch -c /Users/Mikey/Desktop/ChessUI/MyOpenGLView.m -o /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/MyOpenGLView.o0#
 
 CCompileC build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/NeuralInput.o /Users/Mikey/Desktop/ChessUI/ChessEngine/NeuralInput.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 s358723706.614678
@@ -1247,14 +1247,14 @@ xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings358722688#358722688#0(0"0(0#0#60"/Users/Mikey/Desktop/ChessUI/English.lproj/InfoPlist.strings8616435744#345"    cd /Users/Mikey/Desktop/ChessUI    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Resources/English.lproj0#
 
 CLd /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI normal x86_64
-s358744640.046747
-e358744640.446985
+s358868765.855422
+e358868766.783380
 r1
 xLd
 x/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI
 xnormal
 xx86_64
-lSLF07#2@80"Link /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI358744640#358744640#0(0"0(0#0#0"8607651744#510"    cd /Users/Mikey/Desktop/ChessUI    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/ChessUI/build/Debug -F/Users/Mikey/Desktop/ChessUI/build/Debug -filelist /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUI.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -o /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI0#
+lSLF07#2@80"Link /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI358868765#358868766#0(0"0(0#0#0"8613072704#510"    cd /Users/Mikey/Desktop/ChessUI    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mikey/Desktop/ChessUI/build/Debug -F/Users/Mikey/Desktop/ChessUI/build/Debug -filelist /Users/Mikey/Desktop/ChessUI/build/ChessUI.build/Debug/ChessUI.build/Objects-normal/x86_64/ChessUI.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -o /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/MacOS/ChessUI0#
 
 CProcessInfoPlistFile /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app/Contents/Info.plist ChessUI-Info.plist
 s358722688.480298
@@ -1278,10 +1278,10 @@ CProcessPCH++ /var/folders/8P/8PFzQ9snEvq9UC3kKA0l0k+++TI/-Caches-/com.apple.Xco
 r0
 
 CTouch /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app
-s358744640.447075
-e358744640.449792
+s358868766.783476
+e358868766.786434
 r1
 xTouch
 x/Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app
-lSLF07#2@58"Touch /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app358744640#358744640#0(0"0(0#0#0"8610156352#111"    cd /Users/Mikey/Desktop/ChessUI    /usr/bin/touch -c /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app0#
+lSLF07#2@58"Touch /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app358868766#358868766#0(0"0(0#0#0"8607511744#111"    cd /Users/Mikey/Desktop/ChessUI    /usr/bin/touch -c /Users/Mikey/Desktop/ChessUI/build/Debug/ChessUI.app0#
 
