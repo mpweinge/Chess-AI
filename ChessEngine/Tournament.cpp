@@ -321,7 +321,7 @@ void Tournament::PlayTournament()
 	for (int i = 0; i < NumTourneyGames; i++)
 	{
 		ActiveChromosomes.push_back(new Chromosome(i + RoundNumber*100));
-		ActiveChromosomes[i]->LoadChromosome();
+		ActiveChromosomes[i]->LoadChromosome(true);
 	}
 	
 	int LocalSum = 0;

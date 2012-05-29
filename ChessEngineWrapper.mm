@@ -62,7 +62,7 @@ public:
 			else 
 			{
 				Chromosome* tempChromo = new Chromosome(4909);
-				tempChromo->LoadChromosome();
+				tempChromo->LoadChromosome(false);
 				MoveTree CurrTree(PLY, true, tempChromo);
 				CurrTree.GenerateTree();
 			}
@@ -75,7 +75,7 @@ public:
 			else 
 			{
 				Chromosome* tempChromo = new Chromosome(4909);
-				tempChromo->LoadChromosome();
+				tempChromo->LoadChromosome(false);
 				MoveTree CurrTree(PLY, false, tempChromo);
 				CurrTree.GenerateTree();
 			}
@@ -373,8 +373,8 @@ public:
 		int MoveLimit = 100;
 		int PLY = 4;
 		
-		Competitor1->LoadChromosome();
-		Competitor2->LoadChromosome();
+		Competitor1->LoadChromosome(false);
+		Competitor2->LoadChromosome(false);
 		
 		MoveTree* WhiteTree = new MoveTree(PLY, true, Competitor1);
 		MoveTree* BlackTree = new MoveTree(PLY, false, Competitor2);

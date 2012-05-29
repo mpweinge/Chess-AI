@@ -16,8 +16,61 @@
 
 using namespace std;
 
-void Chromosome::LoadChromosome()
+void Chromosome::LoadChromosome(bool bLoadFromFile)
 {
+	if (!bLoadFromFile || ChromosomeNumber == 4909)
+	{
+		if (ChromosomeNumber == 4909)
+		{
+			Weightings[0] = 23;
+			Weightings[1] = 47;
+			Weightings[2] = 12;
+			Weightings[3] = 0;
+			Weightings[4] = 58;
+			Weightings[5] = 32;
+			Weightings[6] = 32;
+			Weightings[7] = 55;
+			Weightings[8] = 3;
+			Weightings[9] = 15;
+			Weightings[10] = 0;
+			Weightings[11] = 30;
+			Weightings[12] = 63;
+			Weightings[13] = 27;
+			Weightings[14] = 32;
+			Weightings[15] = 4;
+			Weightings[16] = 2;
+			Weightings[17] = 0;
+			Weightings[18] = 47;
+			Weightings[19] = 10;
+			bIsLoaded = true;
+			return;
+		}
+		else if (ChromosomeNumber == 100)
+		{
+			Weightings[0] = 29;
+			Weightings[1] = 48;
+			Weightings[2] = 11;
+			Weightings[3] = 25;
+			Weightings[4] = 18;
+			Weightings[5] = 23;
+			Weightings[6] = 0;
+			Weightings[7] = 45;
+			Weightings[8] = 12;
+			Weightings[9] = 22;
+			Weightings[10] = 15;
+			Weightings[11] = 38;
+			Weightings[12] = 13;
+			Weightings[13] = 33;
+			Weightings[14] = 48;
+			Weightings[15] = 24;
+			Weightings[16] = 31;
+			Weightings[17] = 32;
+			Weightings[18] = 20;
+			Weightings[19] = 35;
+			bIsLoaded = true;
+			return;
+		}
+	}
 	char filename[50];
 	sprintf(&filename[0], "Chromosome%i.chr", ChromosomeNumber);
 	

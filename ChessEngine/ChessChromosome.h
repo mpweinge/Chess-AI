@@ -62,7 +62,7 @@ public:
 	
 	/*Initialization*/
 	
-	void LoadChromosome();
+	void LoadChromosome(bool bLoadFromFile);
 	
 	void SaveChromosome();
 	
